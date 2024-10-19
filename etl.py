@@ -1,90 +1,41 @@
 import requests
 import json
+import streamlit as st
 
-def main():
-    # Definir la URL base
-    BASE_URL = 'https://clinicaltrials.gov/api/query/study_fields'
-
-    # Definir la expresión de búsqueda
-    expr = 'Duchenne muscular dystrophy'
-
-    # Definir los campos que queremos obtener
-    fields = [
-        'NCTId',
-        'Title',
-        'Condition',
-        'StudyType',
-        'EnrollmentCount',
-        'OverallStatus',
-        'LocationFacility',
-        'BriefSummary',
-        'Phase',
-        'StudyResults',
-        'StartDate',
-        'CompletionDate',
-        'PrimaryCompletionDate',
-        'InterventionName',
-        'InterventionType',
-        'SponsorName',
-        'Gender',
-        'MinimumAge',
-        'MaximumAge',
-        'OutcomeMeasureTitle',
-        'OutcomeMeasureType',
-    ]
-
-    # Unir los campos con comas
-    fields_str = ','.join(fields)
-
-    # Primera solicitud para obtener el número total de estudios
+def download_studies(num_studies=10):
+    base_url = "https://clinicaltrials.gov/api/v2/studies"
     params = {
-        'expr': expr,
-        'fields': fields_str,
-        'min_rnk': 1,
-        'max_rnk': 1,  # Solo necesitamos un resultado para obtener el conteo total
-        'fmt': 'json'
+        "format": "json",  # Specify the response format
+        "pageSize": num_studies,  # Number of studies to retrieve
+        "fields": "NCTId,BriefTitle,OverallStatus,StudyType,Phase,Condition"  # Fields to include
     }
 
     try:
-        response = requests.get(BASE_URL, params=params)
-        response.raise_for_status()
+        response = requests.get(base_url, params=params)
+        response.raise_for_status()  # Check for HTTP errors
         data = response.json()
-    except requests.exceptions.RequestException as e:
-        print(f"La solicitud falló: {e}")
-        return
 
-    # Obtener el número total de estudios
-    n_studies = int(data['StudyFieldsResponse']['NStudiesFound'])
-    print(f"Número total de estudios encontrados: {n_studies}")
+        # Extract the relevant data
+        studies = data.get('studies', [])
 
-    # Ahora recuperar todos los estudios en lotes
-    batch_size = 100  # Máximo permitido por solicitud
-    all_studies = []
-    for start in range(1, n_studies+1, batch_size):
-        end = min(start + batch_size - 1, n_studies)
-        print(f"Recuperando estudios del {start} al {end}")
-        params['min_rnk'] = start
-        params['max_rnk'] = end
-        try:
-            response = requests.get(BASE_URL, params=params)
-            response.raise_for_status()
-            data = response.json()
-            studies = data['StudyFieldsResponse']['StudyFields']
-            all_studies.extend(studies)
-        except requests.exceptions.RequestException as e:
-            print(f"La solicitud falló: {e}")
-            continue
-        except KeyError as e:
-            print(f"Error de clave: {e}")
-            continue
+        # Check if studies are present
+        if not studies:
+            st.warning("No studies found. Please try again with a different number of studies.")
+            return
 
-    print(f"Se recuperaron {len(all_studies)} estudios")
+        # Write the data to a JSON file
+        file_name = "studies_sample.json"
+        with open(file_name, mode="w") as f:
+            json.dump(studies, f, indent=2)
+        st.success(f"Successfully downloaded and saved {num_studies} studies to {file_name}.")
 
-    # Opcionalmente, guardar en un archivo JSON
-    with open('duchenne_trials.json', 'w', encoding='utf-8') as f:
-        json.dump(all_studies, f, ensure_ascii=False, indent=2)
-
-    print("Datos guardados en duchenne_trials.json")
+    except requests.RequestException as e:
+        st.error(f"An error occurred: {e}")
+        if e.response is not None:
+            st.error(f"Response content: {e.response.text}")
 
 if __name__ == "__main__":
-    main()
+    st.title("Clinical Trials Data Downloader")
+    num_studies = st.number_input("Number of studies to download", min_value=1, max_value=100, value=10)
+    if st.button("Download Studies"):
+        download_studies(num_studies)

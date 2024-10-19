@@ -1,0 +1,47 @@
+[
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT05013879",
+        "briefTitle": "Kinesiotape for Edema After Bilateral Total Knee Arthroplasty"
+      },
+      "statusModule": {
+        "overallStatus": "COMPLETED"
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Arthroplasty Complications",
+          "Arthroplasty, Replacement, Knee"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ]
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT01402479",
+        "briefTitle": "An Open-labeled Trial of Ramipril in Patients With Migraine"
+      },
+      "statusModule": {
+        "overallStatus": "COMPLETED"
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Migraine With Hypertension"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ]
+      }
+    }
+  }
+]
