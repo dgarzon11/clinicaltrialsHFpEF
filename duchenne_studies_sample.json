@@ -1,0 +1,91 @@
+[
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT04428476",
+        "briefTitle": "Open-label Extension of the HOPE-2 Trial"
+      },
+      "statusModule": {
+        "overallStatus": "ACTIVE_NOT_RECRUITING"
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ]
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT05540860",
+        "briefTitle": "A Study of EDG-5506 in Children with Duchenne Muscular Dystrophy (LYNX)"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING"
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ]
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT02484560",
+        "briefTitle": "Efficacy of Stem Cell Therapy in Ambulatory and Non-ambulatory Children With Duchenne Muscular Dystrophy - Phase 1-2"
+      },
+      "statusModule": {
+        "overallStatus": "UNKNOWN"
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ]
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT04906460",
+        "briefTitle": "Open-label Study of WVE-N531 in Patients With Duchenne Muscular Dystrophy (FORWARD-53)"
+      },
+      "statusModule": {
+        "overallStatus": "ACTIVE_NOT_RECRUITING"
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1",
+          "PHASE2"
+        ]
+      }
+    }
+  }
+]

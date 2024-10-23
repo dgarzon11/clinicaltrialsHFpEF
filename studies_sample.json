@@ -43,5 +43,24 @@
         ]
       }
     }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT05600179",
+        "briefTitle": "OCTA in Epivascular Glia After Dex Implant"
+      },
+      "statusModule": {
+        "overallStatus": "COMPLETED"
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Diabetic Retinopathy"
+        ]
+      },
+      "designModule": {
+        "studyType": "OBSERVATIONAL"
+      }
+    }
   }
 ]
