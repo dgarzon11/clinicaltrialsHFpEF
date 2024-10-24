@@ -5,8 +5,19 @@ def download_studies():
     base_url = "https://clinicaltrials.gov/api/v2/studies?query.cond=duchenne"
     params = {
         "format": "json",  # Specify the response format
-        "pageSize": 5,  # Number of studies to retrieve
-        "fields": "NCTId,BriefTitle,OverallStatus,StudyType,Phase,Condition,LeadSponsorName,StartDate,StudyFirstPostDate,LastUpdatePostDate"  # Fields to include
+        "pageSize": 3,  # Number of studies to retrieve
+        "fields": (
+            "NCTId,"
+            "BriefTitle,"
+            "OverallStatus,"
+            "StudyType,"
+            "Phase,"
+            "Condition,"
+            "LeadSponsorName,"
+            "StartDate,"
+            "StudyFirstPostDate,"
+            "LastUpdatePostDate"
+        )  # Fields to include
     }
 
     try:
@@ -35,4 +46,6 @@ def download_studies():
 
 if __name__ == "__main__":
     download_studies()
+    
+    #add a success message to the streamlit app
 
