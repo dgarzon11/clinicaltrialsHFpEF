@@ -2,11 +2,25 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT04428476",
-        "briefTitle": "Open-label Extension of the HOPE-2 Trial"
+        "nctId": "NCT05412394",
+        "briefTitle": "Once Weekly Infant Corticosteroid Trial for DMD"
       },
       "statusModule": {
-        "overallStatus": "ACTIVE_NOT_RECRUITING"
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2021-04-30"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2022-06-09"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2023-09-18"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Anne M. Connolly"
+        }
       },
       "conditionsModule": {
         "conditions": [
@@ -16,6 +30,82 @@
       "designModule": {
         "studyType": "INTERVENTIONAL",
         "phases": [
+          "PHASE4"
+        ]
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT03529240",
+        "briefTitle": "Kinesiology Taping in Duchenne Muscular Dystrophy: Effects on Performance, Gait Characteristics, and Energy Consumption"
+      },
+      "statusModule": {
+        "overallStatus": "COMPLETED",
+        "startDateStruct": {
+          "date": "2017-06-10"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2018-05-18"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2018-05-18"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Hacettepe University"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Performance",
+          "Energy",
+          "Gait",
+          "Duchenne Muscular Dystrophy"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ]
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT01761292",
+        "briefTitle": "A Study to Assess Safety/Tolerability, pk, Effects on Histology, Clinical Parameters of Givinostat in Children With DMD"
+      },
+      "statusModule": {
+        "overallStatus": "COMPLETED",
+        "startDateStruct": {
+          "date": "2013-04"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2013-01-04"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2023-11-07"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Italfarmaco"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy (DMD)"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1",
           "PHASE2"
         ]
       }
@@ -24,55 +114,25 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT05540860",
-        "briefTitle": "A Study of EDG-5506 in Children with Duchenne Muscular Dystrophy (LYNX)"
+        "nctId": "NCT02285673",
+        "briefTitle": "Efficacy of Umbilical Cord Mesenchymal Stem Cells in Duchenne Muscular Dystrophy"
       },
       "statusModule": {
-        "overallStatus": "RECRUITING"
+        "overallStatus": "UNKNOWN",
+        "startDateStruct": {
+          "date": "2013-11"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2014-11-07"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2014-11-07"
+        }
       },
-      "conditionsModule": {
-        "conditions": [
-          "Duchenne Muscular Dystrophy"
-        ]
-      },
-      "designModule": {
-        "studyType": "INTERVENTIONAL",
-        "phases": [
-          "PHASE2"
-        ]
-      }
-    }
-  },
-  {
-    "protocolSection": {
-      "identificationModule": {
-        "nctId": "NCT02484560",
-        "briefTitle": "Efficacy of Stem Cell Therapy in Ambulatory and Non-ambulatory Children With Duchenne Muscular Dystrophy - Phase 1-2"
-      },
-      "statusModule": {
-        "overallStatus": "UNKNOWN"
-      },
-      "conditionsModule": {
-        "conditions": [
-          "Duchenne Muscular Dystrophy"
-        ]
-      },
-      "designModule": {
-        "studyType": "INTERVENTIONAL",
-        "phases": [
-          "PHASE1"
-        ]
-      }
-    }
-  },
-  {
-    "protocolSection": {
-      "identificationModule": {
-        "nctId": "NCT04906460",
-        "briefTitle": "Open-label Study of WVE-N531 in Patients With Duchenne Muscular Dystrophy (FORWARD-53)"
-      },
-      "statusModule": {
-        "overallStatus": "ACTIVE_NOT_RECRUITING"
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Acibadem University"
+        }
       },
       "conditionsModule": {
         "conditions": [
@@ -85,6 +145,42 @@
           "PHASE1",
           "PHASE2"
         ]
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT03589573",
+        "briefTitle": "Effect of Muscle Strength on Hamstring Flexibility in Children With Duchenne Muscular Dystrophy"
+      },
+      "statusModule": {
+        "overallStatus": "COMPLETED",
+        "startDateStruct": {
+          "date": "2017-03-24"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2018-07-18"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2018-07-31"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Hacettepe University"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy",
+          "Muscle Strength",
+          "Lower Extremity",
+          "Hamstring Contractures"
+        ]
+      },
+      "designModule": {
+        "studyType": "OBSERVATIONAL"
       }
     }
   }
