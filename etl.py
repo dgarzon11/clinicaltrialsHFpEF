@@ -147,7 +147,7 @@ if __name__ == "__main__":
     # Convert JSON to CSV
     json_to_csv(json_file, csv_file)
 
-    # Append current CSV to history CSV
+    # Append current CSV to history CS
     append_to_history(csv_file, history_csv)
 
 
