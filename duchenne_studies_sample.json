@@ -73,5 +73,115 @@
         ]
       }
     }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT01761292",
+        "briefTitle": "A Study to Assess Safety/Tolerability, pk, Effects on Histology, Clinical Parameters of Givinostat in Children With DMD"
+      },
+      "statusModule": {
+        "overallStatus": "COMPLETED",
+        "startDateStruct": {
+          "date": "2013-04"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2013-01-04"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2023-11-07"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Italfarmaco"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy (DMD)"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1",
+          "PHASE2"
+        ]
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT02285673",
+        "briefTitle": "Efficacy of Umbilical Cord Mesenchymal Stem Cells in Duchenne Muscular Dystrophy"
+      },
+      "statusModule": {
+        "overallStatus": "UNKNOWN",
+        "startDateStruct": {
+          "date": "2013-11"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2014-11-07"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2014-11-07"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Acibadem University"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1",
+          "PHASE2"
+        ]
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT03589573",
+        "briefTitle": "Effect of Muscle Strength on Hamstring Flexibility in Children With Duchenne Muscular Dystrophy"
+      },
+      "statusModule": {
+        "overallStatus": "COMPLETED",
+        "startDateStruct": {
+          "date": "2017-03-24"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2018-07-18"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2018-07-31"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Hacettepe University"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy",
+          "Muscle Strength",
+          "Lower Extremity",
+          "Hamstring Contractures"
+        ]
+      },
+      "designModule": {
+        "studyType": "OBSERVATIONAL"
+      }
+    }
   }
 ]
