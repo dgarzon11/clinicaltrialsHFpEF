@@ -139,7 +139,7 @@ def append_to_history(current_csv, history_csv):
     print(f"Data from {current_csv} has been appended to {history_csv}.")
 
 if __name__ == "__main__":
-    download_studies(5)
+    download_studies(3)
     json_file = 'duchenne_studies_sample.json'  # Replace with your JSON file name
     csv_file = 'duchenne_studies_sample.csv'    # Desired CSV output file name
     history_csv = 'duchenne_studies_history.csv'  # CSV history file name
