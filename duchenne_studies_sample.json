@@ -2,110 +2,112 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT05412394",
-        "briefTitle": "Once Weekly Infant Corticosteroid Trial for DMD"
+        "nctId": "NCT05670730",
+        "briefTitle": "Study of AOC 1044 in Healthy Adult Volunteers and Participants with Duchenne Muscular Dystrophy (DMD) Mutations Amenable to Exon 44 Skipping"
       },
       "statusModule": {
-        "overallStatus": "RECRUITING",
+        "overallStatus": "ACTIVE_NOT_RECRUITING",
         "startDateStruct": {
-          "date": "2021-04-30"
+          "date": "2022-11-09"
         },
         "studyFirstPostDateStruct": {
-          "date": "2022-06-09"
+          "date": "2023-01-04"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2023-09-18"
+          "date": "2024-09-23"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "Anne M. Connolly"
+          "name": "Avidity Biosciences, Inc."
         }
       },
       "conditionsModule": {
         "conditions": [
-          "Duchenne Muscular Dystrophy"
-        ]
-      },
-      "designModule": {
-        "studyType": "INTERVENTIONAL",
-        "phases": [
-          "PHASE4"
-        ]
-      }
-    }
-  },
-  {
-    "protocolSection": {
-      "identificationModule": {
-        "nctId": "NCT03529240",
-        "briefTitle": "Kinesiology Taping in Duchenne Muscular Dystrophy: Effects on Performance, Gait Characteristics, and Energy Consumption"
-      },
-      "statusModule": {
-        "overallStatus": "COMPLETED",
-        "startDateStruct": {
-          "date": "2017-06-10"
-        },
-        "studyFirstPostDateStruct": {
-          "date": "2018-05-18"
-        },
-        "lastUpdatePostDateStruct": {
-          "date": "2018-05-18"
-        }
-      },
-      "sponsorCollaboratorsModule": {
-        "leadSponsor": {
-          "name": "Hacettepe University"
-        }
-      },
-      "conditionsModule": {
-        "conditions": [
-          "Performance",
-          "Energy",
-          "Gait",
-          "Duchenne Muscular Dystrophy"
-        ]
-      },
-      "designModule": {
-        "studyType": "INTERVENTIONAL",
-        "phases": [
-          "NA"
-        ]
-      }
-    }
-  },
-  {
-    "protocolSection": {
-      "identificationModule": {
-        "nctId": "NCT01761292",
-        "briefTitle": "A Study to Assess Safety/Tolerability, pk, Effects on Histology, Clinical Parameters of Givinostat in Children With DMD"
-      },
-      "statusModule": {
-        "overallStatus": "COMPLETED",
-        "startDateStruct": {
-          "date": "2013-04"
-        },
-        "studyFirstPostDateStruct": {
-          "date": "2013-01-04"
-        },
-        "lastUpdatePostDateStruct": {
-          "date": "2023-11-07"
-        }
-      },
-      "sponsorCollaboratorsModule": {
-        "leadSponsor": {
-          "name": "Italfarmaco"
-        }
-      },
-      "conditionsModule": {
-        "conditions": [
-          "Duchenne Muscular Dystrophy (DMD)"
+          "Duchenne Muscular Dystrophy",
+          "Exon 44"
         ]
       },
       "designModule": {
         "studyType": "INTERVENTIONAL",
         "phases": [
           "PHASE1",
+          "PHASE2"
+        ]
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT02994030",
+        "briefTitle": "Biomarker for Duchenne Muscular Dystrophy"
+      },
+      "statusModule": {
+        "overallStatus": "COMPLETED",
+        "startDateStruct": {
+          "date": "2018-08-20"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2016-12-15"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2022-03-24"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "CENTOGENE GmbH Rostock"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Increased Lordosis/Scoliosis",
+          "Hyporeflexia",
+          "Duchenne Muscular Dystrophy",
+          "Red-Green Color Blindness",
+          "Lordosis",
+          "Scoliosis",
+          "Muscular Atrophy",
+          "Muscular Weakness"
+        ]
+      },
+      "designModule": {
+        "studyType": "OBSERVATIONAL"
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT00758225",
+        "briefTitle": "Long-term Safety, Tolerability and Efficacy of Idebenone in Duchenne Muscular Dystrophy (DELPHI Extension)"
+      },
+      "statusModule": {
+        "overallStatus": "COMPLETED",
+        "startDateStruct": {
+          "date": "2008-09"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2008-09-25"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2011-06-01"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Santhera Pharmaceuticals"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
           "PHASE2"
         ]
       }
