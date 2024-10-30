@@ -2,102 +2,24 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT05670730",
-        "briefTitle": "Study of AOC 1044 in Healthy Adult Volunteers and Participants with Duchenne Muscular Dystrophy (DMD) Mutations Amenable to Exon 44 Skipping"
-      },
-      "statusModule": {
-        "overallStatus": "ACTIVE_NOT_RECRUITING",
-        "startDateStruct": {
-          "date": "2022-11-09"
-        },
-        "studyFirstPostDateStruct": {
-          "date": "2023-01-04"
-        },
-        "lastUpdatePostDateStruct": {
-          "date": "2024-09-23"
-        }
-      },
-      "sponsorCollaboratorsModule": {
-        "leadSponsor": {
-          "name": "Avidity Biosciences, Inc."
-        }
-      },
-      "conditionsModule": {
-        "conditions": [
-          "Duchenne Muscular Dystrophy",
-          "Exon 44"
-        ]
-      },
-      "designModule": {
-        "studyType": "INTERVENTIONAL",
-        "phases": [
-          "PHASE1",
-          "PHASE2"
-        ]
-      }
-    }
-  },
-  {
-    "protocolSection": {
-      "identificationModule": {
-        "nctId": "NCT02994030",
-        "briefTitle": "Biomarker for Duchenne Muscular Dystrophy"
+        "nctId": "NCT02752048",
+        "briefTitle": "A Phase IIa Study of TAS-205 for Duchenne Muscular Dystrophy"
       },
       "statusModule": {
         "overallStatus": "COMPLETED",
         "startDateStruct": {
-          "date": "2018-08-20"
+          "date": "2016-05"
         },
         "studyFirstPostDateStruct": {
-          "date": "2016-12-15"
+          "date": "2016-04-26"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2022-03-24"
+          "date": "2020-04-20"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "CENTOGENE GmbH Rostock"
-        }
-      },
-      "conditionsModule": {
-        "conditions": [
-          "Increased Lordosis/Scoliosis",
-          "Hyporeflexia",
-          "Duchenne Muscular Dystrophy",
-          "Red-Green Color Blindness",
-          "Lordosis",
-          "Scoliosis",
-          "Muscular Atrophy",
-          "Muscular Weakness"
-        ]
-      },
-      "designModule": {
-        "studyType": "OBSERVATIONAL"
-      }
-    }
-  },
-  {
-    "protocolSection": {
-      "identificationModule": {
-        "nctId": "NCT00758225",
-        "briefTitle": "Long-term Safety, Tolerability and Efficacy of Idebenone in Duchenne Muscular Dystrophy (DELPHI Extension)"
-      },
-      "statusModule": {
-        "overallStatus": "COMPLETED",
-        "startDateStruct": {
-          "date": "2008-09"
-        },
-        "studyFirstPostDateStruct": {
-          "date": "2008-09-25"
-        },
-        "lastUpdatePostDateStruct": {
-          "date": "2011-06-01"
-        }
-      },
-      "sponsorCollaboratorsModule": {
-        "leadSponsor": {
-          "name": "Santhera Pharmaceuticals"
+          "name": "Taiho Pharmaceutical Co., Ltd."
         }
       },
       "conditionsModule": {
@@ -108,6 +30,79 @@
       "designModule": {
         "studyType": "INTERVENTIONAL",
         "phases": [
+          "PHASE2"
+        ]
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT04626674",
+        "briefTitle": "A Gene Transfer Therapy Study to Evaluate the Safety of and Expression From Delandistrogene Moxeparvovec (SRP-9001) in Participants With Duchenne Muscular Dystrophy (DMD)"
+      },
+      "statusModule": {
+        "overallStatus": "ACTIVE_NOT_RECRUITING",
+        "startDateStruct": {
+          "date": "2020-11-23"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2020-11-12"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2024-08-26"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Sarepta Therapeutics, Inc."
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Muscular Dystrophy, Duchenne"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ]
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT02285673",
+        "briefTitle": "Efficacy of Umbilical Cord Mesenchymal Stem Cells in Duchenne Muscular Dystrophy"
+      },
+      "statusModule": {
+        "overallStatus": "UNKNOWN",
+        "startDateStruct": {
+          "date": "2013-11"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2014-11-07"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2014-11-07"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Acibadem University"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1",
           "PHASE2"
         ]
       }
