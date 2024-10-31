@@ -2,35 +2,35 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT02752048",
-        "briefTitle": "A Phase IIa Study of TAS-205 for Duchenne Muscular Dystrophy"
+        "nctId": "NCT05639257",
+        "briefTitle": "Treatment of Myotonia - Lamotrigine Versus Namuscla"
       },
       "statusModule": {
-        "overallStatus": "COMPLETED",
+        "overallStatus": "RECRUITING",
         "startDateStruct": {
-          "date": "2016-05"
+          "date": "2022-12-05"
         },
         "studyFirstPostDateStruct": {
-          "date": "2016-04-26"
+          "date": "2022-12-06"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2020-04-20"
+          "date": "2022-12-06"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "Taiho Pharmaceutical Co., Ltd."
+          "name": "Grete Andersen, MD"
         }
       },
       "conditionsModule": {
         "conditions": [
-          "Duchenne Muscular Dystrophy"
+          "Non-Dystrophic Myotonia"
         ]
       },
       "designModule": {
         "studyType": "INTERVENTIONAL",
         "phases": [
-          "PHASE2"
+          "NA"
         ]
       }
     }
@@ -38,35 +38,37 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT04626674",
-        "briefTitle": "A Gene Transfer Therapy Study to Evaluate the Safety of and Expression From Delandistrogene Moxeparvovec (SRP-9001) in Participants With Duchenne Muscular Dystrophy (DMD)"
+        "nctId": "NCT06363357",
+        "briefTitle": "The Effect of a Muscle-mimicking, Fabric-type Shoulder Orthosis on Functional Movements of the Upper Limb in Patients With Duchenne Muscular Dystrophy"
       },
       "statusModule": {
-        "overallStatus": "ACTIVE_NOT_RECRUITING",
+        "overallStatus": "RECRUITING",
         "startDateStruct": {
-          "date": "2020-11-23"
+          "date": "2024-04-20"
         },
         "studyFirstPostDateStruct": {
-          "date": "2020-11-12"
+          "date": "2024-04-12"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2024-08-26"
+          "date": "2024-06-21"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "Sarepta Therapeutics, Inc."
+          "name": "Seoul National University Hospital"
         }
       },
       "conditionsModule": {
         "conditions": [
-          "Muscular Dystrophy, Duchenne"
+          "Muscular Dystrophy, Duchenne",
+          "Orthotic Devices",
+          "Upper Extremity"
         ]
       },
       "designModule": {
         "studyType": "INTERVENTIONAL",
         "phases": [
-          "PHASE1"
+          "NA"
         ]
       }
     }
@@ -74,35 +76,34 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT02285673",
-        "briefTitle": "Efficacy of Umbilical Cord Mesenchymal Stem Cells in Duchenne Muscular Dystrophy"
+        "nctId": "NCT04322357",
+        "briefTitle": "Twice Weekly Steroids and Exercise as Therapy for DMD"
       },
       "statusModule": {
-        "overallStatus": "UNKNOWN",
+        "overallStatus": "RECRUITING",
         "startDateStruct": {
-          "date": "2013-11"
+          "date": "2020-07-30"
         },
         "studyFirstPostDateStruct": {
-          "date": "2014-11-07"
+          "date": "2020-03-26"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2014-11-07"
+          "date": "2024-01-31"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "Acibadem University"
+          "name": "University of Florida"
         }
       },
       "conditionsModule": {
         "conditions": [
-          "Duchenne Muscular Dystrophy"
+          "Duchenne Muscular Dystrophy (DMD)"
         ]
       },
       "designModule": {
         "studyType": "INTERVENTIONAL",
         "phases": [
-          "PHASE1",
           "PHASE2"
         ]
       }
