@@ -2,35 +2,69 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT05639257",
-        "briefTitle": "Treatment of Myotonia - Lamotrigine Versus Namuscla"
+        "nctId": "NCT01633866",
+        "briefTitle": "Pediatric Radio Frequency Coils Generic"
       },
       "statusModule": {
-        "overallStatus": "RECRUITING",
+        "overallStatus": "ACTIVE_NOT_RECRUITING",
         "startDateStruct": {
-          "date": "2022-12-05"
+          "date": "2012-07"
         },
         "studyFirstPostDateStruct": {
-          "date": "2022-12-06"
+          "date": "2012-07-04"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2022-12-06"
+          "date": "2023-09-28"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "Grete Andersen, MD"
+          "name": "Children's Hospital Medical Center, Cincinnati"
         }
       },
       "conditionsModule": {
         "conditions": [
-          "Non-Dystrophic Myotonia"
+          "Duchenne Muscular Dystrophy",
+          "Musculoskeletal Abnormalities"
+        ]
+      },
+      "designModule": {
+        "studyType": "OBSERVATIONAL"
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT00799266",
+        "briefTitle": "An Efficacy and Safety Trial of Intravenous Zoledronic Acid Twice Yearly in Osteoporotic Children Treated With Glucocorticoids"
+      },
+      "statusModule": {
+        "overallStatus": "COMPLETED",
+        "startDateStruct": {
+          "date": "2008-12-04"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2008-11-27"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2020-09-02"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Novartis Pharmaceuticals"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Osteoporosis"
         ]
       },
       "designModule": {
         "studyType": "INTERVENTIONAL",
         "phases": [
-          "NA"
+          "PHASE3"
         ]
       }
     }
@@ -38,73 +72,35 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT06363357",
-        "briefTitle": "The Effect of a Muscle-mimicking, Fabric-type Shoulder Orthosis on Functional Movements of the Upper Limb in Patients With Duchenne Muscular Dystrophy"
+        "nctId": "NCT03633565",
+        "briefTitle": "Comparative Study of Strategies for Management of Duchenne Myopathy (DM)"
       },
       "statusModule": {
-        "overallStatus": "RECRUITING",
+        "overallStatus": "UNKNOWN",
         "startDateStruct": {
-          "date": "2024-04-20"
+          "date": "2018-09"
         },
         "studyFirstPostDateStruct": {
-          "date": "2024-04-12"
+          "date": "2018-08-16"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2024-06-21"
+          "date": "2018-08-16"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "Seoul National University Hospital"
+          "name": "Assiut University"
         }
       },
       "conditionsModule": {
         "conditions": [
-          "Muscular Dystrophy, Duchenne",
-          "Orthotic Devices",
-          "Upper Extremity"
+          "Myopathy"
         ]
       },
       "designModule": {
         "studyType": "INTERVENTIONAL",
         "phases": [
-          "NA"
-        ]
-      }
-    }
-  },
-  {
-    "protocolSection": {
-      "identificationModule": {
-        "nctId": "NCT04322357",
-        "briefTitle": "Twice Weekly Steroids and Exercise as Therapy for DMD"
-      },
-      "statusModule": {
-        "overallStatus": "RECRUITING",
-        "startDateStruct": {
-          "date": "2020-07-30"
-        },
-        "studyFirstPostDateStruct": {
-          "date": "2020-03-26"
-        },
-        "lastUpdatePostDateStruct": {
-          "date": "2024-01-31"
-        }
-      },
-      "sponsorCollaboratorsModule": {
-        "leadSponsor": {
-          "name": "University of Florida"
-        }
-      },
-      "conditionsModule": {
-        "conditions": [
-          "Duchenne Muscular Dystrophy (DMD)"
-        ]
-      },
-      "designModule": {
-        "studyType": "INTERVENTIONAL",
-        "phases": [
-          "PHASE2"
+          "PHASE4"
         ]
       }
     }
