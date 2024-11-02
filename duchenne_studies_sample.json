@@ -2,63 +2,29 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT01633866",
-        "briefTitle": "Pediatric Radio Frequency Coils Generic"
-      },
-      "statusModule": {
-        "overallStatus": "ACTIVE_NOT_RECRUITING",
-        "startDateStruct": {
-          "date": "2012-07"
-        },
-        "studyFirstPostDateStruct": {
-          "date": "2012-07-04"
-        },
-        "lastUpdatePostDateStruct": {
-          "date": "2023-09-28"
-        }
-      },
-      "sponsorCollaboratorsModule": {
-        "leadSponsor": {
-          "name": "Children's Hospital Medical Center, Cincinnati"
-        }
-      },
-      "conditionsModule": {
-        "conditions": [
-          "Duchenne Muscular Dystrophy",
-          "Musculoskeletal Abnormalities"
-        ]
-      },
-      "designModule": {
-        "studyType": "OBSERVATIONAL"
-      }
-    }
-  },
-  {
-    "protocolSection": {
-      "identificationModule": {
-        "nctId": "NCT00799266",
-        "briefTitle": "An Efficacy and Safety Trial of Intravenous Zoledronic Acid Twice Yearly in Osteoporotic Children Treated With Glucocorticoids"
+        "nctId": "NCT00004646",
+        "briefTitle": "Phase III Randomized, Double-Blind Study of Prednisone for Duchenne Muscular Dystrophy"
       },
       "statusModule": {
         "overallStatus": "COMPLETED",
         "startDateStruct": {
-          "date": "2008-12-04"
+          "date": "1995-04"
         },
         "studyFirstPostDateStruct": {
-          "date": "2008-11-27"
+          "date": "2000-02-25"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2020-09-02"
+          "date": "2005-06-24"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "Novartis Pharmaceuticals"
+          "name": "National Center for Research Resources (NCRR)"
         }
       },
       "conditionsModule": {
         "conditions": [
-          "Osteoporosis"
+          "Duchenne Muscular Dystrophy"
         ]
       },
       "designModule": {
@@ -72,36 +38,69 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT03633565",
-        "briefTitle": "Comparative Study of Strategies for Management of Duchenne Myopathy (DM)"
+        "nctId": "NCT04184882",
+        "briefTitle": "A Study to Assess the Safety, Tolerability and Preliminary Efficacy of ASP0367 (MA-0211) in Pediatric Male Participants With Duchenne Muscular Dystrophy (DMD)"
       },
       "statusModule": {
-        "overallStatus": "UNKNOWN",
+        "overallStatus": "TERMINATED",
         "startDateStruct": {
-          "date": "2018-09"
+          "date": "2021-02-24"
         },
         "studyFirstPostDateStruct": {
-          "date": "2018-08-16"
+          "date": "2019-12-04"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2018-08-16"
+          "date": "2024-10-22"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "Assiut University"
+          "name": "Astellas Pharma Inc"
         }
       },
       "conditionsModule": {
         "conditions": [
-          "Myopathy"
+          "Duchenne Muscular Dystrophy (DMD)"
         ]
       },
       "designModule": {
         "studyType": "INTERVENTIONAL",
         "phases": [
-          "PHASE4"
+          "PHASE1"
         ]
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT03882827",
+        "briefTitle": "Natural History of Duchenne Muscular Dystrophy"
+      },
+      "statusModule": {
+        "overallStatus": "UNKNOWN",
+        "startDateStruct": {
+          "date": "2019-12-19"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2019-03-20"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2022-09-07"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Genethon"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy"
+        ]
+      },
+      "designModule": {
+        "studyType": "OBSERVATIONAL"
       }
     }
   }
