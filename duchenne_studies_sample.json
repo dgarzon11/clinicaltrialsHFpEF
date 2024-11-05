@@ -2,42 +2,6 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT00004646",
-        "briefTitle": "Phase III Randomized, Double-Blind Study of Prednisone for Duchenne Muscular Dystrophy"
-      },
-      "statusModule": {
-        "overallStatus": "COMPLETED",
-        "startDateStruct": {
-          "date": "1995-04"
-        },
-        "studyFirstPostDateStruct": {
-          "date": "2000-02-25"
-        },
-        "lastUpdatePostDateStruct": {
-          "date": "2005-06-24"
-        }
-      },
-      "sponsorCollaboratorsModule": {
-        "leadSponsor": {
-          "name": "National Center for Research Resources (NCRR)"
-        }
-      },
-      "conditionsModule": {
-        "conditions": [
-          "Duchenne Muscular Dystrophy"
-        ]
-      },
-      "designModule": {
-        "studyType": "INTERVENTIONAL",
-        "phases": [
-          "PHASE3"
-        ]
-      }
-    }
-  },
-  {
-    "protocolSection": {
-      "identificationModule": {
         "nctId": "NCT04184882",
         "briefTitle": "A Study to Assess the Safety, Tolerability and Preliminary Efficacy of ASP0367 (MA-0211) in Pediatric Male Participants With Duchenne Muscular Dystrophy (DMD)"
       },
@@ -74,33 +38,80 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT03882827",
-        "briefTitle": "Natural History of Duchenne Muscular Dystrophy"
+        "nctId": "NCT03179631",
+        "briefTitle": "Long-Term Outcomes of Ataluren in Duchenne Muscular Dystrophy"
       },
       "statusModule": {
-        "overallStatus": "UNKNOWN",
+        "overallStatus": "COMPLETED",
         "startDateStruct": {
-          "date": "2019-12-19"
+          "date": "2017-07-06"
         },
         "studyFirstPostDateStruct": {
-          "date": "2019-03-20"
+          "date": "2017-06-07"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2022-09-07"
+          "date": "2024-01-18"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "Genethon"
+          "name": "PTC Therapeutics"
         }
       },
       "conditionsModule": {
         "conditions": [
-          "Duchenne Muscular Dystrophy"
+          "Muscular Dystrophy, Duchenne",
+          "Muscular Dystrophies",
+          "Muscular Disorders, Atrophic",
+          "Muscular Diseases",
+          "Musculoskeletal Disease",
+          "Neuromuscular Diseases",
+          "Nervous System Diseases",
+          "Genetic Diseases, X-Linked",
+          "Genetic Diseases, Inborn"
         ]
       },
       "designModule": {
-        "studyType": "OBSERVATIONAL"
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ]
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT02018731",
+        "briefTitle": "L-citrulline and Metformin in Becker's Muscular Dystrophy"
+      },
+      "statusModule": {
+        "overallStatus": "COMPLETED",
+        "startDateStruct": {
+          "date": "2013-06"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2013-12-23"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2016-05-16"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "University Hospital, Basel, Switzerland"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Becker's Muscular Dystrophy (BMD)"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ]
       }
     }
   }
