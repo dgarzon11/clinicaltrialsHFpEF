@@ -2,80 +2,69 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT04184882",
-        "briefTitle": "A Study to Assess the Safety, Tolerability and Preliminary Efficacy of ASP0367 (MA-0211) in Pediatric Male Participants With Duchenne Muscular Dystrophy (DMD)"
+        "nctId": "NCT03882827",
+        "briefTitle": "Natural History of Duchenne Muscular Dystrophy"
       },
       "statusModule": {
-        "overallStatus": "TERMINATED",
+        "overallStatus": "UNKNOWN",
         "startDateStruct": {
-          "date": "2021-02-24"
+          "date": "2019-12-19"
         },
         "studyFirstPostDateStruct": {
-          "date": "2019-12-04"
+          "date": "2019-03-20"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2024-10-22"
+          "date": "2022-09-07"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "Astellas Pharma Inc"
+          "name": "Genethon"
         }
       },
       "conditionsModule": {
         "conditions": [
-          "Duchenne Muscular Dystrophy (DMD)"
+          "Duchenne Muscular Dystrophy"
         ]
       },
       "designModule": {
-        "studyType": "INTERVENTIONAL",
-        "phases": [
-          "PHASE1"
-        ]
+        "studyType": "OBSERVATIONAL"
       }
     }
   },
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT03179631",
-        "briefTitle": "Long-Term Outcomes of Ataluren in Duchenne Muscular Dystrophy"
+        "nctId": "NCT03589573",
+        "briefTitle": "Effect of Muscle Strength on Hamstring Flexibility in Children With Duchenne Muscular Dystrophy"
       },
       "statusModule": {
         "overallStatus": "COMPLETED",
         "startDateStruct": {
-          "date": "2017-07-06"
+          "date": "2017-03-24"
         },
         "studyFirstPostDateStruct": {
-          "date": "2017-06-07"
+          "date": "2018-07-18"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2024-01-18"
+          "date": "2018-07-31"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "PTC Therapeutics"
+          "name": "Hacettepe University"
         }
       },
       "conditionsModule": {
         "conditions": [
-          "Muscular Dystrophy, Duchenne",
-          "Muscular Dystrophies",
-          "Muscular Disorders, Atrophic",
-          "Muscular Diseases",
-          "Musculoskeletal Disease",
-          "Neuromuscular Diseases",
-          "Nervous System Diseases",
-          "Genetic Diseases, X-Linked",
-          "Genetic Diseases, Inborn"
+          "Duchenne Muscular Dystrophy",
+          "Muscle Strength",
+          "Lower Extremity",
+          "Hamstring Contractures"
         ]
       },
       "designModule": {
-        "studyType": "INTERVENTIONAL",
-        "phases": [
-          "PHASE3"
-        ]
+        "studyType": "OBSERVATIONAL"
       }
     }
   },
