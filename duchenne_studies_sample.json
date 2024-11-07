@@ -2,65 +2,34 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT03882827",
-        "briefTitle": "Natural History of Duchenne Muscular Dystrophy"
-      },
-      "statusModule": {
-        "overallStatus": "UNKNOWN",
-        "startDateStruct": {
-          "date": "2019-12-19"
-        },
-        "studyFirstPostDateStruct": {
-          "date": "2019-03-20"
-        },
-        "lastUpdatePostDateStruct": {
-          "date": "2022-09-07"
-        }
-      },
-      "sponsorCollaboratorsModule": {
-        "leadSponsor": {
-          "name": "Genethon"
-        }
-      },
-      "conditionsModule": {
-        "conditions": [
-          "Duchenne Muscular Dystrophy"
-        ]
-      },
-      "designModule": {
-        "studyType": "OBSERVATIONAL"
-      }
-    }
-  },
-  {
-    "protocolSection": {
-      "identificationModule": {
-        "nctId": "NCT03589573",
-        "briefTitle": "Effect of Muscle Strength on Hamstring Flexibility in Children With Duchenne Muscular Dystrophy"
+        "nctId": "NCT03680365",
+        "briefTitle": "Your Voice; Impact of Duchenne Muscular Dystrophy (DMD) on the Lives of Families"
       },
       "statusModule": {
         "overallStatus": "COMPLETED",
         "startDateStruct": {
-          "date": "2017-03-24"
+          "date": "2018-09-20"
         },
         "studyFirstPostDateStruct": {
-          "date": "2018-07-18"
+          "date": "2018-09-21"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2018-07-31"
+          "date": "2019-04-01"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "Hacettepe University"
+          "name": "Jett Foundation, Inc."
         }
       },
       "conditionsModule": {
         "conditions": [
           "Duchenne Muscular Dystrophy",
-          "Muscle Strength",
-          "Lower Extremity",
-          "Hamstring Contractures"
+          "Burden, Dependency",
+          "Disability Physical",
+          "Disease Management",
+          "Impairment",
+          "Rare Diseases"
         ]
       },
       "designModule": {
@@ -71,34 +40,70 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT02018731",
-        "briefTitle": "L-citrulline and Metformin in Becker's Muscular Dystrophy"
+        "nctId": "NCT01633866",
+        "briefTitle": "Pediatric Radio Frequency Coils Generic"
       },
       "statusModule": {
-        "overallStatus": "COMPLETED",
+        "overallStatus": "ACTIVE_NOT_RECRUITING",
         "startDateStruct": {
-          "date": "2013-06"
+          "date": "2012-07"
         },
         "studyFirstPostDateStruct": {
-          "date": "2013-12-23"
+          "date": "2012-07-04"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2016-05-16"
+          "date": "2023-09-28"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "University Hospital, Basel, Switzerland"
+          "name": "Children's Hospital Medical Center, Cincinnati"
         }
       },
       "conditionsModule": {
         "conditions": [
-          "Becker's Muscular Dystrophy (BMD)"
+          "Duchenne Muscular Dystrophy",
+          "Musculoskeletal Abnormalities"
+        ]
+      },
+      "designModule": {
+        "studyType": "OBSERVATIONAL"
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT01834066",
+        "briefTitle": "Study Safety and Efficacy of Bone Marrow Derived Autologous Cells for the Treatment of Muscular Dystrophy."
+      },
+      "statusModule": {
+        "overallStatus": "UNKNOWN",
+        "startDateStruct": {
+          "date": "2014-09"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2013-04-17"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2014-09-17"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Chaitanya Hospital, Pune"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Muscular Dystrophy",
+          "Duchenne Muscular Dystrophy,"
         ]
       },
       "designModule": {
         "studyType": "INTERVENTIONAL",
         "phases": [
+          "PHASE1",
           "PHASE2"
         ]
       }
