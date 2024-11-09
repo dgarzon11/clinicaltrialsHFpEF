@@ -2,36 +2,35 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT01847573",
-        "briefTitle": "Safety, Tolerability, and Pharmacokinetics of Single and Multiple Doses of HT-100 in Duchenne Muscular Dystrophy"
+        "nctId": "NCT02434627",
+        "briefTitle": "Sodium Nitrate for Muscular Dystrophy"
       },
       "statusModule": {
-        "overallStatus": "TERMINATED",
+        "overallStatus": "COMPLETED",
         "startDateStruct": {
-          "date": "2013-05"
+          "date": "2015-06"
         },
         "studyFirstPostDateStruct": {
-          "date": "2013-05-07"
+          "date": "2015-05-05"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2020-09-03"
+          "date": "2020-01-13"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "Processa Pharmaceuticals"
+          "name": "Cedars-Sinai Medical Center"
         }
       },
       "conditionsModule": {
         "conditions": [
-          "Duchenne Muscular Dystrophy"
+          "Becker Muscular Dystrophy"
         ]
       },
       "designModule": {
         "studyType": "INTERVENTIONAL",
         "phases": [
-          "PHASE1",
-          "PHASE2"
+          "PHASE1"
         ]
       }
     }
@@ -39,66 +38,67 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT03067831",
-        "briefTitle": "Bone Marrow-Derived Autologous Stem Cells for the Treatment of Duchenne Muscular Dystrophy"
+        "nctId": "NCT00033189",
+        "briefTitle": "An Open-label Pilot Study of Coenzyme Q10 in Steroid-Treated Duchenne Muscular Dystrophy"
       },
       "statusModule": {
-        "overallStatus": "UNKNOWN",
+        "overallStatus": "COMPLETED",
         "startDateStruct": {
-          "date": "2015-09"
+          "date": "2001-09"
         },
         "studyFirstPostDateStruct": {
-          "date": "2017-03-01"
+          "date": "2002-04-09"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2020-03-17"
+          "date": "2010-11-16"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "Stem Cells Arabia"
-        }
-      },
-      "conditionsModule": {
-        "conditions": [
-          "Duchenne Muscular Dystrophy"
-        ]
-      },
-      "designModule": {
-        "studyType": "INTERVENTIONAL",
-        "phases": [
-          "PHASE1",
-          "PHASE2"
-        ]
-      }
-    }
-  },
-  {
-    "protocolSection": {
-      "identificationModule": {
-        "nctId": "NCT02369731",
-        "briefTitle": "Registry of Translarna (Ataluren) in Nonsense Mutation Duchenne Muscular Dystrophy (nmDMD)"
-      },
-      "statusModule": {
-        "overallStatus": "ACTIVE_NOT_RECRUITING",
-        "startDateStruct": {
-          "date": "2015-04-30"
-        },
-        "studyFirstPostDateStruct": {
-          "date": "2015-02-24"
-        },
-        "lastUpdatePostDateStruct": {
-          "date": "2024-10-09"
-        }
-      },
-      "sponsorCollaboratorsModule": {
-        "leadSponsor": {
-          "name": "PTC Therapeutics"
+          "name": "Cooperative International Neuromuscular Research Group"
         }
       },
       "conditionsModule": {
         "conditions": [
           "Muscular Dystrophy, Duchenne"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ]
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT03552874",
+        "briefTitle": "Pulmonary and Upper Limb Functions in Duchenne Muscular Dystrophy"
+      },
+      "statusModule": {
+        "overallStatus": "COMPLETED",
+        "startDateStruct": {
+          "date": "2017-01-01"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2018-06-12"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2018-06-12"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Hacettepe University"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy",
+          "Upper Limb Function",
+          "Respiratory Function Test"
         ]
       },
       "designModule": {
