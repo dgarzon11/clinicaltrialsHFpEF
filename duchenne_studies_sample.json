@@ -2,35 +2,37 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT02434627",
-        "briefTitle": "Sodium Nitrate for Muscular Dystrophy"
+        "nctId": "NCT06363357",
+        "briefTitle": "The Effect of a Muscle-mimicking, Fabric-type Shoulder Orthosis on Functional Movements of the Upper Limb in Patients With Duchenne Muscular Dystrophy"
       },
       "statusModule": {
-        "overallStatus": "COMPLETED",
+        "overallStatus": "RECRUITING",
         "startDateStruct": {
-          "date": "2015-06"
+          "date": "2024-04-20"
         },
         "studyFirstPostDateStruct": {
-          "date": "2015-05-05"
+          "date": "2024-04-12"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2020-01-13"
+          "date": "2024-06-21"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "Cedars-Sinai Medical Center"
+          "name": "Seoul National University Hospital"
         }
       },
       "conditionsModule": {
         "conditions": [
-          "Becker Muscular Dystrophy"
+          "Muscular Dystrophy, Duchenne",
+          "Orthotic Devices",
+          "Upper Extremity"
         ]
       },
       "designModule": {
         "studyType": "INTERVENTIONAL",
         "phases": [
-          "PHASE1"
+          "NA"
         ]
       }
     }
@@ -38,71 +40,74 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT00033189",
-        "briefTitle": "An Open-label Pilot Study of Coenzyme Q10 in Steroid-Treated Duchenne Muscular Dystrophy"
+        "nctId": "NCT06363526",
+        "briefTitle": "Effectiveness of 5-week Digital Respiratory Practice in a Group of Children With Duchenne Muscular Dystrophy and Becker Muscular Dystrophy."
       },
       "statusModule": {
-        "overallStatus": "COMPLETED",
+        "overallStatus": "NOT_YET_RECRUITING",
         "startDateStruct": {
-          "date": "2001-09"
+          "date": "2024-05-05"
         },
         "studyFirstPostDateStruct": {
-          "date": "2002-04-09"
+          "date": "2024-04-12"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2010-11-16"
+          "date": "2024-04-12"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "Cooperative International Neuromuscular Research Group"
-        }
-      },
-      "conditionsModule": {
-        "conditions": [
-          "Muscular Dystrophy, Duchenne"
-        ]
-      },
-      "designModule": {
-        "studyType": "INTERVENTIONAL",
-        "phases": [
-          "PHASE2"
-        ]
-      }
-    }
-  },
-  {
-    "protocolSection": {
-      "identificationModule": {
-        "nctId": "NCT03552874",
-        "briefTitle": "Pulmonary and Upper Limb Functions in Duchenne Muscular Dystrophy"
-      },
-      "statusModule": {
-        "overallStatus": "COMPLETED",
-        "startDateStruct": {
-          "date": "2017-01-01"
-        },
-        "studyFirstPostDateStruct": {
-          "date": "2018-06-12"
-        },
-        "lastUpdatePostDateStruct": {
-          "date": "2018-06-12"
-        }
-      },
-      "sponsorCollaboratorsModule": {
-        "leadSponsor": {
-          "name": "Hacettepe University"
+          "name": "University of Malaga"
         }
       },
       "conditionsModule": {
         "conditions": [
           "Duchenne Muscular Dystrophy",
-          "Upper Limb Function",
-          "Respiratory Function Test"
+          "Becker Muscular Dystrophy",
+          "Muscular Dystrophy"
         ]
       },
       "designModule": {
-        "studyType": "OBSERVATIONAL"
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ]
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT05933057",
+        "briefTitle": "Efficacy, Safety and Tolerability of Givinostat in Non-ambulant Patients With Duchenne Muscular Dystrophy"
+      },
+      "statusModule": {
+        "overallStatus": "RECRUITING",
+        "startDateStruct": {
+          "date": "2024-02-19"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2023-07-06"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2024-11-11"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Italfarmaco"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ]
       }
     }
   }
