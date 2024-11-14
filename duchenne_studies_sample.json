@@ -2,100 +2,24 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT06363357",
-        "briefTitle": "The Effect of a Muscle-mimicking, Fabric-type Shoulder Orthosis on Functional Movements of the Upper Limb in Patients With Duchenne Muscular Dystrophy"
+        "nctId": "NCT02484560",
+        "briefTitle": "Efficacy of Stem Cell Therapy in Ambulatory and Non-ambulatory Children With Duchenne Muscular Dystrophy - Phase 1-2"
       },
       "statusModule": {
-        "overallStatus": "RECRUITING",
+        "overallStatus": "UNKNOWN",
         "startDateStruct": {
-          "date": "2024-04-20"
+          "date": "2015-06"
         },
         "studyFirstPostDateStruct": {
-          "date": "2024-04-12"
+          "date": "2015-06-29"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2024-06-21"
+          "date": "2015-07-01"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "Seoul National University Hospital"
-        }
-      },
-      "conditionsModule": {
-        "conditions": [
-          "Muscular Dystrophy, Duchenne",
-          "Orthotic Devices",
-          "Upper Extremity"
-        ]
-      },
-      "designModule": {
-        "studyType": "INTERVENTIONAL",
-        "phases": [
-          "NA"
-        ]
-      }
-    }
-  },
-  {
-    "protocolSection": {
-      "identificationModule": {
-        "nctId": "NCT06363526",
-        "briefTitle": "Effectiveness of 5-week Digital Respiratory Practice in a Group of Children With Duchenne Muscular Dystrophy and Becker Muscular Dystrophy."
-      },
-      "statusModule": {
-        "overallStatus": "NOT_YET_RECRUITING",
-        "startDateStruct": {
-          "date": "2024-05-05"
-        },
-        "studyFirstPostDateStruct": {
-          "date": "2024-04-12"
-        },
-        "lastUpdatePostDateStruct": {
-          "date": "2024-04-12"
-        }
-      },
-      "sponsorCollaboratorsModule": {
-        "leadSponsor": {
-          "name": "University of Malaga"
-        }
-      },
-      "conditionsModule": {
-        "conditions": [
-          "Duchenne Muscular Dystrophy",
-          "Becker Muscular Dystrophy",
-          "Muscular Dystrophy"
-        ]
-      },
-      "designModule": {
-        "studyType": "INTERVENTIONAL",
-        "phases": [
-          "NA"
-        ]
-      }
-    }
-  },
-  {
-    "protocolSection": {
-      "identificationModule": {
-        "nctId": "NCT05933057",
-        "briefTitle": "Efficacy, Safety and Tolerability of Givinostat in Non-ambulant Patients With Duchenne Muscular Dystrophy"
-      },
-      "statusModule": {
-        "overallStatus": "RECRUITING",
-        "startDateStruct": {
-          "date": "2024-02-19"
-        },
-        "studyFirstPostDateStruct": {
-          "date": "2023-07-06"
-        },
-        "lastUpdatePostDateStruct": {
-          "date": "2024-11-11"
-        }
-      },
-      "sponsorCollaboratorsModule": {
-        "leadSponsor": {
-          "name": "Italfarmaco"
+          "name": "University of Gaziantep"
         }
       },
       "conditionsModule": {
@@ -106,7 +30,80 @@
       "designModule": {
         "studyType": "INTERVENTIONAL",
         "phases": [
-          "PHASE3"
+          "PHASE1"
+        ]
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT04906460",
+        "briefTitle": "Open-label Study of WVE-N531 in Patients With Duchenne Muscular Dystrophy (FORWARD-53)"
+      },
+      "statusModule": {
+        "overallStatus": "ACTIVE_NOT_RECRUITING",
+        "startDateStruct": {
+          "date": "2021-09-28"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2021-05-28"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2024-02-28"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Wave Life Sciences Ltd."
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1",
+          "PHASE2"
+        ]
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT00759876",
+        "briefTitle": "Phase 2a Extension Study of Ataluren (PTC124) in Duchenne Muscular Dystrophy (DMD)"
+      },
+      "statusModule": {
+        "overallStatus": "TERMINATED",
+        "startDateStruct": {
+          "date": "2008-08-13"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2008-09-25"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2020-10-29"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "PTC Therapeutics"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
         ]
       }
     }
