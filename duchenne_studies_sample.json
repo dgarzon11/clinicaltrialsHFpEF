@@ -2,29 +2,32 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT02484560",
-        "briefTitle": "Efficacy of Stem Cell Therapy in Ambulatory and Non-ambulatory Children With Duchenne Muscular Dystrophy - Phase 1-2"
+        "nctId": "NCT00873782",
+        "briefTitle": "Safety Study of Transvenous Limb Perfusion in Human Muscular Dystrophy"
       },
       "statusModule": {
-        "overallStatus": "UNKNOWN",
+        "overallStatus": "COMPLETED",
         "startDateStruct": {
-          "date": "2015-06"
+          "date": "2009-03"
         },
         "studyFirstPostDateStruct": {
-          "date": "2015-06-29"
+          "date": "2009-04-02"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2015-07-01"
+          "date": "2015-03-09"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "University of Gaziantep"
+          "name": "University of North Carolina, Chapel Hill"
         }
       },
       "conditionsModule": {
         "conditions": [
-          "Duchenne Muscular Dystrophy"
+          "Muscular Dystrophies",
+          "Duchenne Muscular Dystrophy",
+          "Becker Muscular Dystrophy",
+          "Limb-Girdle Muscular Dystrophy"
         ]
       },
       "designModule": {
@@ -38,24 +41,24 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT04906460",
-        "briefTitle": "Open-label Study of WVE-N531 in Patients With Duchenne Muscular Dystrophy (FORWARD-53)"
+        "nctId": "NCT04687020",
+        "briefTitle": "Long-term Use of Viltolarsen in Boys With Duchenne Muscular Dystrophy in Clinical Practice (VILT-502)"
       },
       "statusModule": {
         "overallStatus": "ACTIVE_NOT_RECRUITING",
         "startDateStruct": {
-          "date": "2021-09-28"
+          "date": "2021-06-10"
         },
         "studyFirstPostDateStruct": {
-          "date": "2021-05-28"
+          "date": "2020-12-29"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2024-02-28"
+          "date": "2022-10-19"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "Wave Life Sciences Ltd."
+          "name": "NS Pharma, Inc."
         }
       },
       "conditionsModule": {
@@ -66,8 +69,7 @@
       "designModule": {
         "studyType": "INTERVENTIONAL",
         "phases": [
-          "PHASE1",
-          "PHASE2"
+          "PHASE4"
         ]
       }
     }
@@ -75,19 +77,19 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT00759876",
-        "briefTitle": "Phase 2a Extension Study of Ataluren (PTC124) in Duchenne Muscular Dystrophy (DMD)"
+        "nctId": "NCT02369731",
+        "briefTitle": "Registry of Translarna (Ataluren) in Nonsense Mutation Duchenne Muscular Dystrophy (nmDMD)"
       },
       "statusModule": {
-        "overallStatus": "TERMINATED",
+        "overallStatus": "ACTIVE_NOT_RECRUITING",
         "startDateStruct": {
-          "date": "2008-08-13"
+          "date": "2015-04-30"
         },
         "studyFirstPostDateStruct": {
-          "date": "2008-09-25"
+          "date": "2015-02-24"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2020-10-29"
+          "date": "2024-10-09"
         }
       },
       "sponsorCollaboratorsModule": {
@@ -97,14 +99,11 @@
       },
       "conditionsModule": {
         "conditions": [
-          "Duchenne Muscular Dystrophy"
+          "Muscular Dystrophy, Duchenne"
         ]
       },
       "designModule": {
-        "studyType": "INTERVENTIONAL",
-        "phases": [
-          "PHASE2"
-        ]
+        "studyType": "OBSERVATIONAL"
       }
     }
   }
