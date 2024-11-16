@@ -2,6 +2,39 @@
   {
     "protocolSection": {
       "identificationModule": {
+        "nctId": "NCT02436720",
+        "briefTitle": "Upper Limb Assessment in Duchenne Muscular Dystrophy"
+      },
+      "statusModule": {
+        "overallStatus": "UNKNOWN",
+        "startDateStruct": {
+          "date": "2013-01"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2015-05-07"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2015-05-07"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Catholic University of the Sacred Heart"
+        }
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy"
+        ]
+      },
+      "designModule": {
+        "studyType": "OBSERVATIONAL"
+      }
+    }
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
         "nctId": "NCT00873782",
         "briefTitle": "Safety Study of Transvenous Limb Perfusion in Human Muscular Dystrophy"
       },
@@ -41,60 +74,24 @@
   {
     "protocolSection": {
       "identificationModule": {
-        "nctId": "NCT04687020",
-        "briefTitle": "Long-term Use of Viltolarsen in Boys With Duchenne Muscular Dystrophy in Clinical Practice (VILT-502)"
+        "nctId": "NCT04626674",
+        "briefTitle": "A Gene Transfer Therapy Study to Evaluate the Safety of and Expression From Delandistrogene Moxeparvovec (SRP-9001) in Participants With Duchenne Muscular Dystrophy (DMD)"
       },
       "statusModule": {
         "overallStatus": "ACTIVE_NOT_RECRUITING",
         "startDateStruct": {
-          "date": "2021-06-10"
+          "date": "2020-11-23"
         },
         "studyFirstPostDateStruct": {
-          "date": "2020-12-29"
+          "date": "2020-11-12"
         },
         "lastUpdatePostDateStruct": {
-          "date": "2022-10-19"
+          "date": "2024-08-26"
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
-          "name": "NS Pharma, Inc."
-        }
-      },
-      "conditionsModule": {
-        "conditions": [
-          "Duchenne Muscular Dystrophy"
-        ]
-      },
-      "designModule": {
-        "studyType": "INTERVENTIONAL",
-        "phases": [
-          "PHASE4"
-        ]
-      }
-    }
-  },
-  {
-    "protocolSection": {
-      "identificationModule": {
-        "nctId": "NCT02369731",
-        "briefTitle": "Registry of Translarna (Ataluren) in Nonsense Mutation Duchenne Muscular Dystrophy (nmDMD)"
-      },
-      "statusModule": {
-        "overallStatus": "ACTIVE_NOT_RECRUITING",
-        "startDateStruct": {
-          "date": "2015-04-30"
-        },
-        "studyFirstPostDateStruct": {
-          "date": "2015-02-24"
-        },
-        "lastUpdatePostDateStruct": {
-          "date": "2024-10-09"
-        }
-      },
-      "sponsorCollaboratorsModule": {
-        "leadSponsor": {
-          "name": "PTC Therapeutics"
+          "name": "Sarepta Therapeutics, Inc."
         }
       },
       "conditionsModule": {
@@ -103,7 +100,10 @@
         ]
       },
       "designModule": {
-        "studyType": "OBSERVATIONAL"
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ]
       }
     }
   }
