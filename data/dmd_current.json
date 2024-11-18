@@ -1,0 +1,304 @@
+[
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT02078076",
+        "orgStudyIdInfo": {
+          "id": "C13-04"
+        },
+        "secondaryIdInfos": [
+          {
+            "id": "2013-A00179-36"
+          }
+        ],
+        "briefTitle": "IRM Cardiaque en Respiration Libre Pour Des Patients Atteints de Dystrophinopathie s\u00e9v\u00e8re"
+      },
+      "statusModule": {
+        "overallStatus": "COMPLETED",
+        "startDateStruct": {
+          "date": "2013-06"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2015-11"
+        },
+        "completionDateStruct": {
+          "date": "2015-11"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2014-03-05"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2016-02-24"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Institut National de la Sant\u00e9 Et de la Recherche M\u00e9dicale, France",
+          "class": "OTHER_GOV"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "Clinical, prospective and monocentric study aiming at assessing the feasibility of fibrosis detection and quantification (and of function assessment) during MRI without breath-holds in a population of adults and children with Duchenne myopathy."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne or Severe Becker Myopathy"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "designInfo": {
+          "primaryPurpose": "DIAGNOSTIC"
+        },
+        "enrollmentInfo": {
+          "count": 22
+        }
+      },
+      "armsInterventionsModule": {
+        "interventions": [
+          {
+            "type": "DEVICE",
+            "name": "Magnetic Resonance Cardiac Imaging (with Gadolinium)"
+          }
+        ]
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "Number of exams correctly acquired (feasabiliy of the exam)"
+          },
+          {
+            "measure": "Number of exams allowing a qualitative assessment of images by the physician"
+          },
+          {
+            "measure": "Number of exams allowing a quantitative assessment of the diagnosis"
+          }
+        ],
+        "secondaryOutcomes": [
+          {
+            "measure": "Number of anatomic cardiac segments with significant fibrosis according to the assessment methods (conventional LGE, qualitative detection with GRICS, and quantiative measure with GRICS)"
+          },
+          {
+            "measure": "Number of cardiac segments with fibrosis and/or regional dysfunction"
+          }
+        ]
+      },
+      "eligibilityModule": {
+        "sex": "ALL",
+        "minimumAge": "8 Years",
+        "stdAges": [
+          "CHILD",
+          "ADULT",
+          "OLDER_ADULT"
+        ]
+      }
+    },
+    "hasResults": false
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT02484560",
+        "orgStudyIdInfo": {
+          "id": "56733164/203"
+        },
+        "briefTitle": "Efficacy of Stem Cell Therapy in Ambulatory and Non-ambulatory Children With Duchenne Muscular Dystrophy - Phase 1-2"
+      },
+      "statusModule": {
+        "overallStatus": "UNKNOWN",
+        "startDateStruct": {
+          "date": "2015-06"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2015-12"
+        },
+        "completionDateStruct": {
+          "date": "2015-12"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2015-06-29"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2015-07-01"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "University of Gaziantep",
+          "class": "OTHER"
+        },
+        "collaborators": [
+          {
+            "name": "Ist\u0131nye University, Cukurova University, Y\u0131ld\u0131r\u0131m Beyaz\u0131t University, Gaziantep Deva Hospital, Gaziantep Public Hospital"
+          }
+        ]
+      },
+      "descriptionModule": {
+        "briefSummary": "Duchenne Muscular Dystrophy (DMD) is a X-linked genetic disorder primarily affecting males, resulting in an absence of dystrophin which ultimately leads to progressive muscle degeneration. Patients with DMD progressively lose functional abilities of movement, breath, and eventually the ability to circulate blood. Currently, there is no cure for DMD, although several strategies are being tested for treatment, none have yet proven to be sufficient. Children with DMD are generally divided into two groups based on severity or progression of the disease, non-ambulatory and ambulatory. Ambulatory patients are capable of walking independently while non-ambulatory patients cannot walk independently."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "designInfo": {
+          "primaryPurpose": "TREATMENT"
+        },
+        "enrollmentInfo": {
+          "count": 10
+        }
+      },
+      "armsInterventionsModule": {
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Biological: Umbilical Cord Based Allogenic Mesenchymal Stem Cell"
+          }
+        ]
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "Degree of improvement in patients with Duchenne Muscular Dystrophy after stem cell therapy treatment administered using Northstar Ambulatory Assessment, Magnetic Resonance Imaging & Spectroscopy, muscle strength assessment equipment, and a questionnaire."
+          }
+        ]
+      },
+      "eligibilityModule": {
+        "sex": "MALE",
+        "minimumAge": "8 Years",
+        "maximumAge": "14 Years",
+        "stdAges": [
+          "CHILD"
+        ]
+      }
+    },
+    "hasResults": false
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT05305976",
+        "orgStudyIdInfo": {
+          "id": "KTU_FTR_AE_01"
+        },
+        "briefTitle": "Telerehabilitation in Duchenne Muscular Dystrophy",
+        "acronym": "Duchenne"
+      },
+      "statusModule": {
+        "overallStatus": "COMPLETED",
+        "startDateStruct": {
+          "date": "2021-01-11"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2021-11-15"
+        },
+        "completionDateStruct": {
+          "date": "2022-01-01"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2022-03-31"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2022-03-31"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "leadSponsor": {
+          "name": "Karadeniz Technical University",
+          "class": "OTHER"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "Duchenne Muscular Dystrophy (DMD) is a progressive inherited disease that affects the muscles and causes functional limitations to varying degrees. It is vital to start physiotherapy follow-ups immediately after diagnosis. Patients with DMD are among the most vulnerable groups who have problems in accessing physiotherapy services during the COVID-19 pandemic. The aim of the study was to investigate the effects of the telerehabilitation program developed to protect the physical health of patients with DMD and not to interrupt their follow-up."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "designInfo": {
+          "primaryPurpose": "PREVENTION"
+        },
+        "enrollmentInfo": {
+          "count": 43
+        }
+      },
+      "armsInterventionsModule": {
+        "interventions": [
+          {
+            "type": "OTHER",
+            "name": "Telerehabilitation"
+          }
+        ]
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "Functional level"
+          },
+          {
+            "measure": "Socio-demographics"
+          },
+          {
+            "measure": "Walking test (Before intervention)"
+          },
+          {
+            "measure": "Walking test (After intervention)"
+          },
+          {
+            "measure": "Time to stand up from the supine position (Before intervention)"
+          },
+          {
+            "measure": "Time to stand up from the supine position (After intervention)"
+          },
+          {
+            "measure": "Modified upper extremity performance test (Before intervention)"
+          },
+          {
+            "measure": "Modified upper extremity performance test (After intervention)"
+          },
+          {
+            "measure": "Endurance (Before intervention)"
+          },
+          {
+            "measure": "Endurance (After intervention)"
+          },
+          {
+            "measure": "Pulmonary Dysfunction Test (Before intervention)"
+          },
+          {
+            "measure": "Pulmonary Dysfunction Test (After intervention)"
+          }
+        ],
+        "secondaryOutcomes": [
+          {
+            "measure": "Patient Satisfaction Survey"
+          }
+        ]
+      },
+      "eligibilityModule": {
+        "sex": "MALE",
+        "minimumAge": "5 Years",
+        "stdAges": [
+          "CHILD",
+          "ADULT",
+          "OLDER_ADULT"
+        ]
+      }
+    },
+    "hasResults": false
+  }
+]
