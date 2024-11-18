@@ -35,7 +35,7 @@ def download_studies(page_size):
             return
 
         os.makedirs('data', exist_ok=True)
-        file_name = os.path.join('data', "duchenne_studies_sample.json")
+        file_name = os.path.join('data', "duchenne_studies_current.json")
         with open(file_name, mode="w") as f:
             json.dump(studies, f, indent=2)
         print(f"Successfully downloaded and saved {len(studies)} studies to {file_name}.")
@@ -124,8 +124,8 @@ def append_to_history(current_csv, history_csv):
 
 if __name__ == "__main__":
     download_studies(3)
-    json_file = os.path.join('data', 'duchenne_studies_sample.json')
-    csv_file = os.path.join('data', 'duchenne_studies_sample.csv')
+    json_file = os.path.join('data', 'duchenne_studies_current.json')
+    csv_file = os.path.join('data', 'duchenne_studies_current.csv')
     history_csv = os.path.join('data', 'duchenne_studies_history.csv')
 
     json_to_csv(json_file, csv_file)
