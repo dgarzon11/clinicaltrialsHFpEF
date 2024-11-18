@@ -2,12 +2,18 @@
   {
     "protocolSection": {
       "identificationModule": {
+<<<<<<< HEAD:data/duchenne_studies_sample.json
         "nctId": "NCT02078076",
         "briefTitle": "IRM Cardiaque en Respiration Libre Pour Des Patients Atteints de Dystrophinopathie s\u00e9v\u00e8re"
+=======
+        "nctId": "NCT02436720",
+        "briefTitle": "Upper Limb Assessment in Duchenne Muscular Dystrophy"
+>>>>>>> d768e195b71b5fb2c3a6ebad5b047bcbd980adc6:duchenne_studies_sample.json
       },
       "statusModule": {
-        "overallStatus": "COMPLETED",
+        "overallStatus": "UNKNOWN",
         "startDateStruct": {
+<<<<<<< HEAD:data/duchenne_studies_sample.json
           "date": "2013-06"
         },
         "studyFirstPostDateStruct": {
@@ -15,15 +21,29 @@
         },
         "lastUpdatePostDateStruct": {
           "date": "2016-02-24"
+=======
+          "date": "2013-01"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2015-05-07"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2015-05-07"
+>>>>>>> d768e195b71b5fb2c3a6ebad5b047bcbd980adc6:duchenne_studies_sample.json
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
+<<<<<<< HEAD:data/duchenne_studies_sample.json
           "name": "Institut National de la Sant\u00e9 Et de la Recherche M\u00e9dicale, France"
+=======
+          "name": "Catholic University of the Sacred Heart"
+>>>>>>> d768e195b71b5fb2c3a6ebad5b047bcbd980adc6:duchenne_studies_sample.json
         }
       },
       "conditionsModule": {
         "conditions": [
+<<<<<<< HEAD:data/duchenne_studies_sample.json
           "Duchenne or Severe Becker Myopathy"
         ]
       },
@@ -32,12 +52,20 @@
         "phases": [
           "NA"
         ]
+=======
+          "Duchenne Muscular Dystrophy"
+        ]
+      },
+      "designModule": {
+        "studyType": "OBSERVATIONAL"
+>>>>>>> d768e195b71b5fb2c3a6ebad5b047bcbd980adc6:duchenne_studies_sample.json
       }
     }
   },
   {
     "protocolSection": {
       "identificationModule": {
+<<<<<<< HEAD:data/duchenne_studies_sample.json
         "nctId": "NCT02484560",
         "briefTitle": "Efficacy of Stem Cell Therapy in Ambulatory and Non-ambulatory Children With Duchenne Muscular Dystrophy - Phase 1-2"
       },
@@ -51,16 +79,42 @@
         },
         "lastUpdatePostDateStruct": {
           "date": "2015-07-01"
+=======
+        "nctId": "NCT00873782",
+        "briefTitle": "Safety Study of Transvenous Limb Perfusion in Human Muscular Dystrophy"
+      },
+      "statusModule": {
+        "overallStatus": "COMPLETED",
+        "startDateStruct": {
+          "date": "2009-03"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2009-04-02"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2015-03-09"
+>>>>>>> d768e195b71b5fb2c3a6ebad5b047bcbd980adc6:duchenne_studies_sample.json
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
+<<<<<<< HEAD:data/duchenne_studies_sample.json
           "name": "University of Gaziantep"
+=======
+          "name": "University of North Carolina, Chapel Hill"
+>>>>>>> d768e195b71b5fb2c3a6ebad5b047bcbd980adc6:duchenne_studies_sample.json
         }
       },
       "conditionsModule": {
         "conditions": [
+<<<<<<< HEAD:data/duchenne_studies_sample.json
           "Duchenne Muscular Dystrophy"
+=======
+          "Muscular Dystrophies",
+          "Duchenne Muscular Dystrophy",
+          "Becker Muscular Dystrophy",
+          "Limb-Girdle Muscular Dystrophy"
+>>>>>>> d768e195b71b5fb2c3a6ebad5b047bcbd980adc6:duchenne_studies_sample.json
         ]
       },
       "designModule": {
@@ -74,12 +128,18 @@
   {
     "protocolSection": {
       "identificationModule": {
+<<<<<<< HEAD:data/duchenne_studies_sample.json
         "nctId": "NCT05305976",
         "briefTitle": "Telerehabilitation in Duchenne Muscular Dystrophy"
+=======
+        "nctId": "NCT04626674",
+        "briefTitle": "A Gene Transfer Therapy Study to Evaluate the Safety of and Expression From Delandistrogene Moxeparvovec (SRP-9001) in Participants With Duchenne Muscular Dystrophy (DMD)"
+>>>>>>> d768e195b71b5fb2c3a6ebad5b047bcbd980adc6:duchenne_studies_sample.json
       },
       "statusModule": {
-        "overallStatus": "COMPLETED",
+        "overallStatus": "ACTIVE_NOT_RECRUITING",
         "startDateStruct": {
+<<<<<<< HEAD:data/duchenne_studies_sample.json
           "date": "2021-01-11"
         },
         "studyFirstPostDateStruct": {
@@ -87,11 +147,24 @@
         },
         "lastUpdatePostDateStruct": {
           "date": "2022-03-31"
+=======
+          "date": "2020-11-23"
+        },
+        "studyFirstPostDateStruct": {
+          "date": "2020-11-12"
+        },
+        "lastUpdatePostDateStruct": {
+          "date": "2024-08-26"
+>>>>>>> d768e195b71b5fb2c3a6ebad5b047bcbd980adc6:duchenne_studies_sample.json
         }
       },
       "sponsorCollaboratorsModule": {
         "leadSponsor": {
+<<<<<<< HEAD:data/duchenne_studies_sample.json
           "name": "Karadeniz Technical University"
+=======
+          "name": "Sarepta Therapeutics, Inc."
+>>>>>>> d768e195b71b5fb2c3a6ebad5b047bcbd980adc6:duchenne_studies_sample.json
         }
       },
       "conditionsModule": {
@@ -102,7 +175,11 @@
       "designModule": {
         "studyType": "INTERVENTIONAL",
         "phases": [
+<<<<<<< HEAD:data/duchenne_studies_sample.json
           "NA"
+=======
+          "PHASE1"
+>>>>>>> d768e195b71b5fb2c3a6ebad5b047bcbd980adc6:duchenne_studies_sample.json
         ]
       }
     }
