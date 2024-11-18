@@ -9,38 +9,6 @@ def download_studies(page_size):
     params = {
         "format": "json",
         "pageSize": page_size,
-        "fields": (
-            "NCTId,"
-            "BriefTitle,"
-            "Acronym,"
-            "OverallStatus,"
-            "BriefSummary,"
-            "HasResults,"
-            "Condition,"
-            "InterventionType,"
-            "InterventionName,"
-            "PrimaryOutcomeMeasure,"
-            "SecondaryOutcomeMeasure,"
-            "LeadSponsorName,"
-            "CollaboratorName,"
-            "Sex,"
-            "MinimumAge,"
-            "MaximumAge,"
-            "StdAge,"
-            "Phase,"
-            "EnrollmentCount,"
-            "LeadSponsorClass,"
-            "StudyType,"
-            "DesignPrimaryPurpose,"
-            "OrgStudyId,"
-            "SecondaryId,"
-            "StartDate,"
-            "PrimaryCompletionDate,"
-            "CompletionDate,"
-            "StudyFirstPostDate,"
-            "ResultsFirstPostDate,"
-            "LastUpdatePostDate"
-        )
     }
 
     try:
@@ -70,37 +38,14 @@ def json_to_csv(json_file, csv_file):
         data = json.load(f)
 
     csv_columns = [
-        'NCTId',
-        'BriefTitle',
-        'Acronym',
-        'OverallStatus',
-        'BriefSummary',
-        'HasResults',
-        'Condition',
-        'InterventionType',
-        'InterventionName',
-        'PrimaryOutcomeMeasure',
-        'SecondaryOutcomeMeasure',
-        'LeadSponsorName',
-        'CollaboratorName',
-        'Sex',
-        'MinimumAge',
-        'MaximumAge',
-        'StdAge',
-        'Phase',
-        'EnrollmentCount',
-        'LeadSponsorClass',
-        'StudyType',
-        'DesignPrimaryPurpose',
-        'OrgStudyId',
-        'SecondaryId',
-        'StartDate',
-        'PrimaryCompletionDate',
-        'CompletionDate',
-        'StudyFirstPostDate',
-        'ResultsFirstPostDate',
-        'LastUpdatePostDate',
-        'Timestamp'
+        'NCTId', 'BriefTitle', 'Acronym', 'OverallStatus', 'BriefSummary',
+        'HasResults', 'Condition', 'InterventionType', 'InterventionName',
+        'PrimaryOutcomeMeasure', 'SecondaryOutcomeMeasure', 'LeadSponsorName',
+        'CollaboratorName', 'Sex', 'MinimumAge', 'MaximumAge', 'StdAge', 'Phase',
+        'EnrollmentCount', 'LeadSponsorClass', 'StudyType', 'DesignPrimaryPurpose',
+        'OrgStudyId', 'SecondaryId', 'StartDate', 'PrimaryCompletionDate',
+        'CompletionDate', 'StudyFirstPostDate', 'ResultsFirstPostDate',
+        'LastUpdatePostDate', 'Timestamp'
     ]
 
     with open(csv_file, 'w', newline='', encoding='utf-8') as csvfile:
@@ -114,74 +59,48 @@ def json_to_csv(json_file, csv_file):
             identification = protocol.get('identificationModule', {})
             status = protocol.get('statusModule', {})
             sponsor = protocol.get('sponsorCollaboratorsModule', {})
-            conditions_module = protocol.get('conditionsModule', {})
+            outcomes = protocol.get('outcomesModule', {})
+            interventions = protocol.get('armsInterventionsModule', {}).get('interventions', [])
+            eligibility = protocol.get('eligibilityModule', {})
+            conditions = protocol.get('conditionsModule', {})
             design = protocol.get('designModule', {})
             description = protocol.get('descriptionModule', {})
 
-            nct_id = identification.get('nctId', '')
-            brief_title = identification.get('briefTitle', '')
-            acronym = identification.get('acronym', '')
-            overall_status = status.get('overallStatus', '')
-            brief_summary = description.get('briefSummary', '')
-            has_results = description.get('hasResults', '')
-            condition = ', '.join(conditions_module.get('conditions', []))
-            intervention_type = ', '.join(design.get('interventionType', []))
-            intervention_name = ', '.join(design.get('interventionName', []))
-            primary_outcome_measure = ', '.join(design.get('primaryOutcomeMeasure', []))
-            secondary_outcome_measure = ', '.join(design.get('secondaryOutcomeMeasure', []))
-            lead_sponsor = sponsor.get('leadSponsor', {}).get('name', '')
-            collaborator = ', '.join(sponsor.get('collaborator', []))
-            sex = ', '.join(design.get('sex', []))
-            minimum_age = design.get('minimumAge', '')
-            maximum_age = design.get('maximumAge', '')
-            std_age = design.get('stdAge', '')
-            phase = ', '.join(design.get('phase', []))
-            enrollment_count = design.get('enrollmentInfo', {}).get('count', '')
-            lead_sponsor_class = sponsor.get('leadSponsor', {}).get('class', '')
-            study_type = design.get('studyType', '')
-            design_primary_purpose = design.get('designInfo', {}).get('primaryPurpose', '')
-            org_study_id = identification.get('orgStudyIdInfo', {}).get('id', '')
-            secondary_id = ', '.join([sid.get('id', '') for sid in identification.get('secondaryIdInfos', [])])
-            start_date = status.get('startDateStruct', {}).get('date', '')
-            primary_completion_date = status.get('primaryCompletionDateStruct', {}).get('date', '')
-            completion_date = status.get('completionDateStruct', {}).get('date', '')
-            study_first_post_date = status.get('studyFirstPostDateStruct', {}).get('date', '')
-            results_first_post_date = status.get('resultsFirstPostDateStruct', {}).get('date', '')
-            last_update_post_date = status.get('lastUpdatePostDateStruct', {}).get('date', '')
-
-            writer.writerow({
-                'NCTId': nct_id,
-                'BriefTitle': brief_title,
-                'Acronym': acronym,
-                'OverallStatus': overall_status,
-                'BriefSummary': brief_summary,
-                'HasResults': has_results,
-                'Condition': condition,
-                'InterventionType': intervention_type,
-                'InterventionName': intervention_name,
-                'PrimaryOutcomeMeasure': primary_outcome_measure,
-                'SecondaryOutcomeMeasure': secondary_outcome_measure,
-                'LeadSponsorName': lead_sponsor,
-                'CollaboratorName': collaborator,
-                'Sex': sex,
-                'MinimumAge': minimum_age,
-                'MaximumAge': maximum_age,
-                'StdAge': std_age,
-                'Phase': phase,
-                'EnrollmentCount': enrollment_count,
-                'LeadSponsorClass': lead_sponsor_class,
-                'StudyType': study_type,
-                'DesignPrimaryPurpose': design_primary_purpose,
-                'OrgStudyId': org_study_id,
-                'SecondaryId': secondary_id,
-                'StartDate': start_date,
-                'PrimaryCompletionDate': primary_completion_date,
-                'CompletionDate': completion_date,
-                'StudyFirstPostDate': study_first_post_date,
-                'ResultsFirstPostDate': results_first_post_date,
-                'LastUpdatePostDate': last_update_post_date,
+            row = {
+                'NCTId': identification.get('nctId', ''),
+                'BriefTitle': identification.get('briefTitle', ''),
+                'Acronym': identification.get('acronym', ''),
+                'OverallStatus': status.get('overallStatus', ''),
+                'BriefSummary': description.get('briefSummary', ''),
+                'HasResults': study.get('hasResults', ''),
+                'Condition': ', '.join(conditions.get('conditions', [])),
+                'InterventionType': ', '.join(i.get('type', '') for i in interventions),
+                'InterventionName': ', '.join(i.get('name', '') for i in interventions),
+                'PrimaryOutcomeMeasure': ', '.join(o.get('measure', '') for o in outcomes.get('primaryOutcomes', [])),
+                'SecondaryOutcomeMeasure': ', '.join(o.get('measure', '') for o in outcomes.get('secondaryOutcomes', [])),
+                'LeadSponsorName': sponsor.get('leadSponsor', {}).get('name', ''),
+                'CollaboratorName': ', '.join(c.get('name', '') for c in sponsor.get('collaborators', [])),
+                'Sex': eligibility.get('sex', ''),
+                'MinimumAge': eligibility.get('minimumAge', ''),
+                'MaximumAge': eligibility.get('maximumAge', ''),
+                'StdAge': ', '.join(eligibility.get('stdAges', [])),
+                'Phase': ', '.join(design.get('phases', [])),
+                'EnrollmentCount': design.get('enrollmentInfo', {}).get('count', ''),
+                'LeadSponsorClass': sponsor.get('leadSponsor', {}).get('class', ''),
+                'StudyType': design.get('studyType', ''),
+                'DesignPrimaryPurpose': design.get('designInfo', {}).get('primaryPurpose', ''),
+                'OrgStudyId': identification.get('orgStudyIdInfo', {}).get('id', ''),
+                'SecondaryId': ', '.join(sid.get('id', '') for sid in identification.get('secondaryIdInfos', [])),
+                'StartDate': status.get('startDateStruct', {}).get('date', ''),
+                'PrimaryCompletionDate': status.get('primaryCompletionDateStruct', {}).get('date', ''),
+                'CompletionDate': status.get('completionDateStruct', {}).get('date', ''),
+                'StudyFirstPostDate': status.get('studyFirstPostDateStruct', {}).get('date', ''),
+                'ResultsFirstPostDate': status.get('resultsFirstPostDateStruct', {}).get('date', ''),
+                'LastUpdatePostDate': status.get('lastUpdatePostDateStruct', {}).get('date', ''),
                 'Timestamp': timestamp
-            })
+            }
+
+            writer.writerow(row)
 
     print(f"Data has been successfully written to {csv_file}.")
 
@@ -193,24 +112,44 @@ def append_to_history(current_csv, history_csv):
             reader = csv.reader(current_file)
             writer = csv.writer(history_file)
 
-            header = next(reader)
-
+            header = next(reader)  # Skip header from current file
             if not file_exists:
-                writer.writerow(header)
+                writer.writerow(header)  # Write header only if the file doesn't exist
 
             for row in reader:
                 writer.writerow(row)
 
     print(f"Data from {current_csv} has been appended to {history_csv}.")
 
+def append_to_history_json(current_json, history_json):
+    # Load existing history data if it exists
+    if os.path.isfile(history_json):
+        with open(history_json, 'r') as f:
+            history_data = json.load(f)
+    else:
+        history_data = []
+    # Load current data
+    with open(current_json, 'r') as f:
+        current_data = json.load(f)
+    # Get timestamp
+    timestamp = datetime.datetime.now().isoformat()
+    # Add timestamp to each study in current_data
+    for study in current_data:
+        study['Timestamp'] = timestamp
+    # Append current_data to history_data
+    history_data.extend(current_data)
+    # Write combined data back to history_json
+    with open(history_json, 'w') as f:
+        json.dump(history_data, f, indent=2)
+    print(f"Data from {current_json} has been appended to {history_json}.")
+
 if __name__ == "__main__":
     download_studies(3)
     json_file = os.path.join('data', 'dmd_current.json')
     csv_file = os.path.join('data', 'dmd_current.csv')
     history_csv = os.path.join('data', 'dmd_history.csv')
+    history_json = os.path.join('data', 'dmd_history.json')
 
     json_to_csv(json_file, csv_file)
     append_to_history(csv_file, history_csv)
-
-
-
+    append_to_history_json(json_file, history_json)
