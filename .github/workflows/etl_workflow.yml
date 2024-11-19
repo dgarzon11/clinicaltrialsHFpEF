@@ -34,7 +34,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git add duchenne_studies_sample.json duchenne_studies_sample.csv duchenne_studies_history.csv
+          git add dmd_current.json dmd_current.csv dmd_history.csv dmd_history.json
           git commit -m "Automatic update of ETL data"
           git push
         env:
