@@ -3532,7 +3532,11 @@
       }
     },
     "hasResults": true,
+<<<<<<< HEAD
     "Timestamp": "2024-11-19T11:15:39.770878"
+=======
+    "Timestamp": "2024-11-19T16:14:42.213610"
+>>>>>>> 97cc2ad0268834e867ca17faf3cf7737b70d2e2c
   },
   {
     "protocolSection": {
@@ -3975,7 +3979,11 @@
       }
     },
     "hasResults": false,
+<<<<<<< HEAD
     "Timestamp": "2024-11-19T11:15:39.770878"
+=======
+    "Timestamp": "2024-11-19T16:14:42.213610"
+>>>>>>> 97cc2ad0268834e867ca17faf3cf7737b70d2e2c
   },
   {
     "protocolSection": {
@@ -4353,6 +4361,10 @@
       }
     },
     "hasResults": false,
+<<<<<<< HEAD
     "Timestamp": "2024-11-19T11:15:39.770878"
+=======
+    "Timestamp": "2024-11-19T16:14:42.213610"
+>>>>>>> 97cc2ad0268834e867ca17faf3cf7737b70d2e2c
   }
 ]
