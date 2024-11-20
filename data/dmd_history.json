@@ -2890,5 +2890,1451 @@
     },
     "hasResults": false,
     "Timestamp": "2024-11-19T16:21:16.590092"
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT00873782",
+        "orgStudyIdInfo": {
+          "id": "U54AR056953",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/U54AR056953"
+        },
+        "secondaryIdInfos": [
+          {
+            "id": "U54AR056953",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U54AR056953"
+          }
+        ],
+        "organization": {
+          "fullName": "University of North Carolina, Chapel Hill",
+          "class": "OTHER"
+        },
+        "briefTitle": "Safety Study of Transvenous Limb Perfusion in Human Muscular Dystrophy",
+        "officialTitle": "Safety and Feasibility of Transvenous Limb Perfusion With Normal Saline in Human Muscular Dystrophy"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2015-01",
+        "overallStatus": "COMPLETED",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2009-03"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2014-02",
+          "type": "ACTUAL"
+        },
+        "completionDateStruct": {
+          "date": "2014-02",
+          "type": "ACTUAL"
+        },
+        "studyFirstSubmitDate": "2009-04-01",
+        "studyFirstSubmitQcDate": "2009-04-01",
+        "studyFirstPostDateStruct": {
+          "date": "2009-04-02",
+          "type": "ESTIMATED"
+        },
+        "resultsFirstSubmitDate": "2015-01-22",
+        "resultsFirstSubmitQcDate": "2015-02-27",
+        "resultsFirstPostDateStruct": {
+          "date": "2015-03-09",
+          "type": "ESTIMATED"
+        },
+        "lastUpdateSubmitDate": "2015-02-27",
+        "lastUpdatePostDateStruct": {
+          "date": "2015-03-09",
+          "type": "ESTIMATED"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "responsibleParty": {
+          "type": "PRINCIPAL_INVESTIGATOR",
+          "investigatorFullName": "William Powers",
+          "investigatorTitle": "Professor of Neurology",
+          "investigatorAffiliation": "University of North Carolina, Chapel Hill"
+        },
+        "leadSponsor": {
+          "name": "University of North Carolina, Chapel Hill",
+          "class": "OTHER"
+        },
+        "collaborators": [
+          {
+            "name": "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
+            "class": "NIH"
+          },
+          {
+            "name": "University of North Carolina",
+            "class": "OTHER"
+          }
+        ]
+      },
+      "oversightModule": {
+        "oversightHasDmc": true
+      },
+      "descriptionModule": {
+        "briefSummary": "Muscular dystrophies are inherited disorders in which the skeletal and heart muscles become progressively weaker, sometimes leading to permanent disability. Current treatments aim to control symptoms as much as possible, but there is no cure. Gene therapy, in which defective genes causing the disorder are corrected, is a potential treatment option and is in the process of being developed for muscular dystrophies. This study will determine the safety and feasibility of a particular delivery method for gene therapy that could be used in the future to treat people with muscular dystrophies. Only normal saline, and no active treatment, will be used in this study.",
+        "detailedDescription": "There are many types of muscular dystrophies, all of which are progressive, degenerative genetic disorders. One type is Becker's muscular dystrophy, which involves slowly worsening muscle weakness of the legs and pelvis and which can lead to cardiomyopathy, deformities, respiratory failure, and permanent disability. Limb-girdle muscular dystrophy, another type, is also characterized by progressive muscle weakness, first affecting the muscles around the shoulder girdle and hips and possibly affecting other muscles as the disorder progresses. Complications of limb-girdle muscular dystrophy can include abnormal heart rhythms, joint contractures, difficulties with activities of daily living, significant loss of mobility, and permanent disability. There is no cure for muscular dystrophies. Current treatments, such as steroids, mobility aids, physical therapy, and respiratory care, can decrease some of the complications, but there is a clear need for a curative therapy.\n\nThe genetic basis of muscular dystrophies is well understood, which makes gene therapy a potential treatment option in the future. A key step in developing gene therapy involves first ensuring safe delivery of genetic material into a single limb of a patient before using active treatment in the patient's entire body. High-pressure, high-volume transvenous limb perfusion, in which fluid is forced under high pressure into arm and leg muscles through the veins, has shown the greatest potential as a delivery method. The purpose of this study is to determine the safety and feasibility of this method with normal saline in people who have Becker's muscular dystrophy or limb-girdle muscular dystrophy.\n\nParticipation in this study will last up to 4 weeks. At an initial baseline visit, participants will undergo water emersion measurements of their arm and leg, nerve testing, and muscle strength testing. About 1 to 2 weeks later, participants will enter the pediatric intensive care unit for up to 36 hours. During the inpatient stay, participants will undergo the high-pressure, high-volume transvenous limb perfusion procedure with normal saline in one of their arms or legs. Throughout the hospital stay, breathing, heart rate, and blood pressure will be monitored. Medication will be available to control any discomfort or pain experienced by participants. Each subsequent participant will receive more fluid pumped at a higher pressure and with a tighter tourniquet than the previous participant, as long as no problems or adverse effects are detected. Some of the participants will undergo an MRI immediately after the perfusion procedure. About 1 to 2 weeks after the inpatient stay, participants will attend a follow-up visit that will include repeat nerve and muscle strength testing, a blood draw, photos of limbs, and an ultrasound of the leg blood vessels if the participant's leg was used during the perfusion procedure."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Muscular Dystrophies",
+          "Duchenne Muscular Dystrophy",
+          "Becker Muscular Dystrophy",
+          "Limb-Girdle Muscular Dystrophy"
+        ],
+        "keywords": [
+          "Limb Perfusion",
+          "Gene Therapy"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE1"
+        ],
+        "designInfo": {
+          "allocation": "NA",
+          "interventionModel": "SINGLE_GROUP",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "NONE"
+          }
+        },
+        "enrollmentInfo": {
+          "count": 16,
+          "type": "ACTUAL"
+        }
+      },
+      "armsInterventionsModule": {
+        "armGroups": [
+          {
+            "label": "1",
+            "type": "EXPERIMENTAL",
+            "description": "Participants will undergo retrograde high pressure transvenous limb perfusion with normal saline.",
+            "interventionNames": [
+              "Other: Retrograde high pressure transvenous perfusion with normal saline"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "OTHER",
+            "name": "Retrograde high pressure transvenous perfusion with normal saline",
+            "description": "Dose escalation of saline volume, infusion rate, and tourniquet pressure, as determined in a stepwise manner and by careful monitoring",
+            "armGroupLabels": [
+              "1"
+            ]
+          }
+        ]
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "Muscle, Nerve, or Vascular Damage",
+            "description": "Number of Participants with all of the following three:\n\n1. Unchanged Doppler ultrasound to assess venous and arterial damage pre-and post perfusion based on report\n2. Without clinically significant changes in electrodiagnostic testing using standard neurographic techniques pre-and post perfusion:\\>1 mSec change in baseline distal motor latency; \\<75% baseline compound muscle action potential amplitude, \\<75% baseline conduction velocity, sensory nerve action potential\n3. Without clinically significant changes in Quantitative muscle testing (QMT) strength assessments pre-and post perfusion:\\< 85% baseline",
+            "timeFrame": "Measured within 2 weeks after limb perfusion procedure"
+          }
+        ]
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of Duchenne or Becker muscular dystrophy, as defined by progressive weakness with onset before the age of 21, X-linked inheritance, and reduced dystrophin (less than 3%) on muscle biopsy OR mutation in the dystrophin gene\n* Diagnosis of limb girdle muscular dystrophy, as defined by progressive weakness with onset before the age of 21, normal dystrophin on muscle biopsy OR proven mutation associated with one of the types of limb girdle dystrophy\n* Older than 21 years of age and preferably younger 30 years of age\n* Able to stand, independently or with assistance\n* Able to communicate with pertinent staff\n* Able to understand and willingly comply with the requirements of the study\n\nExclusion Criteria:\n\n* Confirmed diagnosis of any other muscle disease\n* Previous compartment syndrome requiring surgical decompression\n* Previous venous or arterial thrombosis other than superficial venous thrombosis associated with intravenous catheter\n* Coagulopathy, including known diagnosis of bleeding diathesis, history of excessive bleeding on multiple occasions, or taking anticoagulant or platelet inhibitory medications\n* Systemic arterial or venous disease (e.g., Raynaud's, aortic coarctation or aneurysm)\n* Previous injury to selected limb with residual effect other than superficial scarring\n* Previous vascular surgery to selected limb\n* Previous compressive neuropathy (e.g., carpal tunnel syndrome in arm, peroneal palsy in leg)\n* Complex regional pain syndrome or other neurological cause of limb pain\n* Previous clinical diagnosis of congestive heart failure\n* Previous echocardiography showing ejection fraction less than 40% or ventricular dilation\n* Previous chest x-ray showing enlarged cardiac silhouette or pulmonary edema\n* History of rhabdomyolysis with worsening renal function\n* Creatinine greater than 1.7 mg/dL\n* Resting hypoxemia with SaO2 less than 90% on room air\n* Other significant heart, lung, or kidney disease that would compromise the body's capacity to handle a fluid load\n* Previous forced vital capacity less than 75% of age and height adjusted norm, in the absence of acute reversible pulmonary disease\n* Sickle cell disease (sickle cell anemia \\[SS\\] or sickle hemoglobin C disease \\[SC\\])\n* Pregnant\n* Non-English speaker",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "21 Years",
+        "stdAges": [
+          "ADULT",
+          "OLDER_ADULT"
+        ]
+      },
+      "contactsLocationsModule": {
+        "overallOfficials": [
+          {
+            "name": "William J. Powers, MD",
+            "affiliation": "University of North Carolina",
+            "role": "PRINCIPAL_INVESTIGATOR"
+          }
+        ],
+        "locations": [
+          {
+            "facility": "University of North Carolina at Chapel Hill",
+            "city": "Chapel Hill",
+            "state": "North Carolina",
+            "zip": "27599",
+            "country": "United States",
+            "geoPoint": {
+              "lat": 35.9132,
+              "lon": -79.05584
+            }
+          }
+        ]
+      }
+    },
+    "resultsSection": {
+      "participantFlowModule": {
+        "groups": [
+          {
+            "id": "FG000",
+            "title": "High Pressure Transvenous Limb Perfusion",
+            "description": "Participants will undergo retrograde high pressure transvenous limb perfusion of an arm or a leg with normal saline through an 18g or 20g peripheral catheter with a tourniquet on the upper part of the limb: The volume of saline as % of perfused limb volume was escalated beginning at 5%. Safety was determined by Doppler ultrasound to assess venous and arterial damage electrodiagnostic neurographic testing quantitative muscle testing strength assessments, the Action Research Arm Test (ARAT), basic metabolic panel (Na+, K+, Cl-, CO2, BUN, and creatinine), serum creatine kinase \\[CK\\], plasma and urine myoglobin. Some subjects underwent MRI to assess whether saline went subcutaneously or intramuscularly."
+          }
+        ],
+        "periods": [
+          {
+            "title": "Overall Study",
+            "milestones": [
+              {
+                "type": "STARTED",
+                "achievements": [
+                  {
+                    "groupId": "FG000",
+                    "numSubjects": "16"
+                  }
+                ]
+              },
+              {
+                "type": "COMPLETED",
+                "achievements": [
+                  {
+                    "groupId": "FG000",
+                    "numSubjects": "16"
+                  }
+                ]
+              },
+              {
+                "type": "NOT COMPLETED",
+                "achievements": [
+                  {
+                    "groupId": "FG000",
+                    "numSubjects": "0"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "baselineCharacteristicsModule": {
+        "groups": [
+          {
+            "id": "BG000",
+            "title": "High Pressure Transvenous Limb Perfusion",
+            "description": "Participants will undergo retrograde high pressure transvenous limb perfusion of an arm or a leg with normal saline through an 18g or 20g peripheral catheter with a tourniquet on the upper part of the limb: The volume of saline as % of perfused limb volume was escalated beginning at 5%. Safety was determined by Doppler ultrasound to assess venous and arterial damage electrodiagnostic neurographic testing quantitative muscle testing strength assessments, the Action Research Arm Test (ARAT), basic metabolic panel (Na+, K+, Cl-, CO2, BUN, and creatinine), serum creatine kinase \\[CK\\], plasma and urine myoglobin. Some subjects underwent MRI to assess whether saline went subcutaneously or intramuscularly."
+          }
+        ],
+        "denoms": [
+          {
+            "units": "Participants",
+            "counts": [
+              {
+                "groupId": "BG000",
+                "value": "16"
+              }
+            ]
+          }
+        ],
+        "measures": [
+          {
+            "title": "Age, Categorical",
+            "paramType": "COUNT_OF_PARTICIPANTS",
+            "unitOfMeasure": "Participants",
+            "classes": [
+              {
+                "categories": [
+                  {
+                    "title": "<=18 years",
+                    "measurements": [
+                      {
+                        "groupId": "BG000",
+                        "value": "0"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Between 18 and 65 years",
+                    "measurements": [
+                      {
+                        "groupId": "BG000",
+                        "value": "16"
+                      }
+                    ]
+                  },
+                  {
+                    "title": ">=65 years",
+                    "measurements": [
+                      {
+                        "groupId": "BG000",
+                        "value": "0"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Age, Continuous",
+            "paramType": "MEAN",
+            "dispersionType": "STANDARD_DEVIATION",
+            "unitOfMeasure": "years",
+            "classes": [
+              {
+                "categories": [
+                  {
+                    "measurements": [
+                      {
+                        "groupId": "BG000",
+                        "value": "31",
+                        "spread": "8"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Sex: Female, Male",
+            "paramType": "COUNT_OF_PARTICIPANTS",
+            "unitOfMeasure": "Participants",
+            "classes": [
+              {
+                "categories": [
+                  {
+                    "title": "Female",
+                    "measurements": [
+                      {
+                        "groupId": "BG000",
+                        "value": "7"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Male",
+                    "measurements": [
+                      {
+                        "groupId": "BG000",
+                        "value": "9"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Region of Enrollment",
+            "paramType": "NUMBER",
+            "unitOfMeasure": "participants",
+            "classes": [
+              {
+                "title": "United States",
+                "categories": [
+                  {
+                    "measurements": [
+                      {
+                        "groupId": "BG000",
+                        "value": "16"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "outcomeMeasuresModule": {
+        "outcomeMeasures": [
+          {
+            "type": "PRIMARY",
+            "title": "Muscle, Nerve, or Vascular Damage",
+            "description": "Number of Participants with all of the following three:\n\n1. Unchanged Doppler ultrasound to assess venous and arterial damage pre-and post perfusion based on report\n2. Without clinically significant changes in electrodiagnostic testing using standard neurographic techniques pre-and post perfusion:\\>1 mSec change in baseline distal motor latency; \\<75% baseline compound muscle action potential amplitude, \\<75% baseline conduction velocity, sensory nerve action potential\n3. Without clinically significant changes in Quantitative muscle testing (QMT) strength assessments pre-and post perfusion:\\< 85% baseline",
+            "reportingStatus": "POSTED",
+            "paramType": "NUMBER",
+            "unitOfMeasure": "participants",
+            "timeFrame": "Measured within 2 weeks after limb perfusion procedure",
+            "groups": [
+              {
+                "id": "OG000",
+                "title": "High Pressure Transvenous Limb Perfusion",
+                "description": "Participants will undergo retrograde high pressure transvenous limb perfusion of an arm or a leg with normal saline through an 18g or 20g peripheral catheter with a tourniquet on the upper part of the limb: The volume of saline as % of perfused limb volume was escalated beginning at 5%. Safety was determined by Doppler ultrasound to assess venous and arterial damage electrodiagnostic neurographic testing quantitative muscle testing strength assessments, the Action Research Arm Test (ARAT), basic metabolic panel (Na+, K+, Cl-, CO2, BUN, and creatinine), serum creatine kinase \\[CK\\], plasma and urine myoglobin. Some subjects underwent MRI to assess whether saline went subcutaneously or intramuscularly."
+              }
+            ],
+            "denoms": [
+              {
+                "units": "Participants",
+                "counts": [
+                  {
+                    "groupId": "OG000",
+                    "value": "16"
+                  }
+                ]
+              }
+            ],
+            "classes": [
+              {
+                "categories": [
+                  {
+                    "measurements": [
+                      {
+                        "groupId": "OG000",
+                        "value": "16"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "adverseEventsModule": {
+        "frequencyThreshold": "0",
+        "timeFrame": "1 month",
+        "eventGroups": [
+          {
+            "id": "EG000",
+            "title": "High Pressure Transvenous Limb Perfusion",
+            "description": "Participants will undergo retrograde high pressure transvenous limb perfusion of an arm or a leg with normal saline through an 18g or 20g peripheral catheter with a tourniquet on the upper part of the limb: The volume of saline as % of perfused limb volume was escalated beginning at 5%. Safety was determined by Doppler ultrasound to assess venous and arterial damage electrodiagnostic neurographic testing quantitative muscle testing strength assessments, the Action Research Arm Test (ARAT), basic metabolic panel (Na+, K+, Cl-, CO2, BUN, and creatinine), serum creatine kinase \\[CK\\], plasma and urine myoglobin. Some subjects underwent MRI to assess whether saline went subcutaneously or intramuscularly.",
+            "seriousNumAffected": 0,
+            "seriousNumAtRisk": 16,
+            "otherNumAffected": 12,
+            "otherNumAtRisk": 16
+          }
+        ],
+        "otherEvents": [
+          {
+            "term": "Ankle pain",
+            "organSystem": "Musculoskeletal and connective tissue disorders",
+            "assessmentType": "SYSTEMATIC_ASSESSMENT",
+            "stats": [
+              {
+                "groupId": "EG000",
+                "numAffected": 2,
+                "numAtRisk": 16
+              }
+            ]
+          },
+          {
+            "term": "Elevated Muscle Compartment pressures",
+            "organSystem": "Musculoskeletal and connective tissue disorders",
+            "assessmentType": "SYSTEMATIC_ASSESSMENT",
+            "stats": [
+              {
+                "groupId": "EG000",
+                "numAffected": 10,
+                "numAtRisk": 16
+              }
+            ]
+          },
+          {
+            "term": "Reduced Compound Muscle Action Potentials",
+            "organSystem": "Nervous system disorders",
+            "assessmentType": "SYSTEMATIC_ASSESSMENT",
+            "stats": [
+              {
+                "groupId": "EG000",
+                "numAffected": 1,
+                "numAtRisk": 16
+              }
+            ]
+          }
+        ]
+      },
+      "moreInfoModule": {
+        "certainAgreement": {
+          "piSponsorEmployee": false,
+          "restrictiveAgreement": false
+        },
+        "pointOfContact": {
+          "title": "William J. Powers, MD",
+          "organization": "University of North Carolina at Chapel HIll",
+          "email": "powersw@neurology.unc.edu",
+          "phone": "919 966 8178"
+        }
+      }
+    },
+    "derivedSection": {
+      "miscInfoModule": {
+        "versionHolder": "2024-11-19"
+      },
+      "conditionBrowseModule": {
+        "meshes": [
+          {
+            "id": "D009136",
+            "term": "Muscular Dystrophies"
+          },
+          {
+            "id": "D020388",
+            "term": "Muscular Dystrophy, Duchenne"
+          },
+          {
+            "id": "D049288",
+            "term": "Muscular Dystrophies, Limb-Girdle"
+          }
+        ],
+        "ancestors": [
+          {
+            "id": "D020966",
+            "term": "Muscular Disorders, Atrophic"
+          },
+          {
+            "id": "D009135",
+            "term": "Muscular Diseases"
+          },
+          {
+            "id": "D009140",
+            "term": "Musculoskeletal Diseases"
+          },
+          {
+            "id": "D009468",
+            "term": "Neuromuscular Diseases"
+          },
+          {
+            "id": "D009422",
+            "term": "Nervous System Diseases"
+          },
+          {
+            "id": "D030342",
+            "term": "Genetic Diseases, Inborn"
+          },
+          {
+            "id": "D040181",
+            "term": "Genetic Diseases, X-Linked"
+          }
+        ],
+        "browseLeaves": [
+          {
+            "id": "M12093",
+            "name": "Muscular Dystrophies",
+            "asFound": "Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "M22185",
+            "name": "Muscular Dystrophy, Duchenne",
+            "asFound": "Becker Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "M26038",
+            "name": "Muscular Dystrophies, Limb-Girdle",
+            "asFound": "Limb Girdle Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "M12092",
+            "name": "Muscular Diseases",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M4589",
+            "name": "Atrophy",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M22697",
+            "name": "Muscular Disorders, Atrophic",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M12097",
+            "name": "Musculoskeletal Diseases",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M12411",
+            "name": "Neuromuscular Diseases",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M23686",
+            "name": "Genetic Diseases, Inborn",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M24877",
+            "name": "Genetic Diseases, X-Linked",
+            "relevance": "LOW"
+          },
+          {
+            "id": "T3963",
+            "name": "Muscular Dystrophy",
+            "asFound": "Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "T698",
+            "name": "Becker Muscular Dystrophy",
+            "asFound": "Becker Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "T1945",
+            "name": "Duchenne Muscular Dystrophy",
+            "asFound": "Duchenne Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "T3425",
+            "name": "Limb-girdle Muscular Dystrophy",
+            "asFound": "Limb Girdle Muscular Dystrophy",
+            "relevance": "HIGH"
+          }
+        ],
+        "browseBranches": [
+          {
+            "abbrev": "BC05",
+            "name": "Musculoskeletal Diseases"
+          },
+          {
+            "abbrev": "BC10",
+            "name": "Nervous System Diseases"
+          },
+          {
+            "abbrev": "BC16",
+            "name": "Diseases and Abnormalities at or Before Birth"
+          },
+          {
+            "abbrev": "All",
+            "name": "All Conditions"
+          },
+          {
+            "abbrev": "BC23",
+            "name": "Symptoms and General Pathology"
+          },
+          {
+            "abbrev": "Rare",
+            "name": "Rare Diseases"
+          }
+        ]
+      }
+    },
+    "hasResults": true,
+    "Timestamp": "2024-11-20T07:19:05.188559"
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT06244082",
+        "orgStudyIdInfo": {
+          "id": "AOC 1044-CS2"
+        },
+        "organization": {
+          "fullName": "Avidity Biosciences, Inc.",
+          "class": "INDUSTRY"
+        },
+        "briefTitle": "Ph2 Open-label Study of AOC 1044 in Duchenne Muscular Dystrophy Participants with Mutations Amenable to Exon44 Skipping",
+        "officialTitle": "A Phase 2 Open-label Study to Evaluate the Pharmacodynamics and Long-Term Safety and Tolerability of AOC 1044 Administered Intravenously to DMD Participants with Mutations Amenable to Exon 44 Skipping",
+        "acronym": "EXPLORE44OLE"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2024-09",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2024-01-22",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2025-12-31",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2026-12-31",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2024-01-26",
+        "studyFirstSubmitQcDate": "2024-02-02",
+        "studyFirstPostDateStruct": {
+          "date": "2024-02-06",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2024-09-20",
+        "lastUpdatePostDateStruct": {
+          "date": "2024-09-23",
+          "type": "ACTUAL"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "responsibleParty": {
+          "type": "SPONSOR"
+        },
+        "leadSponsor": {
+          "name": "Avidity Biosciences, Inc.",
+          "class": "INDUSTRY"
+        }
+      },
+      "oversightModule": {
+        "oversightHasDmc": true,
+        "isFdaRegulatedDrug": true,
+        "isFdaRegulatedDevice": false,
+        "isUsExport": false
+      },
+      "descriptionModule": {
+        "briefSummary": "AOC 1044-CS2 (EXPLORE44-OLE) is an Open-label Study to Evaluate the Pharmacodynamics and Long-Term Safety and Tolerability of AOC 1044 Administered Intravenously to DMD Participants with Mutations Amenable to Exon 44 Skipping.",
+        "detailedDescription": "AOC 1044-CS2 (EXPLORE44-OLE) is an open label, extension study to Part B of AOC 1044-CS1 (EXPLORE44). AOC 1044-CS2 is designed to evaluate the pharmacodynamic effect of AOC 1044 on dystrophin protein production in skeletal muscle as well as the long-term safety, tolerability, pharmacokinetics, and exploratory efficacy of AOC 1044.\n\nAll participants who enroll in AOC 1044-CS2 will receive active treatment. The treatment period is 2 years with IV dosing every 6 or 8 weeks.\n\nOnce participants have completed active treatment, they will be followed through a 3-month safety follow-up period. The sponsor may extend active treatment beyond 2 years at a future timepoint."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "DMD",
+          "Duchenne Muscular Dystrophy",
+          "Duchenne",
+          "Exon 44"
+        ],
+        "keywords": [
+          "EXPLORE44",
+          "EXPLORE44-OLE",
+          "EXPLORE44 OLE",
+          "Avidity Biosciences",
+          "Avidity",
+          "AOC 1044",
+          "AOC 1044-CS1",
+          "AOC 1044-CS2",
+          "AOC"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "designInfo": {
+          "allocation": "NA",
+          "interventionModel": "SINGLE_GROUP",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "NONE",
+            "maskingDescription": "Randomization from the parent study, AOC 1044-CS1 will remain blinded."
+          }
+        },
+        "enrollmentInfo": {
+          "count": 35,
+          "type": "ESTIMATED"
+        }
+      },
+      "armsInterventionsModule": {
+        "armGroups": [
+          {
+            "label": "AOC 1044 Multiple Dose Levels",
+            "type": "EXPERIMENTAL",
+            "description": "AOC 1044 will be IV infused every 6 weeks or 8 weeks for approximately 2 years.",
+            "interventionNames": [
+              "Drug: AOC 1044"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "AOC 1044",
+            "description": "AOC 1044 will be administered via intravenous (IV) infusion",
+            "armGroupLabels": [
+              "AOC 1044 Multiple Dose Levels"
+            ]
+          }
+        ]
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "Change from baseline to biopsy visit in dystrophin protein level as measured in skeletal muscle by western blot",
+            "timeFrame": "Baseline collection in AOC 1044-CS1 to 8 months after targeted dose starts in AOC 1044-CS2"
+          }
+        ],
+        "secondaryOutcomes": [
+          {
+            "measure": "Incidence of treatment emergent adverse events (TEAEs)",
+            "timeFrame": "Through study completion (approximately 2 years)"
+          },
+          {
+            "measure": "Change from baseline to biopsy visit in dystrophin protein levels as measured in skeletal muscle by mass spectrometry",
+            "timeFrame": "Baseline collection in AOC 1044-CS1 to 8 months after targeted dose starts in AOC 1044-CS2."
+          },
+          {
+            "measure": "Change from baseline to biopsy visit in exon skipping as measured in skeletal muscle",
+            "timeFrame": "Baseline collection in AOC 1044-CS1 to 8 months after targeted dose starts in AOC 1044-CS2."
+          }
+        ]
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Key Inclusion Criteria\n\nRollover Participants:\n\n* Satisfactorily completed AOC 1044-CS1 (EXPLORE44) as determined by the Investigator and Sponsor\n* No significant tolerability issues with AOC 1044\n\nDe novo Participants:\n\n* Aged 7 to 27 years, inclusive, at the time of informed consent\n* Clinical diagnosis of DMD or clear onset of DMD symptoms at or before the age of 6 years\n* Confirmation of DMD gene mutation amenable to exon 44 skipping\n* Weight \u2265 23 kg\n* Ambulatory or non-ambulatory\n\n  * Ambulatory participants: LVEF \u226550% and FVC\u226550%\n  * Non-ambulatory participants: LVEF \u226545% and FVC\u226540%\n* PUL 2.0 entry item A \u22653\n* If on corticosteroids, stable dose for 30 days before screening and throughout the study\n\nKey Exclusion Criteria\n\nRollover Participants:\n\n* Presence of any new condition or worsening of existing condition that could affect a participant\\&#39;s safety or ability to comply with study procedures\n\nDe novo Participants:\n\n* Serum hemoglobin \\&lt; lower limit of normal\n* Uncontrolled hypertension or diabetes\n* Prior treatment with any cell or gene therapy\n* Prior treatment with another exon 44 skipping agent within 6 months prior to informed consent\n* Recently treated with an investigational drug\n* History of multiple drug allergies",
+        "healthyVolunteers": false,
+        "sex": "MALE",
+        "minimumAge": "7 Years",
+        "maximumAge": "27 Years",
+        "stdAges": [
+          "CHILD",
+          "ADULT"
+        ]
+      },
+      "contactsLocationsModule": {
+        "centralContacts": [
+          {
+            "name": "Avidity Biosciences, Inc. Patient Advocacy",
+            "role": "CONTACT",
+            "phone": "858-771-7038",
+            "email": "medinfo@aviditybio.com"
+          }
+        ],
+        "overallOfficials": [
+          {
+            "name": "Marc Morris, JD, MD, MS",
+            "affiliation": "Avidity Biosciences, Inc.",
+            "role": "STUDY_DIRECTOR"
+          }
+        ],
+        "locations": [
+          {
+            "facility": "Arkansas Children&amp;#39;s Hospital",
+            "status": "RECRUITING",
+            "city": "Little Rock",
+            "state": "Arkansas",
+            "zip": "72202",
+            "country": "United States",
+            "geoPoint": {
+              "lat": 34.74648,
+              "lon": -92.28959
+            }
+          },
+          {
+            "facility": "University of California, San Diego, Rady&#39;s Children&#39;s Hospital",
+            "status": "RECRUITING",
+            "city": "La Jolla",
+            "state": "California",
+            "zip": "92037",
+            "country": "United States",
+            "geoPoint": {
+              "lat": 32.84727,
+              "lon": -117.2742
+            }
+          },
+          {
+            "facility": "UC Davis Medical Center",
+            "status": "NOT_YET_RECRUITING",
+            "city": "Sacramento",
+            "state": "California",
+            "zip": "95817",
+            "country": "United States",
+            "geoPoint": {
+              "lat": 38.58157,
+              "lon": -121.4944
+            }
+          },
+          {
+            "facility": "Lucille Packard Children&amp;#39;s Hospital at Stanford",
+            "status": "RECRUITING",
+            "city": "San Carlos",
+            "state": "California",
+            "zip": "94070",
+            "country": "United States",
+            "geoPoint": {
+              "lat": 37.50716,
+              "lon": -122.26052
+            }
+          },
+          {
+            "facility": "Rare Disease Research - Atlanta",
+            "status": "ENROLLING_BY_INVITATION",
+            "city": "Atlanta",
+            "state": "Georgia",
+            "zip": "30329",
+            "country": "United States",
+            "geoPoint": {
+              "lat": 33.749,
+              "lon": -84.38798
+            }
+          },
+          {
+            "facility": "University of Massachusetts Medical School",
+            "status": "RECRUITING",
+            "city": "Worcester",
+            "state": "Massachusetts",
+            "zip": "01655",
+            "country": "United States",
+            "geoPoint": {
+              "lat": 42.26259,
+              "lon": -71.80229
+            }
+          },
+          {
+            "facility": "Gillette Children&#39;s Specialty Healthcare",
+            "status": "RECRUITING",
+            "city": "St. Paul",
+            "state": "Minnesota",
+            "zip": "55101",
+            "country": "United States",
+            "geoPoint": {
+              "lat": 44.94441,
+              "lon": -93.09327
+            }
+          },
+          {
+            "facility": "Rare Disease Research",
+            "status": "RECRUITING",
+            "city": "Hillsborough",
+            "state": "North Carolina",
+            "zip": "27278",
+            "country": "United States",
+            "geoPoint": {
+              "lat": 36.07542,
+              "lon": -79.09973
+            }
+          },
+          {
+            "facility": "Abigail Wexner Research Institute at Nationwide Children&#39;s Hospital",
+            "status": "RECRUITING",
+            "city": "Columbus",
+            "state": "Ohio",
+            "zip": "43215",
+            "country": "United States",
+            "geoPoint": {
+              "lat": 39.96118,
+              "lon": -82.99879
+            }
+          },
+          {
+            "facility": "Neurology Rare Disease Center",
+            "status": "RECRUITING",
+            "city": "Denton",
+            "state": "Texas",
+            "zip": "76208",
+            "country": "United States",
+            "geoPoint": {
+              "lat": 33.21484,
+              "lon": -97.13307
+            }
+          }
+        ]
+      },
+      "ipdSharingStatementModule": {
+        "ipdSharing": "NO"
+      }
+    },
+    "derivedSection": {
+      "miscInfoModule": {
+        "versionHolder": "2024-11-19"
+      },
+      "conditionBrowseModule": {
+        "meshes": [
+          {
+            "id": "D009136",
+            "term": "Muscular Dystrophies"
+          },
+          {
+            "id": "D020388",
+            "term": "Muscular Dystrophy, Duchenne"
+          }
+        ],
+        "ancestors": [
+          {
+            "id": "D020966",
+            "term": "Muscular Disorders, Atrophic"
+          },
+          {
+            "id": "D009135",
+            "term": "Muscular Diseases"
+          },
+          {
+            "id": "D009140",
+            "term": "Musculoskeletal Diseases"
+          },
+          {
+            "id": "D009468",
+            "term": "Neuromuscular Diseases"
+          },
+          {
+            "id": "D009422",
+            "term": "Nervous System Diseases"
+          },
+          {
+            "id": "D030342",
+            "term": "Genetic Diseases, Inborn"
+          },
+          {
+            "id": "D040181",
+            "term": "Genetic Diseases, X-Linked"
+          }
+        ],
+        "browseLeaves": [
+          {
+            "id": "M12093",
+            "name": "Muscular Dystrophies",
+            "asFound": "Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "M22185",
+            "name": "Muscular Dystrophy, Duchenne",
+            "asFound": "Duchenne Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "M12092",
+            "name": "Muscular Diseases",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M4589",
+            "name": "Atrophy",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M22697",
+            "name": "Muscular Disorders, Atrophic",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M12097",
+            "name": "Musculoskeletal Diseases",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M12411",
+            "name": "Neuromuscular Diseases",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M23686",
+            "name": "Genetic Diseases, Inborn",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M24877",
+            "name": "Genetic Diseases, X-Linked",
+            "relevance": "LOW"
+          },
+          {
+            "id": "T3963",
+            "name": "Muscular Dystrophy",
+            "asFound": "Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "T698",
+            "name": "Becker Muscular Dystrophy",
+            "asFound": "Duchenne Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "T1945",
+            "name": "Duchenne Muscular Dystrophy",
+            "asFound": "Duchenne Muscular Dystrophy",
+            "relevance": "HIGH"
+          }
+        ],
+        "browseBranches": [
+          {
+            "abbrev": "BC05",
+            "name": "Musculoskeletal Diseases"
+          },
+          {
+            "abbrev": "BC10",
+            "name": "Nervous System Diseases"
+          },
+          {
+            "abbrev": "BC16",
+            "name": "Diseases and Abnormalities at or Before Birth"
+          },
+          {
+            "abbrev": "All",
+            "name": "All Conditions"
+          },
+          {
+            "abbrev": "BC23",
+            "name": "Symptoms and General Pathology"
+          },
+          {
+            "abbrev": "Rare",
+            "name": "Rare Diseases"
+          }
+        ]
+      }
+    },
+    "hasResults": false,
+    "Timestamp": "2024-11-20T07:19:05.188559"
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT02614820",
+        "orgStudyIdInfo": {
+          "id": "JZheng"
+        },
+        "organization": {
+          "fullName": "General Hospital of Chinese Armed Police Forces",
+          "class": "OTHER"
+        },
+        "briefTitle": "The Safety, Efficacy and Tolerability of Remote Ischemic Preconditioning as a Therapy to DMD"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2015-11",
+        "overallStatus": "UNKNOWN",
+        "lastKnownStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2015-11"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2016-07",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2016-12",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2015-11-17",
+        "studyFirstSubmitQcDate": "2015-11-22",
+        "studyFirstPostDateStruct": {
+          "date": "2015-11-25",
+          "type": "ESTIMATED"
+        },
+        "lastUpdateSubmitDate": "2015-11-22",
+        "lastUpdatePostDateStruct": {
+          "date": "2015-11-25",
+          "type": "ESTIMATED"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "responsibleParty": {
+          "type": "SPONSOR"
+        },
+        "leadSponsor": {
+          "name": "General Hospital of Chinese Armed Police Forces",
+          "class": "OTHER"
+        }
+      },
+      "descriptionModule": {
+        "briefSummary": "Background: Duchenne muscular dystrophy (DMD) is an X chromosome recessive hereditary disease and mainly characterized by progressive muscle weakness and atrophy. Glucocorticoid is the only proven effective medicine,while side effects limit its use. Recent studies have shown that the vascular density in the DMD patients' muscle is decreased,so muscle are in ischemic and anoxic. Remote ischemic preconditioning(RIPC) can improve the capable of resistanting ischemia and hypoxia and maybe a potential therapy for DMD patients.\n\nMethods: 100 patients (aged 2 to 6 years)will be divided into two groups(treatment and control groups) randomly. Treatment group will receive an RIPC stimulus (inflation of a blood pressure cuff on the bilateral thighs to 150 mm Hg for four 5-minute intervals) while control group will receive a similar stimulus (inflation of a blood pressure cuff on the bilateral thighs to 40 mm Hg for four 5-minute intervals). Serum kinase level ,Blood levels of myoglobin, Evaluation of motor function(Four steps test;6-minute walking test) and MRI of lower limbs\uff09at 0 days, 3 days, 3months ,6months.\n\nPurpose\uff1a\n\n1. To evaluate the safety and tolerability of remote ischemic preconditioning for DMD patients\n2. To identify the effectiveness of remote ischemic preconditioning for DMD patients."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy (DMD)"
+        ],
+        "keywords": [
+          "Ischemic preconditioning",
+          "sefety",
+          "efficacy",
+          "DMD"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "designInfo": {
+          "allocation": "RANDOMIZED",
+          "interventionModel": "PARALLEL",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "SINGLE",
+            "whoMasked": [
+              "PARTICIPANT"
+            ]
+          }
+        },
+        "enrollmentInfo": {
+          "count": 100,
+          "type": "ESTIMATED"
+        }
+      },
+      "armsInterventionsModule": {
+        "armGroups": [
+          {
+            "label": "treatment group",
+            "type": "EXPERIMENTAL",
+            "description": "inflation of a blood pressure cuff on the bilateral thighs to 150 mm Hg for four 5-minute intervals",
+            "interventionNames": [
+              "Procedure: Remote Ischemic Preconditioning Training Apparatus"
+            ]
+          },
+          {
+            "label": "control group",
+            "type": "OTHER",
+            "description": "inflation of a blood pressure cuff on the bilateral thighs to 40 mm Hg for four 5-minute intervals",
+            "interventionNames": [
+              "Procedure: Remote Ischemic Preconditioning Training Apparatus"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "PROCEDURE",
+            "name": "Remote Ischemic Preconditioning Training Apparatus",
+            "armGroupLabels": [
+              "control group",
+              "treatment group"
+            ]
+          }
+        ]
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "Serum CK value",
+            "timeFrame": "0 day"
+          },
+          {
+            "measure": "Serum CK value",
+            "timeFrame": "3 days"
+          },
+          {
+            "measure": "Serum CK value",
+            "timeFrame": "3 months"
+          },
+          {
+            "measure": "Serum CK value",
+            "timeFrame": "6 months"
+          },
+          {
+            "measure": "Serum myoglobin values",
+            "timeFrame": "0 day"
+          },
+          {
+            "measure": "Serum myoglobin values",
+            "timeFrame": "3 days"
+          }
+        ],
+        "secondaryOutcomes": [
+          {
+            "measure": "Serum myoglobin values",
+            "timeFrame": "3 months"
+          }
+        ],
+        "otherOutcomes": [
+          {
+            "measure": "Serum myoglobin values",
+            "timeFrame": "6 months"
+          },
+          {
+            "measure": "6-minute walking test",
+            "timeFrame": "0 day"
+          },
+          {
+            "measure": "6-minute walking test",
+            "timeFrame": "3 days"
+          },
+          {
+            "measure": "6-minute walking test",
+            "timeFrame": "3 months"
+          },
+          {
+            "measure": "6-minute walking test",
+            "timeFrame": "6 months"
+          },
+          {
+            "measure": "T2 values",
+            "timeFrame": "0 day"
+          },
+          {
+            "measure": "T2 values",
+            "timeFrame": "3 days"
+          },
+          {
+            "measure": "T2 values",
+            "timeFrame": "3 months"
+          },
+          {
+            "measure": "T2 values",
+            "timeFrame": "6 months"
+          }
+        ]
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:Genetic analysis of DMD; from 2 to 6 years old ;without other diseases .\n\n-\n\nExclusion Criteria: other congenital diseases;upper respiratory infection, gastroenteritis, vaccination, trauma.\n\n-",
+        "healthyVolunteers": false,
+        "sex": "MALE",
+        "minimumAge": "2 Years",
+        "maximumAge": "6 Years",
+        "stdAges": [
+          "CHILD"
+        ]
+      },
+      "contactsLocationsModule": {
+        "centralContacts": [
+          {
+            "name": "wu shiwen, Dr.",
+            "role": "CONTACT",
+            "phone": "13910238117",
+            "email": "wu_shiwen@yahoo.com"
+          }
+        ],
+        "locations": [
+          {
+            "facility": "Shiwen wu",
+            "status": "RECRUITING",
+            "city": "BeiJing",
+            "country": "China",
+            "contacts": [
+              {
+                "name": "wu shiwen, Dr.",
+                "role": "CONTACT",
+                "phone": "13910238117",
+                "email": "wu_shiwen@yahoo.com"
+              }
+            ],
+            "geoPoint": {
+              "lat": 39.9075,
+              "lon": 116.39723
+            }
+          }
+        ]
+      }
+    },
+    "derivedSection": {
+      "miscInfoModule": {
+        "versionHolder": "2024-11-19"
+      },
+      "conditionBrowseModule": {
+        "meshes": [
+          {
+            "id": "D009136",
+            "term": "Muscular Dystrophies"
+          },
+          {
+            "id": "D020388",
+            "term": "Muscular Dystrophy, Duchenne"
+          }
+        ],
+        "ancestors": [
+          {
+            "id": "D020966",
+            "term": "Muscular Disorders, Atrophic"
+          },
+          {
+            "id": "D009135",
+            "term": "Muscular Diseases"
+          },
+          {
+            "id": "D009140",
+            "term": "Musculoskeletal Diseases"
+          },
+          {
+            "id": "D009468",
+            "term": "Neuromuscular Diseases"
+          },
+          {
+            "id": "D009422",
+            "term": "Nervous System Diseases"
+          },
+          {
+            "id": "D030342",
+            "term": "Genetic Diseases, Inborn"
+          },
+          {
+            "id": "D040181",
+            "term": "Genetic Diseases, X-Linked"
+          }
+        ],
+        "browseLeaves": [
+          {
+            "id": "M10543",
+            "name": "Ischemia",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M12093",
+            "name": "Muscular Dystrophies",
+            "asFound": "Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "M22185",
+            "name": "Muscular Dystrophy, Duchenne",
+            "asFound": "Duchenne Muscular Dystrophy (DMD)",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "M12092",
+            "name": "Muscular Diseases",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M4589",
+            "name": "Atrophy",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M22697",
+            "name": "Muscular Disorders, Atrophic",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M12097",
+            "name": "Musculoskeletal Diseases",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M12411",
+            "name": "Neuromuscular Diseases",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M23686",
+            "name": "Genetic Diseases, Inborn",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M24877",
+            "name": "Genetic Diseases, X-Linked",
+            "relevance": "LOW"
+          },
+          {
+            "id": "T3963",
+            "name": "Muscular Dystrophy",
+            "asFound": "Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "T698",
+            "name": "Becker Muscular Dystrophy",
+            "asFound": "Duchenne Muscular Dystrophy (DMD)",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "T1945",
+            "name": "Duchenne Muscular Dystrophy",
+            "asFound": "Duchenne Muscular Dystrophy",
+            "relevance": "HIGH"
+          }
+        ],
+        "browseBranches": [
+          {
+            "abbrev": "BC23",
+            "name": "Symptoms and General Pathology"
+          },
+          {
+            "abbrev": "All",
+            "name": "All Conditions"
+          },
+          {
+            "abbrev": "BC05",
+            "name": "Musculoskeletal Diseases"
+          },
+          {
+            "abbrev": "BC10",
+            "name": "Nervous System Diseases"
+          },
+          {
+            "abbrev": "BC16",
+            "name": "Diseases and Abnormalities at or Before Birth"
+          },
+          {
+            "abbrev": "Rare",
+            "name": "Rare Diseases"
+          }
+        ]
+      }
+    },
+    "hasResults": false,
+    "Timestamp": "2024-11-20T07:19:05.188559"
   }
 ]
