@@ -8,7 +8,7 @@ from plotly.subplots import make_subplots        # Import the make_subplots func
 import plotly.graph_objects as go                            # Import the plotly.graph_objects module       
 pio.renderers.default = "browser"  # Set the default renderer to "browser"                                                                     
 
-df = pd.read_csv("duchenne_studies_sample.csv")
+df = pd.read_csv("data/dmd_current.csv")
 
 st.title("DMD Clinical Trials Dashboard")
 
@@ -18,9 +18,6 @@ st.info(f"Last update: {max_timestamp}")
 
 st.write(df)
 
-st.markdown("## Filter by Phase")
-phase_filter = st.selectbox('Select phase(s):', df['Phases'].unique())
-filtered_df = df[df['Phases'].str.contains(phase_filter)]
 
 
 
