@@ -144,7 +144,7 @@ def append_to_history_json(current_json, history_json):
     print(f"Data from {current_json} has been appended to {history_json}.")
 
 if __name__ == "__main__":
-    download_studies(3)
+    download_studies(100000)
     json_file = os.path.join('data', 'dmd_current.json')
     csv_file = os.path.join('data', 'dmd_current.csv')
     history_csv = os.path.join('data', 'dmd_history.csv')

@@ -16,9 +16,16 @@ st.markdown("## Latest Study Timestamp")
 max_timestamp = pd.to_datetime(df['Timestamp'].max()).strftime('%d %B %Y')
 st.info(f"Last update: {max_timestamp}")
 
-st.write(df)
+total_studies = df['NCTId'].nunique()
+st.metric("Total number of studies", total_studies)
 
+df_sorted = df.sort_values(by='LastUpdatePostDate', ascending=False)
+df_sorted = df_sorted[['NCTId', 'LastUpdatePostDate', 'LeadSponsorName'] + [col for col in df_sorted.columns if col not in ['NCTId', 'LastUpdatePostDate', 'LeadSponsorName']]]
+st.dataframe(df_sorted)
 
-
-
+st.markdown("## Studies by Lead Sponsor")
+top_sponsors = df['LeadSponsorName'].value_counts().nlargest(5)
+fig = px.bar(top_sponsors.sort_values(ascending=False), y=top_sponsors.index, x=top_sponsors.values, orientation='h', color_discrete_sequence=["blue"])
+fig.update_layout(xaxis_visible=False, annotations=[dict(x=xi, y=yi, text=str(xi), font_size=12, showarrow=False) for xi, yi in zip(top_sponsors.values, top_sponsors.index)])
+st.plotly_chart(fig, use_container_width=True)
 
