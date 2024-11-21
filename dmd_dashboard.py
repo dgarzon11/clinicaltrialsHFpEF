@@ -9,6 +9,7 @@ import plotly.graph_objects as go                            # Import the plotly
 pio.renderers.default = "browser"  # Set the default renderer to "browser"                                                                     
 
 df = pd.read_csv("data/dmd_current.csv")
+dfh = pd.read_csv("data/dmd_history.csv")
 
 st.title("DMD Clinical Trials Dashboard")
 
@@ -16,10 +17,7 @@ st.markdown("## Latest Study Timestamp")
 max_timestamp = pd.to_datetime(df['Timestamp'].max()).strftime('%d %B %Y %H:%M')
 st.info(f"Last update: {max_timestamp}")
 
-st.markdown("## Last Two Study Timestamps")
-last_two_timestamps = pd.to_datetime(df['Timestamp']).nlargest(2).dt.strftime('%d %B %Y %H:%M')
-for i, timestamp in enumerate(last_two_timestamps, start=1):
-    st.info(f"Timestamp {i}: {timestamp}")
+
 
 total_studies = df['NCTId'].nunique()
 st.metric("Total number of studies", total_studies)
