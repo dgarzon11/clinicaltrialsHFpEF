@@ -4336,5 +4336,1197 @@
     },
     "hasResults": false,
     "Timestamp": "2024-11-20T07:19:05.188559"
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT04322357",
+        "orgStudyIdInfo": {
+          "id": "IRB201901339"
+        },
+        "secondaryIdInfos": [
+          {
+            "id": "MD 180023",
+            "type": "OTHER_GRANT",
+            "domain": "U.S. Army Medical Research and Development Command"
+          },
+          {
+            "id": "OCR27142",
+            "type": "OTHER",
+            "domain": "UF OnCore"
+          }
+        ],
+        "organization": {
+          "fullName": "University of Florida",
+          "class": "OTHER"
+        },
+        "briefTitle": "Twice Weekly Steroids and Exercise as Therapy for DMD",
+        "officialTitle": "Impact and Interplay of Corticosteroid Regimen and Exercise Training on DMD Muscle Function"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2024-11",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2020-07-30",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2025-01-05",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2025-10-07",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2020-03-24",
+        "studyFirstSubmitQcDate": "2020-03-24",
+        "studyFirstPostDateStruct": {
+          "date": "2020-03-26",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2024-11-04",
+        "lastUpdatePostDateStruct": {
+          "date": "2024-11-06",
+          "type": "ACTUAL"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "responsibleParty": {
+          "type": "SPONSOR"
+        },
+        "leadSponsor": {
+          "name": "University of Florida",
+          "class": "OTHER"
+        },
+        "collaborators": [
+          {
+            "name": "U.S. Army Medical Research and Development Command",
+            "class": "FED"
+          }
+        ]
+      },
+      "oversightModule": {
+        "oversightHasDmc": true,
+        "isFdaRegulatedDrug": true,
+        "isFdaRegulatedDevice": false
+      },
+      "descriptionModule": {
+        "briefSummary": "The study team will determine the potential of low dose twice weekly prednisone and whether exercise training can synergize to delay disease progression and improve muscle strength/physical function in boys with Duchenne muscular dystrophy (DMD). Current standard of care (daily prednisone) is associated with adverse side effects. Evidence from DMD mouse models suggest that weekly dosing provides same efficacy without side effects. Appropriate exercise may also benefit but this area has not been adequately explored."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Duchenne Muscular Dystrophy (DMD)"
+        ],
+        "keywords": [
+          "steroid side effects, low dose steroid regimen, exercise training therapy"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "designInfo": {
+          "allocation": "RANDOMIZED",
+          "interventionModel": "PARALLEL",
+          "primaryPurpose": "SUPPORTIVE_CARE",
+          "maskingInfo": {
+            "masking": "NONE"
+          }
+        },
+        "enrollmentInfo": {
+          "count": 89,
+          "type": "ESTIMATED"
+        }
+      },
+      "armsInterventionsModule": {
+        "armGroups": [
+          {
+            "label": "Daily Glucocorticoid (GC)",
+            "type": "NO_INTERVENTION",
+            "description": "Existing data from age-matched, ambulatory, on daily GC therapy, and similar exclusion criteria will be selected from the ImagingDMD database to serve as a historical control."
+          },
+          {
+            "label": "Twice weekly glucocorticoid with or without exercise",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients will be randomized to one of 2 groups:\n\n* Twice weekly prednisone alone for 12 months\n* Twice weekly prednisone for 6 months followed by twice weekly prednisone plus 6 months of structured, supervised and home-based exercise training.",
+            "interventionNames": [
+              "Drug: Prednisone"
+            ]
+          },
+          {
+            "label": "Daily glucocorticoid with exercise",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients on daily glucocorticoids will undergo 6 months of structured, supervised and home-based exercise training.",
+            "interventionNames": [
+              "Drug: Prednisone",
+              "Behavioral: In-home Exercise Training",
+              "Drug: Prednisone plus exercise"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Prednisone",
+            "description": "A 12-month treatment period with twice weekly, low-dose prednisone (dose of 0.75 mg/kg per day).",
+            "armGroupLabels": [
+              "Daily glucocorticoid with exercise",
+              "Twice weekly glucocorticoid with or without exercise"
+            ],
+            "otherNames": [
+              "Glucocorticoid (GC)"
+            ]
+          },
+          {
+            "type": "BEHAVIORAL",
+            "name": "In-home Exercise Training",
+            "description": "For boys on current standard of care (daily glucocorticoid use), 6-months in-home, remotely supervised exercise training program involving a combination of aerobic and isometric leg strength exercises.",
+            "armGroupLabels": [
+              "Daily glucocorticoid with exercise"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Prednisone plus exercise",
+            "description": "Twice weekly prednisone for 6 months followed by twice weekly prednisone plus exercise for 6 months.",
+            "armGroupLabels": [
+              "Daily glucocorticoid with exercise"
+            ]
+          }
+        ]
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "Change in BMI",
+            "description": "Participant body mass index change (weight and height will be combined to report BMI in kg/m\\^2) over the course of one year",
+            "timeFrame": "Baseline up to 12 months"
+          }
+        ]
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of DMD confirmed by 1) clinical history with features before the age of five, 2) physical examination, 3) elevated serum creatine kinase level and 4) absence of dystrophin expression, as determined by immunostain or Western blot (\\<2%) and/or DNA confirmation of dystrophin mutation.\n* Age 5.0 to 9 years: a lower age limit of 5.0 years is selected as children younger than that are likely unable to cooperate and comply with all of the exercise measures as needed. An upper age limit of 9 years has been set as boys with DMD tend to reach a rapid progression into a late ambulatory phase soon after this age.\n* Ambulatory at the time of the first visit, defined as the ability to walk for at least 100 m without an external assistive device and able to climb four stairs.\n* Aim 1 only: GC-na\u00efve at baseline (and prior 6 months)\n* Aim 2 only: on stable daily GC regimen for 6 months prior to baseline\n\nExclusion Criteria:\n\n* Contraindication to an MR examination (e.g. aneurysm clip, severe claustrophobia, magnetic implants)\n* Presence of unstable medical problems, significant concomitant illness including cardiomyopathy or cardiac conduction abnormalities\n* Presence of a secondary condition that impacts muscle function or muscle metabolism (e.g. myasthenia gravis, endocrine disorder, mitochondrial disease)\n* Presence of a secondary condition leading to developmental delay or impaired motor control (e.g. cerebral palsy)\n* Presence of an unstable medical condition (e.g. uncontrolled seizure disorder)\n* Behavioral problems causing an inability to cooperate during testing or understand exercise instruction\n* Participation in other forms of drug or gene therapy during the period of the study",
+        "healthyVolunteers": false,
+        "sex": "MALE",
+        "minimumAge": "5 Years",
+        "maximumAge": "9 Years",
+        "stdAges": [
+          "CHILD"
+        ]
+      },
+      "contactsLocationsModule": {
+        "centralContacts": [
+          {
+            "name": "Tanja Taivassalo, PhD",
+            "role": "CONTACT",
+            "phone": "(352) 294-8748",
+            "email": "ttaivassalo@ufl.edu"
+          }
+        ],
+        "overallOfficials": [
+          {
+            "name": "Tanja Taivassalo, MD",
+            "affiliation": "University of Florida",
+            "role": "PRINCIPAL_INVESTIGATOR"
+          }
+        ],
+        "locations": [
+          {
+            "facility": "University of Florida",
+            "status": "RECRUITING",
+            "city": "Gainesville",
+            "state": "Florida",
+            "zip": "32610",
+            "country": "United States",
+            "contacts": [
+              {
+                "name": "Tanja Taivassalo",
+                "role": "CONTACT",
+                "phone": "352-294-8748",
+                "email": "ttaivassalo@ufl.edu"
+              },
+              {
+                "name": "Tanja Taivassalo",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "geoPoint": {
+              "lat": 29.65163,
+              "lon": -82.32483
+            }
+          }
+        ]
+      },
+      "ipdSharingStatementModule": {
+        "ipdSharing": "NO"
+      }
+    },
+    "derivedSection": {
+      "miscInfoModule": {
+        "versionHolder": "2024-11-20"
+      },
+      "conditionBrowseModule": {
+        "meshes": [
+          {
+            "id": "D009136",
+            "term": "Muscular Dystrophies"
+          },
+          {
+            "id": "D020388",
+            "term": "Muscular Dystrophy, Duchenne"
+          }
+        ],
+        "ancestors": [
+          {
+            "id": "D020966",
+            "term": "Muscular Disorders, Atrophic"
+          },
+          {
+            "id": "D009135",
+            "term": "Muscular Diseases"
+          },
+          {
+            "id": "D009140",
+            "term": "Musculoskeletal Diseases"
+          },
+          {
+            "id": "D009468",
+            "term": "Neuromuscular Diseases"
+          },
+          {
+            "id": "D009422",
+            "term": "Nervous System Diseases"
+          },
+          {
+            "id": "D030342",
+            "term": "Genetic Diseases, Inborn"
+          },
+          {
+            "id": "D040181",
+            "term": "Genetic Diseases, X-Linked"
+          }
+        ],
+        "browseLeaves": [
+          {
+            "id": "M12093",
+            "name": "Muscular Dystrophies",
+            "asFound": "Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "M22185",
+            "name": "Muscular Dystrophy, Duchenne",
+            "asFound": "Duchenne Muscular Dystrophy (DMD)",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "M12092",
+            "name": "Muscular Diseases",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M4589",
+            "name": "Atrophy",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M22697",
+            "name": "Muscular Disorders, Atrophic",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M12097",
+            "name": "Musculoskeletal Diseases",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M12411",
+            "name": "Neuromuscular Diseases",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M23686",
+            "name": "Genetic Diseases, Inborn",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M24877",
+            "name": "Genetic Diseases, X-Linked",
+            "relevance": "LOW"
+          },
+          {
+            "id": "T3963",
+            "name": "Muscular Dystrophy",
+            "asFound": "Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "T698",
+            "name": "Becker Muscular Dystrophy",
+            "asFound": "Duchenne Muscular Dystrophy (DMD)",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "T1945",
+            "name": "Duchenne Muscular Dystrophy",
+            "asFound": "Duchenne Muscular Dystrophy",
+            "relevance": "HIGH"
+          }
+        ],
+        "browseBranches": [
+          {
+            "abbrev": "BC05",
+            "name": "Musculoskeletal Diseases"
+          },
+          {
+            "abbrev": "BC10",
+            "name": "Nervous System Diseases"
+          },
+          {
+            "abbrev": "BC16",
+            "name": "Diseases and Abnormalities at or Before Birth"
+          },
+          {
+            "abbrev": "All",
+            "name": "All Conditions"
+          },
+          {
+            "abbrev": "BC23",
+            "name": "Symptoms and General Pathology"
+          },
+          {
+            "abbrev": "Rare",
+            "name": "Rare Diseases"
+          }
+        ]
+      },
+      "interventionBrowseModule": {
+        "meshes": [
+          {
+            "id": "D011241",
+            "term": "Prednisone"
+          },
+          {
+            "id": "D005938",
+            "term": "Glucocorticoids"
+          }
+        ],
+        "ancestors": [
+          {
+            "id": "D000893",
+            "term": "Anti-Inflammatory Agents"
+          },
+          {
+            "id": "D006728",
+            "term": "Hormones"
+          },
+          {
+            "id": "D006730",
+            "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+          },
+          {
+            "id": "D045505",
+            "term": "Physiological Effects of Drugs"
+          },
+          {
+            "id": "D018931",
+            "term": "Antineoplastic Agents, Hormonal"
+          },
+          {
+            "id": "D000970",
+            "term": "Antineoplastic Agents"
+          }
+        ],
+        "browseLeaves": [
+          {
+            "id": "M14121",
+            "name": "Prednisone",
+            "asFound": "Technique",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "M9047",
+            "name": "Glucocorticoids",
+            "asFound": "Telerehabilitation",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "M4217",
+            "name": "Anti-Inflammatory Agents",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M9789",
+            "name": "Hormones",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M9788",
+            "name": "Hormone Antagonists",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M20966",
+            "name": "Antineoplastic Agents, Hormonal",
+            "relevance": "LOW"
+          }
+        ],
+        "browseBranches": [
+          {
+            "abbrev": "Infl",
+            "name": "Anti-Inflammatory Agents"
+          },
+          {
+            "abbrev": "ANeo",
+            "name": "Antineoplastic Agents"
+          },
+          {
+            "abbrev": "All",
+            "name": "All Drugs and Chemicals"
+          }
+        ]
+      }
+    },
+    "hasResults": false,
+    "Timestamp": "2024-11-21T07:18:57.000532"
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT05715957",
+        "orgStudyIdInfo": {
+          "id": "98434"
+        },
+        "organization": {
+          "fullName": "Rigshospitalet, Denmark",
+          "class": "OTHER"
+        },
+        "briefTitle": "Follow-up Study on Female Carriers With DMD Gene Variants",
+        "officialTitle": "Influence of X- Chromosome Activation Pattern in Muscles on Symptoms and Progression of Cardiac and Muscle Symptoms Signs in Women With Pathogenic Dystrophin Gene Variants: A 6-year Follow-up of 53 Patients"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2023-02",
+        "overallStatus": "NOT_YET_RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2023-03-01",
+          "type": "ESTIMATED"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2024-08-01",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2025-08-01",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2023-01-27",
+        "studyFirstSubmitQcDate": "2023-01-27",
+        "studyFirstPostDateStruct": {
+          "date": "2023-02-08",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2023-02-07",
+        "lastUpdatePostDateStruct": {
+          "date": "2023-02-09",
+          "type": "ACTUAL"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "responsibleParty": {
+          "type": "PRINCIPAL_INVESTIGATOR",
+          "investigatorFullName": "Zhe Lyu",
+          "investigatorTitle": "MD,PhD student",
+          "investigatorAffiliation": "Rigshospitalet, Denmark"
+        },
+        "leadSponsor": {
+          "name": "Rigshospitalet, Denmark",
+          "class": "OTHER"
+        }
+      },
+      "oversightModule": {
+        "oversightHasDmc": true,
+        "isFdaRegulatedDrug": false,
+        "isFdaRegulatedDevice": false
+      },
+      "descriptionModule": {
+        "briefSummary": "Background Duchenne and Becker muscular dystrophies are X-linked recessive allelic disorders caused by mutations of the dystrophin gene on chromosome Xp21. Female carriers may pass on the pathogenic variant to their daughters, resulting in a significant number of female carriers of pathogenic DMD variants. There was a large variability in the severity of symptoms with some being asymptomatic and some having severe symptoms. Skewed X-Chromosome Inactivation (XCI) might explain some of this variability. But now, the underlying cause of the large variability in phenotype is therefore uncertain.\n\nAim\n\n1. To describe the change over a 6-year follow-up period in the structure and function of the heart and in function and muscle fat fraction in skeletal muscle of DMD/BMD carriers.\n2. To explain the relationship between the XCI and the severity of the disease (phenotype).\n3. To compare cardiac affection of female carriers of DMD/BMD to patients with BMD using new cardiac MRI techniques (spectroscopy and Dixon sequences).\n\nMethods\n\nThis study contains three parts:\n\nPart 1 is a 6-year follow-up on 53 genetically verified female carriers of pathogenic DMD variants initially investigated in 2016-2018 at Copenhagen Neuromuscular Center, Rigshospitalet (Ethical journal no. H-16035677). In this part, the same 53 females will be investigated with the same measurements as 6 years ago to describe the progression of symptoms. All the follow-up results from this study will be compared to the results from 6 years ago.\n\nIn Part 2 a muscle biopsy will be taken from 1-3 muscles (see \"3.3.3 Description of outcomes) to investigate the XCI. To correlate the XCI to the phenotype, these patients will also undergo a muscle MRI and a Medical Research Council scale score for muscle strength (MRC).\n\nIn Part 3 The cardiac structure and function in patients with BMD will be investigated using a cardiac MRI to compare the findings with that of female carriers. An MRC will carried out to investigate if the heart affection correlates to the muscle affection.\n\nFemale carriers can decide whether to participate in Part 1, Part 2, or both. Patient with BMD can only participate in Part 3.",
+        "detailedDescription": "Duchenne and Becker muscular dystrophies are X-linked recessive allelic disorders caused by mutations of the dystrophin gene on chromosome Xp21. The gene mutation causes the absence or very severe reduction of dystrophin protein in the muscle cells, triggering chronic myofiber damage, inflammation, and loss of muscle fibers. Muscle tissue is replaced by fibrous and adipose tissue which further leads to necrosis, progressive muscle weakness, and loss of independent ambulation \\[1\\].\n\nDuchenne muscular dystrophy (DMD) is one of the commonest inherited disorders of muscle. Based on a systematic review of worldwide population-based studies the pooled prevalence of DMD and BMD was 4.78 (95% CI 1.94-11.81) and 1.53 (95% CI 0.26-8.94) per 100,000 males respectively \\[2\\].\n\nThe disorders preferentially affect males due to the X-linked inheritance. Female carriers may pass on the pathogenic variant to their daughters, resulting in a significant number of female carriers of pathogenic DMD variants. A third of all new cases are caused by de novo pathogenic variants \\[3\\].\n\nEven though female carriers have one healthy X-chromosome, they are not necessarily asymptomatic as both muscular and cardiac involvement has been reported in carriers \\[4-12\\]. These females are classified as \"manifesting carriers\" \\[13,14\\]. The incidence of skeletal muscle involvement among female carriers of DMD was 2.5%-19%, and of dilated cardiomyopathy (DCM) 7.3%-16.7% for DMD carriers and 0%-13.3% for BMD carriers \\[2\\], but in one of the latest cross-sectional studies with some of the most sensitive outcome measures to date 81 % showed muscle affection \\[4\\] and 62 % cardiac dysfunction \\[15\\]. Since then, cardiac MRI techniques have been further developed, why the numbers might be even higher. Patients with BMD have not even been investigated with these techniques. Cardiomyopathy in female DMD and BMD carriers can be clinically significant. Therefore, adult unaffected dystrophinopathy carriers are recommended to undergo echocardiography every 5 years according to the clinical guidelines in Europe and the United States \\[16,17\\]. Carriers with cardiac affection are often examined even more frequently. However, no one has yet investigated the rate of progression, which can make it difficult to determine the frequency of clinical visits.\n\nIn the above-mentioned studies, there was a large variability in the severity of symptoms with some being asymptomatic and some having severe symptoms. Skewed X-Chromosome Inactivation (XCI) might explain some of this variability. When the X chromosome carrying the normal DMD gene is preferentially inactivated this will in theory lead to moderate-severe muscle involvement.\n\nSome studies have observed that DMD carriers with moderate/severe muscle involvement, exhibit a moderate or extremely skewed XCI, in particular, if presenting with an early onset of symptoms, while DMD carriers with mild muscle involvement present a random XCI \\[4, 18\\]. However, former studies have generally had a low power, investigated the XCI in blood and not muscle, and have often not investigated asymptomatic vs symptomatic patients. Some studies are inconclusive and some even contradictory and therefore no conclusions can be made \\[18\\]. Thus, the underlying cause of the large variability in phenotype is therefore uncertain.\n\n2.2 Aim\n\nThe aims of this study are thus:\n\n1. To describe the change over a 6-year follow-up period in the structure and function of the heart and in function and muscle fat fraction in skeletal muscle of DMD/BMD carriers.\n2. To explain the relationship between the XCI and the severity of the disease (phenotype).\n3. To compare cardiac affection of female carriers of DMD/BMD to patients with BMD using new cardiac MRI techniques (spectroscopy and Dixon sequences).\n\n3. Methods 3.1 Study methods\n\nThis study contains three parts:\n\nPart 1 is a 6-year follow-up on 53 genetically verified female carriers of pathogenic DMD variants initially investigated in 2016-2018 at Copenhagen Neuromuscular Center, Rigshospitalet (Ethical journal no. H-16035677). In this part, the same 53 females will be investigated with the same measurements as 6 years ago to describe the progression of symptoms. All the follow-up results from this study will be compared to the results from 6 years ago.\n\nIn Part 2 a muscle biopsy will be taken from 1-3 muscles (see \"3.3.3 Description of outcomes) to investigate the XCI. To correlate the XCI to the phenotype, these patients will also undergo a muscle MRI and a Medical Research Council scale score for muscle strength (MRC).\n\nIn Part 3 The cardiac structure and function in patients with BMD will be investigated using a cardiac MRI to compare the findings with that of female carriers. An MRC will carried out to investigate if the heart affection correlates to the muscle affection.\n\nFemale carriers can decide whether to participate in Part 1, Part 2, or both. Patient with BMD can only participate in Part 3."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Muscular Dystrophy",
+          "Duchenne Muscular Dystrophy",
+          "Becker Muscular Dystrophy"
+        ],
+        "keywords": [
+          "XCI",
+          "follow up",
+          "MRI",
+          "spectroscopy"
+        ]
+      },
+      "designModule": {
+        "studyType": "OBSERVATIONAL",
+        "patientRegistry": false,
+        "designInfo": {
+          "observationalModel": "COHORT",
+          "timePerspective": "PROSPECTIVE"
+        },
+        "bioSpec": {
+          "retention": "SAMPLES_WITH_DNA",
+          "description": "Blood tests:\n\nBlood samples will be drawn and analyzed for cardiac markers (myoglobin, creatine kinase, creatine kinase MB, pro-brain natriuretic peptide (proBNP), and troponin T (TnT)) and proteomics.\n\nBiopsy procedure:\n\nMuscle biopsies will be sent to the Department of Clinical Genetics (Rigshospitalet) for genetic analysis to investigate the X-chromosome inactivation pattern. No other genetic information will be obtained during these tests."
+        },
+        "enrollmentInfo": {
+          "count": 103,
+          "type": "ESTIMATED"
+        }
+      },
+      "armsInterventionsModule": {
+        "armGroups": [
+          {
+            "label": "female carriers of DMD gene variants",
+            "interventionNames": [
+              "Other: No intervention"
+            ]
+          },
+          {
+            "label": "patients with BMD",
+            "interventionNames": [
+              "Other: No intervention"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "OTHER",
+            "name": "No intervention",
+            "description": "No intervention",
+            "armGroupLabels": [
+              "female carriers of DMD gene variants",
+              "patients with BMD"
+            ]
+          }
+        ]
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "Change in fat fraction",
+            "description": "Change in fat fraction (in %) in leg muscles from baseline to 6-year follow-up",
+            "timeFrame": "30 minutes"
+          },
+          {
+            "measure": "Change in fibrosis in the heart",
+            "description": "Change in fibrosis (in %) in the heart from baseline to 6-year follow-up",
+            "timeFrame": "1 hour"
+          },
+          {
+            "measure": "Change in LVEF/GLS-score",
+            "description": "Change in LVEF/GLS-score (in %) in the heart from baseline to 6-year follow-up",
+            "timeFrame": "1 hour"
+          },
+          {
+            "measure": "Correlation between XCI and phenotype",
+            "description": "Correlation between XCI (ratio of healthy vs mutant X chromosome) and phenotype (from fat fraction and clinical symptoms). Correlation measured using linear regression.",
+            "timeFrame": "1 hour"
+          },
+          {
+            "measure": "Cardiac status in patients with BMD vs carriers of variants in the DMD gene",
+            "description": "Correlation between cardiac structure and function (measured through Dixon and spectroscopy from cardiac MRI) between patients with BMD and carriers of genetic variants of the DMD gene.",
+            "timeFrame": "1 hour"
+          }
+        ],
+        "secondaryOutcomes": [
+          {
+            "measure": "Change in contractility",
+            "description": "Change in contractility (measured as the peak torque divided by the contractile cross sectional area of the muscle) in leg muscles from baseline to 6-year follow-up",
+            "timeFrame": "1 hour"
+          },
+          {
+            "measure": "Change in blood concentrations",
+            "description": "Change in blood concentrations of myoglobin(ng/ML)",
+            "timeFrame": "1 hour"
+          },
+          {
+            "measure": "Change in blood concentrations",
+            "description": "Change in blood concentrations of Creatine kinase(U/L)",
+            "timeFrame": "1 hour"
+          },
+          {
+            "measure": "Change in blood concentrations",
+            "description": "Change in blood concentrations of Creatine kinase MB(U/L)",
+            "timeFrame": "1 hour"
+          },
+          {
+            "measure": "Change in blood concentrations",
+            "description": "Change in blood concentrations of troponin T (TnT) (ng/ML)",
+            "timeFrame": "1 hour"
+          },
+          {
+            "measure": "Change in blood concentrations",
+            "description": "Change in blood concentrations of pro-brain natriuretic peptide (proBNP)(pg/ML)",
+            "timeFrame": "1 hour"
+          },
+          {
+            "measure": "Change in lower extremity strength",
+            "description": "Change in lower extremity strength(measured by biodex 4 in Nm) from baseline to 6-year follow-up.",
+            "timeFrame": "1 hour"
+          },
+          {
+            "measure": "Change in questionnaires on fatigue",
+            "description": "Change in questionnaires on fatigue (using the fatigue severity scale score) from baseline to 6-year follow-up.",
+            "timeFrame": "5 minutes"
+          },
+          {
+            "measure": "Progression of electrocardiographic findings",
+            "description": "Progression of electrocardiographic findings from baseline to 6 year follow-up (measured by electrocardiographic as number of new incidents)",
+            "timeFrame": "10 minutes"
+          },
+          {
+            "measure": "Correlation between cardiac structure and function",
+            "description": "Correlation between cardiac structure (Dixon and spectroscopy from cardiac MRI) and muscle function (measured through the medical research council score from 1-5) in patients with BMD",
+            "timeFrame": "1 hour"
+          }
+        ]
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Part 1:\n\nCriteria of inclusion:\n\n* Female gender\n* Verified carrier of DMD gene mutations through genetic testing.\n* Age of 18 years or more\n* Participation in the study 6 years ago\n\nCriteria of exclusion from MRI:\n\n* Contraindications to MRI (pacemaker or other internal metal or magnetic devices)\n* Claustrophobia.\n* Pregnant or nursing women.\n* Competing disorders and other muscle disorders, which may alter measurements of i.e., muscle strength. The investigator will decide whether or not the competing disorder can significantly influence the results.\n\nPatients will be investigated with all other measurements than MRI if not eligible for MRI.\n\nPart 2:\n\nCriteria of inclusion:\n\n* Female gender\n* Verified carrier of DMD gene mutations through genetic testing.\n* Age of 18 years or more\n\nCriteria of exclusion:\n\n\u2022 Anticoagulating medicine that cannot be paused due to health reasons\n\nPart 3:\n\nCriteria of inclusion:\n\n* Genetically verified patient with BMD\n* Age of 18 years or more\n\nCriteria of exclusion:\n\n* Contraindications to MRI (pacemaker or other internal metal or magnetic devices)\n* Claustrophobia.\n* Atrial fibrillation\n* Competing disorders and other muscle disorders, which may alter measurements of i.e., muscle strength. The investigator will decide whether or not the competing disorder can significantly influence the results.",
+        "sex": "ALL",
+        "minimumAge": "18 Years",
+        "stdAges": [
+          "ADULT",
+          "OLDER_ADULT"
+        ],
+        "studyPopulation": "All patients are identified from the Department of Clinical Genetics and Copenhagen Neuromuscular Center, Rigshospitalet. We aim at including the 53 carriers of DMD variants that we investigated 6 years ago for Part 1. These patients will be asked to participate in Part 2 as well (optional). If we cannot recruit 20 patients for Part 2 from Part 1 (see Power Calculation), we will recruit new patients identified from the Department of Clinical Genetics or Copenhagen Neuromuscular Center, Rigshospitalet. We need 32 patients with BMD for Part 3 (see Power Calculation), which will be recruited from Copenhagen Neuromuscular Center, Rigshospitalet.",
+        "samplingMethod": "NON_PROBABILITY_SAMPLE"
+      },
+      "contactsLocationsModule": {
+        "centralContacts": [
+          {
+            "name": "Zhe Lyu",
+            "role": "CONTACT",
+            "phone": "+4552829237",
+            "email": "zhe.lyu.01@regionh.dk"
+          },
+          {
+            "name": "john vissing",
+            "role": "CONTACT",
+            "phone": "+4540603283",
+            "email": "john.vissing@regionh.dk"
+          }
+        ],
+        "locations": [
+          {
+            "facility": "Copenhagen neuromuscular center",
+            "city": "Copenhagen",
+            "zip": "2100",
+            "country": "Denmark",
+            "contacts": [
+              {
+                "name": "john vissing",
+                "role": "CONTACT",
+                "phone": "+4540603283",
+                "email": "john.vissing@regionh.dk"
+              }
+            ],
+            "geoPoint": {
+              "lat": 55.67594,
+              "lon": 12.56553
+            }
+          }
+        ]
+      },
+      "ipdSharingStatementModule": {
+        "ipdSharing": "NO"
+      }
+    },
+    "derivedSection": {
+      "miscInfoModule": {
+        "versionHolder": "2024-11-20"
+      },
+      "conditionBrowseModule": {
+        "meshes": [
+          {
+            "id": "D009136",
+            "term": "Muscular Dystrophies"
+          },
+          {
+            "id": "D020388",
+            "term": "Muscular Dystrophy, Duchenne"
+          }
+        ],
+        "ancestors": [
+          {
+            "id": "D020966",
+            "term": "Muscular Disorders, Atrophic"
+          },
+          {
+            "id": "D009135",
+            "term": "Muscular Diseases"
+          },
+          {
+            "id": "D009140",
+            "term": "Musculoskeletal Diseases"
+          },
+          {
+            "id": "D009468",
+            "term": "Neuromuscular Diseases"
+          },
+          {
+            "id": "D009422",
+            "term": "Nervous System Diseases"
+          },
+          {
+            "id": "D030342",
+            "term": "Genetic Diseases, Inborn"
+          },
+          {
+            "id": "D040181",
+            "term": "Genetic Diseases, X-Linked"
+          }
+        ],
+        "browseLeaves": [
+          {
+            "id": "M20559",
+            "name": "Disease Progression",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M12093",
+            "name": "Muscular Dystrophies",
+            "asFound": "Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "M22185",
+            "name": "Muscular Dystrophy, Duchenne",
+            "asFound": "Becker Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "M12092",
+            "name": "Muscular Diseases",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M4589",
+            "name": "Atrophy",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M22697",
+            "name": "Muscular Disorders, Atrophic",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M12097",
+            "name": "Musculoskeletal Diseases",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M12411",
+            "name": "Neuromuscular Diseases",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M23686",
+            "name": "Genetic Diseases, Inborn",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M24877",
+            "name": "Genetic Diseases, X-Linked",
+            "relevance": "LOW"
+          },
+          {
+            "id": "T3963",
+            "name": "Muscular Dystrophy",
+            "asFound": "Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "T698",
+            "name": "Becker Muscular Dystrophy",
+            "asFound": "Becker Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "T1945",
+            "name": "Duchenne Muscular Dystrophy",
+            "asFound": "Duchenne Muscular Dystrophy",
+            "relevance": "HIGH"
+          }
+        ],
+        "browseBranches": [
+          {
+            "abbrev": "BC23",
+            "name": "Symptoms and General Pathology"
+          },
+          {
+            "abbrev": "All",
+            "name": "All Conditions"
+          },
+          {
+            "abbrev": "BC05",
+            "name": "Musculoskeletal Diseases"
+          },
+          {
+            "abbrev": "BC10",
+            "name": "Nervous System Diseases"
+          },
+          {
+            "abbrev": "BC16",
+            "name": "Diseases and Abnormalities at or Before Birth"
+          },
+          {
+            "abbrev": "Rare",
+            "name": "Rare Diseases"
+          }
+        ]
+      }
+    },
+    "hasResults": false,
+    "Timestamp": "2024-11-21T07:18:57.000532"
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT06363357",
+        "orgStudyIdInfo": {
+          "id": "24B-007-0000"
+        },
+        "organization": {
+          "fullName": "Seoul National University Hospital",
+          "class": "OTHER"
+        },
+        "briefTitle": "The Effect of a Muscle-mimicking, Fabric-type Shoulder Orthosis on Functional Movements of the Upper Limb in Patients With Duchenne Muscular Dystrophy",
+        "officialTitle": "The Effect of a Muscle-mimicking, Fabric-type Shoulder Orthosis on Functional Movements of the Upper Limb in Patients With Duchenne Muscular Dystrophy"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2024-06",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2024-04-20",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2025-12-31",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2025-12-31",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2024-04-09",
+        "studyFirstSubmitQcDate": "2024-04-09",
+        "studyFirstPostDateStruct": {
+          "date": "2024-04-12",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2024-06-18",
+        "lastUpdatePostDateStruct": {
+          "date": "2024-06-21",
+          "type": "ACTUAL"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "responsibleParty": {
+          "type": "PRINCIPAL_INVESTIGATOR",
+          "investigatorFullName": "Woo Hyung Lee",
+          "investigatorTitle": "Assistant professor (MD, PhD)",
+          "investigatorAffiliation": "Seoul National University Hospital"
+        },
+        "leadSponsor": {
+          "name": "Seoul National University Hospital",
+          "class": "OTHER"
+        }
+      },
+      "oversightModule": {
+        "isFdaRegulatedDrug": false,
+        "isFdaRegulatedDevice": false
+      },
+      "descriptionModule": {
+        "briefSummary": "The goal of this clinical trial is to investigate the effect of a muscle-mimicking, fabric-type shoulder orthosis on functional movements of the upper limb in patients with Duchenne muscular dystrophy.\n\nThe main questions it aims to answer are:\n\n* What is the impact of the muscle-mimicking, fabric-type shoulder orthosis on upper limb functional movements in patients with Duchenne muscular dystrophy?\n* Are there observable differences in upper limb function when the shoulder orthosis is worn versus when it is not?\n\nParticipants will:\n\n* Receive education on how to wear and use the shoulder orthosis.\n* Undergo evaluations, including assessment of upper limb performance, shoulder muscle strength testing, active range of motion measurements, assessment of functional workspace, goal attainment scale evaluation, surface electromyography, physiological measurements such as blood pressure and heart rate, fatigue assessment, and assessment for any musculoskeletal or skin-related issues.\n\nResearchers will compare Duchenne muscular dystrophy patients before and while wearing and operating the shoulder orthosis to see if there are any significant effects on variables such as upper limb function, range of motion, functional workspace, goal attainment scale, and surface electromyography."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Muscular Dystrophy, Duchenne",
+          "Orthotic Devices",
+          "Upper Extremity"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "designInfo": {
+          "allocation": "NA",
+          "interventionModel": "SINGLE_GROUP",
+          "interventionModelDescription": "This study compares variables before and after wearing the shoulder orthosis in patients with Duchenne muscular dystrophy.",
+          "primaryPurpose": "SUPPORTIVE_CARE",
+          "maskingInfo": {
+            "masking": "NONE"
+          }
+        },
+        "enrollmentInfo": {
+          "count": 30,
+          "type": "ESTIMATED"
+        }
+      },
+      "armsInterventionsModule": {
+        "armGroups": [
+          {
+            "label": "Duchenne muscular dystrophy participants",
+            "type": "EXPERIMENTAL",
+            "description": "This study compares variables before and after wearing the shoulder orthosis in patients with Duchenne muscular dystrophy.",
+            "interventionNames": [
+              "Device: Shoulder orthosis"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DEVICE",
+            "name": "Shoulder orthosis",
+            "description": "muscle-mimicking, fabric-type shoulder orthosis",
+            "armGroupLabels": [
+              "Duchenne muscular dystrophy participants"
+            ]
+          }
+        ]
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "Performance of the upper limb module 2.0 (PUL 2.0)",
+            "description": "The Performance of the Upper Limb module (PUL) was specifically designed to assess upper limb function across the spectrum of function in patients with DMD, providing information on three domains of upper limb function (shoulder, middle, distal) and overall upper limb functional abilities. Each domain (shoulder, middle, distal) can be scored separately, and the scores from the three levels are summed up to a maximum of 44 points.",
+            "timeFrame": "Before orthosis wear & After orthosis wear and operation"
+          },
+          {
+            "measure": "Active Range of motion",
+            "description": "Measurement of range of motion is assessed using a goniometer, with the evaluator measuring the active range of motion of the shoulder joint in the same position before and after orthosis wear using the same tool. The measurement is taken with the trunk as the center, and the flexion and abduction of the humerus are each measured three times, with the average value used.",
+            "timeFrame": "Before orthosis wear & After orthosis wear and operation"
+          },
+          {
+            "measure": "Functional workspace",
+            "description": "Functional workspace analysis consists of 7 movements, where participants are asked to touch specific body parts in sequence: 1. Belly button, 2. Back pocket, 3. Same-side shoulder, 4. Opposite-side shoulder, 5. Mouth, 6. Top of head, 7. Back of head using both right and left hands. Analysis of functional workspace is manually performed based on recordings from 2 video cameras. Scores are assigned on a 4-point scale: 0 indicates inability to perform the task, 1 indicates reaching 0-49% of the target location, 2 indicates reaching 50-99% of the target location, and 3 indicates reaching the target location completely. Cumulative scores are calculated for all movements.",
+            "timeFrame": "Before orthosis wear & After orthosis wear and operation"
+          },
+          {
+            "measure": "Goal Attainment Scale (GAS)",
+            "description": "Setting GAS goals is based on selecting the three most urgent issues among the problems the patient has based on the initial clinical assessment scores, with sufficient consideration given to the opinions of the patient and caregivers through interviews. Subsequently, three specific goals are selected based on the most urgent problems identified by the research team meeting.",
+            "timeFrame": "Before orthosis wear & After orthosis wear and operation"
+          },
+          {
+            "measure": "Surface electromyography (sEMG)",
+            "description": "- Measurement Tasks:\n\nThe following items are selected based on the examiner's judgment, with 3-5 items chosen for measurement:\n\ni. Shoulder abduction with both arms raised above the head ii. Shoulder height arm raising (based on elbow position) iii. Shoulder flexion at shoulder height iv. Moving wooden blocks v. Pouring water into a cup vi. Placing hand on the abdomen vii. Placing hand in the back pocket viii. Placing hand on the shoulder of the same side ix. Placing hand on the shoulder of the opposite side x. Placing hand on the mouth xi. Placing hand on the top of the head xii. Placing hand on the back of the head\n\nC. Sensor Attachment Sites:\n\n- Selected based on the measurement task: i. Deltoid ii. Pectoralis major iii. Trapezius\n\nD. Sensor Signal Parameters:\n\n- EMG Parameters: Amplitude after Rectification (RMS), area, percentage ratio of amplitude to MVC, percentage ratio of amplitude to RVC during motion.",
+            "timeFrame": "Before orthosis wear & After orthosis wear and operation"
+          }
+        ]
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n* Confirmed diagnosis of Duchenne muscular dystrophy (DMD) through genetic testing\n* Older than 10 years old\n* Brooke scale score of 2-5\n* Shoulder abduction muscle strength grade below 3\n\nExclusion Criteria:\n\n* Unable or unwilling to provide informed consent\n* Brooke scale score of 1 or 6\n* Cognitive impairment to the extent that limits the use of the shoulder orthosis",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "10 Years",
+        "stdAges": [
+          "CHILD",
+          "ADULT",
+          "OLDER_ADULT"
+        ]
+      },
+      "contactsLocationsModule": {
+        "centralContacts": [
+          {
+            "name": "Sungbae Jo, PhD",
+            "role": "CONTACT",
+            "phone": "+82-10-9381-2299",
+            "email": "sungbaejo@snuh.org"
+          }
+        ],
+        "overallOfficials": [
+          {
+            "name": "Woo Hyung Lee, MD, PhD",
+            "affiliation": "Seoul National University Hospital",
+            "role": "PRINCIPAL_INVESTIGATOR"
+          }
+        ],
+        "locations": [
+          {
+            "facility": "Seoul National University Hospital",
+            "status": "RECRUITING",
+            "city": "Seoul",
+            "state": "Jongno-gu",
+            "zip": "03080",
+            "country": "Korea, Republic of",
+            "contacts": [
+              {
+                "name": "Woo Hyung Lee, MD, Ph.D",
+                "role": "CONTACT",
+                "phone": "+82-2-2072-4178",
+                "email": "whlee909@snu.ac.kr"
+              }
+            ],
+            "geoPoint": {
+              "lat": 37.566,
+              "lon": 126.9784
+            }
+          }
+        ]
+      }
+    },
+    "derivedSection": {
+      "miscInfoModule": {
+        "versionHolder": "2024-11-20"
+      },
+      "conditionBrowseModule": {
+        "meshes": [
+          {
+            "id": "D009136",
+            "term": "Muscular Dystrophies"
+          },
+          {
+            "id": "D020388",
+            "term": "Muscular Dystrophy, Duchenne"
+          }
+        ],
+        "ancestors": [
+          {
+            "id": "D020966",
+            "term": "Muscular Disorders, Atrophic"
+          },
+          {
+            "id": "D009135",
+            "term": "Muscular Diseases"
+          },
+          {
+            "id": "D009140",
+            "term": "Musculoskeletal Diseases"
+          },
+          {
+            "id": "D009468",
+            "term": "Neuromuscular Diseases"
+          },
+          {
+            "id": "D009422",
+            "term": "Nervous System Diseases"
+          },
+          {
+            "id": "D030342",
+            "term": "Genetic Diseases, Inborn"
+          },
+          {
+            "id": "D040181",
+            "term": "Genetic Diseases, X-Linked"
+          }
+        ],
+        "browseLeaves": [
+          {
+            "id": "M12093",
+            "name": "Muscular Dystrophies",
+            "asFound": "Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "M22185",
+            "name": "Muscular Dystrophy, Duchenne",
+            "asFound": "Muscular Dystrophy, Duchenne",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "M12092",
+            "name": "Muscular Diseases",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M4589",
+            "name": "Atrophy",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M22697",
+            "name": "Muscular Disorders, Atrophic",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M12097",
+            "name": "Musculoskeletal Diseases",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M12411",
+            "name": "Neuromuscular Diseases",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M23686",
+            "name": "Genetic Diseases, Inborn",
+            "relevance": "LOW"
+          },
+          {
+            "id": "M24877",
+            "name": "Genetic Diseases, X-Linked",
+            "relevance": "LOW"
+          },
+          {
+            "id": "T3963",
+            "name": "Muscular Dystrophy",
+            "asFound": "Muscular Dystrophy",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "T698",
+            "name": "Becker Muscular Dystrophy",
+            "asFound": "Duchenne",
+            "relevance": "HIGH"
+          },
+          {
+            "id": "T1945",
+            "name": "Duchenne Muscular Dystrophy",
+            "asFound": "Duchenne Muscular Dystrophy",
+            "relevance": "HIGH"
+          }
+        ],
+        "browseBranches": [
+          {
+            "abbrev": "BC05",
+            "name": "Musculoskeletal Diseases"
+          },
+          {
+            "abbrev": "BC10",
+            "name": "Nervous System Diseases"
+          },
+          {
+            "abbrev": "BC16",
+            "name": "Diseases and Abnormalities at or Before Birth"
+          },
+          {
+            "abbrev": "All",
+            "name": "All Conditions"
+          },
+          {
+            "abbrev": "BC23",
+            "name": "Symptoms and General Pathology"
+          },
+          {
+            "abbrev": "Rare",
+            "name": "Rare Diseases"
+          }
+        ]
+      }
+    },
+    "hasResults": false,
+    "Timestamp": "2024-11-21T07:18:57.000532"
   }
 ]
