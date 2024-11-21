@@ -17,6 +17,7 @@ st.markdown("## Latest Study Timestamp")
 max_timestamp = pd.to_datetime(df['Timestamp'].max()).strftime('%d %B %Y %H:%M')
 st.info(f"Last update: {max_timestamp}")
 
+latest_timestamps = pd.to_datetime(dfh['Timestamp']).nlargest(2).dt.strftime('%d %B %Y %H:%M')
 
 
 total_studies = df['NCTId'].nunique()
