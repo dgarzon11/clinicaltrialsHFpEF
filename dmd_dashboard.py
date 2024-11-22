@@ -1,35 +1,68 @@
-#Streamlit app dashboard for MDM that visualizws data from duchenne_studies_sample.csv
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import plotly.io as pio  # Import the plotly.io module
-from plotly.subplots import make_subplots        # Import the make_subplots function
-import plotly.graph_objects as go                            # Import the plotly.graph_objects module       
-pio.renderers.default = "browser"  # Set the default renderer to "browser"                                                                     
+import plotly.graph_objects as go
 
-df = pd.read_csv("data/dmd_current.csv")
-dfh = pd.read_csv("data/dmd_history.csv")
+# Load datasets
+df_current = pd.read_csv("data/dmd_current.csv")
+df_history = pd.read_csv("data/dmd_history.csv")
 
+# Page title
 st.title("DMD Clinical Trials Dashboard")
 
-st.markdown("## Latest Study Timestamp")
-max_timestamp = pd.to_datetime(df['Timestamp'].max()).strftime('%d %B %Y %H:%M')
-st.info(f"Last update: {max_timestamp}")
+# Key metrics
+st.subheader("Key Metrics")
+total_studies = df_current['NCTId'].nunique()
+completed_studies = df_current[df_current['OverallStatus'] == "COMPLETED"]['NCTId'].nunique()
+ongoing_studies = df_current[df_current['OverallStatus'].str.contains("RECRUITING", na=False)]['NCTId'].nunique()
 
-latest_timestamps = pd.to_datetime(dfh['Timestamp']).nlargest(2).dt.strftime('%d %B %Y %H:%M')
+st.metric("Total Studies", total_studies)
+st.metric("Completed Studies", completed_studies)
+st.metric("Ongoing Studies", ongoing_studies)
 
+# Latest study timestamp
+st.markdown("### Latest Study Update")
+latest_timestamp = pd.to_datetime(df_current['Timestamp']).max().strftime('%d %B %Y %H:%M')
+st.info(f"Data last updated on: {latest_timestamp}")
 
-total_studies = df['NCTId'].nunique()
-st.metric("Total number of studies", total_studies)
+# Studies by Lead Sponsor
+st.markdown("### Studies by Lead Sponsor")
+top_sponsors = df_current['LeadSponsorName'].value_counts().nlargest(5)
+fig_sponsors = px.bar(
+    top_sponsors.sort_values(),
+    orientation='h',
+    labels={"index": "Lead Sponsor", "value": "Number of Studies"},
+    title="Top 5 Lead Sponsors by Study Count",
+)
+st.plotly_chart(fig_sponsors, use_container_width=True)
 
-df_sorted = df.sort_values(by='LastUpdatePostDate', ascending=False)
-df_sorted = df_sorted[['NCTId', 'LastUpdatePostDate', 'LeadSponsorName'] + [col for col in df_sorted.columns if col not in ['NCTId', 'LastUpdatePostDate', 'LeadSponsorName']]]
-st.dataframe(df_sorted)
+# Distribution of OverallStatus
+st.markdown("### Study Status Distribution")
+status_distribution = df_current['OverallStatus'].value_counts()
+fig_status = px.pie(
+    values=status_distribution.values,
+    names=status_distribution.index,
+    title="Distribution of Study Status",
+)
+st.plotly_chart(fig_status, use_container_width=True)
 
-st.markdown("## Studies by Lead Sponsor")
-top_sponsors = df['LeadSponsorName'].value_counts().nlargest(5)
-fig = px.bar(top_sponsors.sort_values(ascending=False), y=top_sponsors.index, x=top_sponsors.values, orientation='h', color_discrete_sequence=["blue"])
-fig.update_layout(xaxis_visible=False, annotations=[dict(x=xi, y=yi, text=str(xi), font_size=12, showarrow=False) for xi, yi in zip(top_sponsors.values, top_sponsors.index)])
-st.plotly_chart(fig, use_container_width=True)
+# Timeline of studies
+st.markdown("### Studies Timeline")
+df_current['StartDate'] = pd.to_datetime(df_current['StartDate'], errors='coerce')
+timeline_data = df_current.groupby(df_current['StartDate'].dt.year)['NCTId'].count().reset_index()
+timeline_data.columns = ['Year', 'Studies']
 
+fig_timeline = px.line(
+    timeline_data,
+    x="Year",
+    y="Studies",
+    markers=True,
+    title="Number of Studies Initiated Over Time",
+)
+st.plotly_chart(fig_timeline, use_container_width=True)
+
+# Study details
+st.markdown("### Study Details")
+status_filter = st.selectbox("Filter by Status", options=df_current['OverallStatus'].unique(), index=0)
+filtered_data = df_current[df_current['OverallStatus'] == status_filter]
+st.dataframe(filtered_data[['NCTId', 'BriefTitle', 'LeadSponsorName', 'OverallStatus', 'StartDate']])
