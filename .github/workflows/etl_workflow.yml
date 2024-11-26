@@ -34,7 +34,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git add data/dmd_current.json data/dmd_current.csv data/dmd_history.csv data/dmd_history.json
+          git add data/dmd_current.json data/dmd_current.csv data/dmd_history.csv
           git commit -m "Automatic update of ETL data"
           git push
         env:
