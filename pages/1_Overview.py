@@ -3,9 +3,16 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
-# Load datasets
-df_current = pd.read_csv("data/dmd_current.csv")
-df_history = pd.read_csv("data/dmd_history.csv")
+
+# Fallback mechanism to ensure data is available
+if "df_current" not in st.session_state:
+    st.session_state.df_current = pd.read_csv("data/dmd_current.csv")
+if "df_history" not in st.session_state:
+    st.session_state.df_history = pd.read_csv("data/dmd_history.csv")
+
+# Access data
+df_current = st.session_state.df_current
+df_history = st.session_state.df_history
 
 # Page title
 st.title("DMD Clinical Trials Dashboard")
