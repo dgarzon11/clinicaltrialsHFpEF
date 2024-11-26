@@ -121,28 +121,6 @@ def append_to_history(current_csv, history_csv):
 
     print(f"Data from {current_csv} has been appended to {history_csv}.")
 
-def append_to_history_json(current_json, history_json):
-    # Load existing history data if it exists
-    if os.path.isfile(history_json):
-        with open(history_json, 'r') as f:
-            history_data = json.load(f)
-    else:
-        history_data = []
-    # Load current data
-    with open(current_json, 'r') as f:
-        current_data = json.load(f)
-    # Get timestamp
-    timestamp = datetime.datetime.now().isoformat()
-    # Add timestamp to each study in current_data
-    for study in current_data:
-        study['Timestamp'] = timestamp
-    # Append current_data to history_data
-    history_data.extend(current_data)
-    # Write combined data back to history_json
-    with open(history_json, 'w') as f:
-        json.dump(history_data, f, indent=2)
-    print(f"Data from {current_json} has been appended to {history_json}.")
-
 if __name__ == "__main__":
     download_studies(100000)
     json_file = os.path.join('data', 'dmd_current.json')
@@ -152,4 +130,3 @@ if __name__ == "__main__":
 
     json_to_csv(json_file, csv_file)
     append_to_history(csv_file, history_csv)
-    append_to_history_json(json_file, history_json)
