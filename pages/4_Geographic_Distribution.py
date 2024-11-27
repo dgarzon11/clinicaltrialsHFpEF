@@ -2,8 +2,21 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# Load datasets
-df_current = pd.read_csv("data/dmd_current.csv")
+#ALL PAGES -----------------------------------------------------------------
+from utils import load_data_and_update_sidebar
+
+# Load data and update sidebar
+load_data_and_update_sidebar()
+
+# Access data
+df_current = st.session_state.df_current
+df_history = st.session_state.df_history
+
+# Page title
+st.title("Geographic Distribution")
+st.markdown("Monitor and analyze clinical trials data in real-time.")
+
+# ------------------------------------------------------------------------
 
 st.title("Geographic Distribution")
 st.markdown("### Visualize the Locations of Clinical Trials")

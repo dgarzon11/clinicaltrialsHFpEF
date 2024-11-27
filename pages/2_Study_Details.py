@@ -1,12 +1,21 @@
 import streamlit as st
 import pandas as pd
 
-# Load datasets
-df_current = pd.read_csv("data/dmd_current.csv")
-df_history = pd.read_csv("data/dmd_history.csv")
+#ALL PAGES -----------------------------------------------------------------
+from utils import load_data_and_update_sidebar
 
+# Load data and update sidebar
+load_data_and_update_sidebar()
+
+# Access data
+df_current = st.session_state.df_current
+df_history = st.session_state.df_history
+
+# Page title
 st.title("Study Details")
-st.markdown("### Explore detailed information about current and historical studies")
+st.markdown("Monitor and analyze clinical trials data in real-time.")
+
+# ------------------------------------------------------------------------
 
 # Table with filters
 status_filter = st.selectbox("Filter by Status", options=df_current['OverallStatus'].unique(), index=0)

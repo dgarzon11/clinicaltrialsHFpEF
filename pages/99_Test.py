@@ -1,26 +1,23 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
-import altair as alt
 
-#ALL PAGES -----------------------------------------------------------------
-from utils import load_data_and_update_sidebar
-
-# Load data and update sidebar
-load_data_and_update_sidebar()
+# Load datasets
+# Fallback mechanism to ensure data is available
+if "df_current" not in st.session_state:
+    st.session_state.df_current = pd.read_csv("data/dmd_current.csv")
+if "df_history" not in st.session_state:
+    st.session_state.df_history = pd.read_csv("data/dmd_history.csv")
 
 # Access data
 df_current = st.session_state.df_current
 df_history = st.session_state.df_history
 
-# Page title
-st.title("Overview")
-st.markdown("Monitor and analyze clinical trials data in real-time.")
-
-# ------------------------------------------------------------------------
-
 df_current['StartDate'] = pd.to_datetime(df_current['StartDate'], errors='coerce')
+
+# Page Title
+st.title("Clinical Trials Dashboard")
+st.markdown("Monitor and analyze clinical trials data in real-time.")
 
 # Key Metrics
 col1, col2, col3, col4 = st.columns(4)
@@ -75,4 +72,3 @@ for _, trial in recent_trials.iterrows():
 # Add "View All" Button (Optional for Navigation)
 if st.button("View All Trials"):
     st.write("Navigate to the Study Details page.")
-

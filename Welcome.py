@@ -1,22 +1,22 @@
 import streamlit as st
 import pandas as pd
 
+#ALL PAGES -----------------------------------------------------------------
+from utils import load_data_and_update_sidebar
 
+# Load data and update sidebar
+load_data_and_update_sidebar()
 
-st.set_page_config(
-    page_title="DMD Clinical Trials Dashboard",
-    page_icon="📊",
-    layout="wide",
-)
+# Access data
+df_current = st.session_state.df_current
+df_history = st.session_state.df_history
 
-
-
-if "df_current" not in st.session_state or "df_history" not in st.session_state:
-    st.session_state.df_current = pd.read_csv("data/dmd_current.csv")
-    st.session_state.df_history = pd.read_csv("data/dmd_history.csv")
-
-
+# Page title
 st.title("Welcome to the DMD Clinical Trials Dashboard")
+st.markdown("Monitor and analyze clinical trials data in real-time.")
+
+# ------------------------------------------------------------------------
+
 st.markdown(
     """
     Use the menu on the left to navigate through the different sections of the dashboard:
@@ -29,3 +29,5 @@ st.markdown(
     - **Insights & Recommendations**: Key findings and actionable strategies.
     """
 )
+
+

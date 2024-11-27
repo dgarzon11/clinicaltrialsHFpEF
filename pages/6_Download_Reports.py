@@ -1,12 +1,21 @@
 import streamlit as st
 import pandas as pd
 
-# Load datasets
-df_current = pd.read_csv("data/dmd_current.csv")
-df_history = pd.read_csv("data/dmd_history.csv")
+#ALL PAGES -----------------------------------------------------------------
+from utils import load_data_and_update_sidebar
 
+# Load data and update sidebar
+load_data_and_update_sidebar()
+
+# Access data
+df_current = st.session_state.df_current
+df_history = st.session_state.df_history
+
+# Page title
 st.title("Download Reports")
-st.markdown("### Export Data and Reports")
+st.markdown("### Export datasets and visualizations")
+
+# ------------------------------------------------------------------------
 
 # Buttons for data download
 st.download_button(
