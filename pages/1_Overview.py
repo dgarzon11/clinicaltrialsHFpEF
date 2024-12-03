@@ -28,12 +28,31 @@ col1, col2, col3, col4 = st.columns(4)
 total_trials = df_current['NCTId'].nunique()
 recruiting_trials = df_current[df_current['OverallStatus'] == "RECRUITING"]['NCTId'].nunique()
 completed_trials = df_current[df_current['OverallStatus'] == "COMPLETED"]['NCTId'].nunique()
-success_rate = round((completed_trials / total_trials) * 100, 2) if total_trials > 0 else 0
 
 col1.metric("Active Trials", total_trials, "+12%")
 col2.metric("Recruiting", recruiting_trials, "+5%")
 col3.metric("Completed", completed_trials, "+3%")
-col4.metric("Success Rate", f"{success_rate}%", "-2%")
+
+# Bar Chart for OverallStatus
+st.markdown("### Overall Status Distribution")
+status_distribution = df_current.groupby('OverallStatus')['NCTId'].nunique().reset_index()
+status_distribution.columns = ['OverallStatus', 'UniqueTrials']
+
+status_distribution = status_distribution.sort_values(by='UniqueTrials', ascending=True)
+
+fig_bar = px.bar(
+    status_distribution,
+    y='OverallStatus',
+    x='UniqueTrials',
+    title="Unique Trials by Overall Status",
+    labels={"OverallStatus": "Overall Status", "UniqueTrials": "Number of Unique Trials"},
+    text='UniqueTrials',
+    orientation='h'
+)
+fig_bar.update_traces(marker_color='orange')
+fig_bar.update_layout(title_x=0.5)
+
+st.plotly_chart(fig_bar, use_container_width=True)
 
 # Clinical Trials Trend
 st.markdown("### Clinical Trials Trend")
