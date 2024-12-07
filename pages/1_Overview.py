@@ -29,7 +29,19 @@ total_trials = df_current['NCTId'].nunique()
 recruiting_trials = df_current[df_current['OverallStatus'] == "RECRUITING"]['NCTId'].nunique()
 completed_trials = df_current[df_current['OverallStatus'] == "COMPLETED"]['NCTId'].nunique()
 
-col1.metric("Active Trials", total_trials, "+12%")
+# -----------------------TRABAJANDO AQUI-----------------------------
+# Sort Timestamp in descending order and drop duplicates to get unique dates
+unique_dates = df_history['Timestamp'].drop_duplicates().sort_values(ascending=False)
+
+# Extract the last two distinct dates
+latest_date = unique_dates.iloc[0]
+previous_date = unique_dates.iloc[1]
+
+print(latest_date)
+print(previous_date)
+# ------------------------------------------------------------------------
+
+col1.metric("Total Trials", total_trials, "+12%")
 col2.metric("Recruiting", recruiting_trials, "+5%")
 col3.metric("Completed", completed_trials, "+3%")
 
