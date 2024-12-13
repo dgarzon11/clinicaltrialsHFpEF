@@ -1,9 +1,9 @@
-name: Daily ETL Execution
+name: Weekly ETL Execution
 
 on:
   schedule:
-    # Runs at 7:00 am every day (UTC time)
-    - cron: '0 7 * * *'
+    # Runs at 7:00 am every Monday (UTC time)
+    - cron: '0 7 * * 1'
   workflow_dispatch:  # Enables manual triggering
 
 jobs:
@@ -35,7 +35,7 @@ jobs:
       - name: Commit and push changes
         run: |
           git add data/dmd_current.json data/dmd_current.csv data/dmd_history.csv
-          git commit -m "Automatic update of ETL data"
+          git commit -m "Automatic weekly update of ETL data"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
