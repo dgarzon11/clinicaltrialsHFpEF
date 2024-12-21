@@ -126,7 +126,6 @@ if __name__ == "__main__":
     json_file = os.path.join('data', 'dmd_current.json')
     csv_file = os.path.join('data', 'dmd_current.csv')
     history_csv = os.path.join('data', 'dmd_history.csv')
-    history_json = os.path.join('data', 'dmd_history.json')
 
     json_to_csv(json_file, csv_file)
     append_to_history(csv_file, history_csv)
