@@ -3,6 +3,7 @@ import csv
 import datetime
 import os
 import requests
+import pandas as pd
 
 def download_studies(page_size):
     base_url = "https://clinicaltrials.gov/api/v2/studies?query.cond=duchenne"
@@ -120,6 +121,9 @@ def append_to_history(current_csv, history_csv):
                 writer.writerow(row)
 
     print(f"Data from {current_csv} has been appended to {history_csv}.")
+    
+
+
 
 if __name__ == "__main__":
     download_studies(100000)
