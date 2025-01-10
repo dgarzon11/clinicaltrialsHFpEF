@@ -183,11 +183,11 @@ def generate_changes_last_n(history_csv, changes_csv, n):
     print(f"Archivo de cambios generado en: {changes_csv}")
 
 if __name__ == "__main__":
-    #download_studies(100000)
-    #json_file = os.path.join('data', 'dmd_current.json')
-    #csv_file = os.path.join('data', 'dmd_current.csv')
+    download_studies(100000)
+    json_file = os.path.join('data', 'dmd_current.json')
+    csv_file = os.path.join('data', 'dmd_current.csv')
     history_csv = os.path.join('data', 'dmd_history.csv')
 
-    #json_to_csv(json_file, csv_file)
-    #append_to_history(csv_file, history_csv)
+    json_to_csv(json_file, csv_file)
+    append_to_history(csv_file, history_csv)
     generate_changes_last_n(history_csv, os.path.join('data', 'dmd_changes.csv'),10)
