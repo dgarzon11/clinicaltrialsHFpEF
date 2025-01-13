@@ -106,81 +106,84 @@ def json_to_csv(json_file, csv_file):
     print(f"Data has been successfully written to {csv_file}.")
 
 def append_to_history(current_csv, history_csv):
+    """
+    Append rows from the current CSV to the history CSV, ensuring schema consistency.
+    """
+    expected_columns = 31
+
+    # Load the current CSV and validate its structure
+    current_data = pd.read_csv(current_csv)
+    if current_data.shape[1] != expected_columns:
+        print(f"Warning: The current file {current_csv} has an unexpected number of columns ({current_data.shape[1]}).")
+        current_data = current_data.iloc[:, :expected_columns]  # Trim to expected columns
+
+    # Validate history file structure
     file_exists = os.path.isfile(history_csv)
+    if file_exists:
+        history_data = pd.read_csv(history_csv)
+        if history_data.shape[1] != expected_columns:
+            print(f"Warning: The history file {history_csv} has an unexpected number of columns ({history_data.shape[1]}).")
+            history_data = history_data.iloc[:, :expected_columns]  # Trim to expected columns
+    else:
+        history_data = pd.DataFrame(columns=current_data.columns)  # Create an empty DataFrame
 
-    with open(history_csv, 'a', newline='', encoding='utf-8') as history_file:
-        with open(current_csv, 'r', newline='', encoding='utf-8') as current_file:
-            reader = csv.reader(current_file)
-            writer = csv.writer(history_file)
+    # Append current data to history
+    combined_data = pd.concat([history_data, current_data], ignore_index=True)
 
-            header = next(reader)  # Skip header from current file
-            if not file_exists:
-                writer.writerow(header)  # Write header only if the file doesn't exist
+    # Drop duplicate rows (optional)
+    combined_data.drop_duplicates(inplace=True)
 
-            for row in reader:
-                writer.writerow(row)
+    # Save the updated history file
+    combined_data.to_csv(history_csv, index=False)
+    print(f"Data from {current_csv} has been appended to {history_csv} with schema validation.")
 
-    print(f"Data from {current_csv} has been appended to {history_csv}.")
     
 def generate_changes_last_n(history_csv, changes_csv, n):
     """
-    Identifica los cambios en las últimas n Timestamps para cada NCTId y genera un archivo CSV con los cambios.
-
-    Args:
-        history_csv (str): Ruta del archivo de entrada dmd_history.csv.
-        changes_csv (str): Ruta del archivo de salida dmd_changes.csv.
-        n (int): Número de últimos Timestamps a analizar.
-
-    Output:
-        Un archivo CSV con columnas: NCTId, final_date, start_date, change, final_value, start_value.
+    Identify changes in the last n Timestamps for each NCTId and generate a CSV of changes.
     """
-    # Leer el archivo de historial
+    expected_columns = 31
+
+    # Load the history CSV and validate its structure
     df = pd.read_csv(history_csv)
+    if df.shape[1] != expected_columns:
+        print(f"Warning: The history file {history_csv} has an unexpected number of columns ({df.shape[1]}).")
+        df = df.iloc[:, :expected_columns]  # Trim to expected columns
 
-    # Asegurarse de que la columna Timestamp está en formato datetime
+    # Ensure Timestamp is in datetime format
     df['Timestamp'] = pd.to_datetime(df['Timestamp'], format='ISO8601', errors='coerce')
-
-    # Eliminar filas con valores nulos en la columna Timestamp
     df.dropna(subset=['Timestamp'], inplace=True)
 
-    # Ordenar por NCTId y Timestamp
+    # Sort by NCTId and Timestamp
     df.sort_values(by=['NCTId', 'Timestamp'], inplace=True)
 
+    # Detect changes
     changes = []
-
-    # Agrupar por NCTId y analizar los últimos n Timestamps
     for nct_id, group in df.groupby('NCTId'):
-        if len(group) > 1:
-            # Tomar solo los últimos n registros por NCTId
-            group = group.tail(n).reset_index(drop=True)
+        group = group.tail(n).reset_index(drop=True)
+        for i in range(1, len(group)):
+            current_row = group.iloc[i]
+            previous_row = group.iloc[i - 1]
+            for column in group.columns:
+                if column not in ['NCTId', 'Timestamp']:
+                    current_value = current_row[column]
+                    previous_value = previous_row[column]
+                    if pd.notnull(current_value) and pd.notnull(previous_value) and current_value != previous_value:
+                        changes.append({
+                            'NCTId': nct_id,
+                            'final_date': current_row['Timestamp'],
+                            'start_date': previous_row['Timestamp'],
+                            'change': column,
+                            'final_value': current_value,
+                            'start_value': previous_value
+                        })
 
-            # Comparar cada fila con la siguiente
-            for i in range(1, len(group)):
-                current_row = group.iloc[i]
-                previous_row = group.iloc[i - 1]
-
-                for column in group.columns:
-                    if column not in ['NCTId', 'Timestamp']:
-                        current_value = current_row[column]
-                        previous_value = previous_row[column]
-
-                        if pd.notnull(current_value) and pd.notnull(previous_value) and current_value != previous_value:
-                            changes.append({
-                                'NCTId': nct_id,
-                                'final_date': current_row['Timestamp'],
-                                'start_date': previous_row['Timestamp'],
-                                'change': column,
-                                'final_value': current_value,
-                                'start_value': previous_value
-                            })
-
-    # Crear un DataFrame con los cambios
+    # Create a DataFrame with changes
     changes_df = pd.DataFrame(changes)
 
-    # Guardar los cambios en un archivo CSV
+    # Save the changes CSV
     changes_df.to_csv(changes_csv, index=False)
-
-    print(f"Archivo de cambios generado en: {changes_csv}")
+    print(f"Changes CSV generated: {changes_csv}")
 
 if __name__ == "__main__":
     download_studies(100000)
