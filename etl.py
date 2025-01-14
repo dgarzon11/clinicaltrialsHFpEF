@@ -4,6 +4,7 @@ import datetime
 import os
 import requests
 import pandas as pd
+import re
 
 def download_studies(page_size):
     base_url = "https://clinicaltrials.gov/api/v2/studies?query.cond=duchenne"
@@ -158,6 +159,38 @@ def generate_changes_last_n(history_csv, changes_csv, n):
 
     changes = []
 
+    # Identificar las últimas NCTIds en el conjunto de datos
+    latest_data = df[df['Timestamp'] == df['Timestamp'].max()]
+    latest_nct_ids = set(latest_data['NCTId'])
+
+    # Identificar los NCTIds en el conjunto de datos anterior
+    previous_data = df[df['Timestamp'] < df['Timestamp'].max()]
+    previous_nct_ids = set(previous_data['NCTId'])
+
+    # Identificar nuevos estudios añadidos (NCTIds que están en los últimos datos pero no en los anteriores)
+    new_nct_ids = latest_nct_ids - previous_nct_ids
+    for nct_id in new_nct_ids:
+        changes.append({
+            'NCTId': nct_id,
+            'final_date': df[df['NCTId'] == nct_id]['Timestamp'].max(),
+            'start_date': None,
+            'change': 'New Study Added',
+            'final_value': None,
+            'start_value': None
+        })
+
+    # Identificar estudios eliminados (NCTIds que están en los datos anteriores pero no en los últimos)
+    removed_nct_ids = previous_nct_ids - latest_nct_ids
+    for nct_id in removed_nct_ids:
+        changes.append({
+            'NCTId': nct_id,
+            'final_date': None,
+            'start_date': df[df['NCTId'] == nct_id]['Timestamp'].max(),
+            'change': 'Study Removed',
+            'final_value': None,
+            'start_value': None
+        })
+
     # Agrupar por NCTId y analizar los últimos N Timestamps
     for nct_id, group in df.groupby('NCTId'):
         if len(group) > 1:
@@ -215,11 +248,16 @@ def generate_changes_last_n(history_csv, changes_csv, n):
     # Crear un DataFrame con los cambios
     changes_df = pd.DataFrame(changes)
 
+    # Modificar la columna 'change' para ser más legible
+    def make_human_readable(text):
+        return re.sub(r'(?<!^)(?=[A-Z])', ' ', text)
+
+    changes_df['change'] = changes_df['change'].apply(make_human_readable)
+
     # Guardar los cambios en un archivo CSV
     changes_df.to_csv(changes_csv, index=False)
 
     print(f"Archivo de cambios generado en: {changes_csv}")
-
 
 
 if __name__ == "__main__":
