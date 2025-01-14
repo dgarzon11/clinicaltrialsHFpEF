@@ -145,7 +145,10 @@ def generate_changes_last_n(history_csv, changes_csv, n):
                     'StudyFirstPostDate', 'ResultsFirstPostDate', 'LastUpdatePostDate']
     for col in date_columns:
         if col in df.columns:
-            df[col] = pd.to_datetime(df[col], errors='coerce')
+            try:
+                df[col] = pd.to_datetime(df[col], format='%Y-%m-%d', errors='coerce')
+            except ValueError:
+                df[col] = pd.to_datetime(df[col], errors='coerce')
 
     # Eliminar filas con valores nulos en la columna Timestamp
     df.dropna(subset=['Timestamp'], inplace=True)
@@ -155,11 +158,11 @@ def generate_changes_last_n(history_csv, changes_csv, n):
 
     changes = []
 
-    # Agrupar por NCTId y analizar los últimos 4 Timestamps
+    # Agrupar por NCTId y analizar los últimos N Timestamps
     for nct_id, group in df.groupby('NCTId'):
         if len(group) > 1:
-            # Tomar solo los últimos 4 registros por NCTId
-            group = group.tail(4).reset_index(drop=True)
+            # Tomar solo los últimos N registros por NCTId
+            group = group.tail(n).reset_index(drop=True)
 
             # Comparar cada fila con la siguiente
             for i in range(1, len(group)):
@@ -195,15 +198,19 @@ def generate_changes_last_n(history_csv, changes_csv, n):
                                 })
                         # Manejar texto u otros tipos
                         else:
-                            if pd.notnull(current_value) and pd.notnull(previous_value) and str(current_value) != str(previous_value):
-                                changes.append({
-                                    'NCTId': nct_id,
-                                    'final_date': current_row['Timestamp'],
-                                    'start_date': previous_row['Timestamp'],
-                                    'change': column,
-                                    'final_value': current_value,
-                                    'start_value': previous_value
-                                })
+                            # Ignorar diferencias de doble retorno de carro
+                            if pd.notnull(current_value) and pd.notnull(previous_value):
+                                current_value_str = str(current_value).replace('\n\n', '\n')
+                                previous_value_str = str(previous_value).replace('\n\n', '\n')
+                                if current_value_str != previous_value_str:
+                                    changes.append({
+                                        'NCTId': nct_id,
+                                        'final_date': current_row['Timestamp'],
+                                        'start_date': previous_row['Timestamp'],
+                                        'change': column,
+                                        'final_value': current_value_str,
+                                        'start_value': previous_value_str
+                                    })
 
     # Crear un DataFrame con los cambios
     changes_df = pd.DataFrame(changes)
@@ -214,12 +221,13 @@ def generate_changes_last_n(history_csv, changes_csv, n):
     print(f"Archivo de cambios generado en: {changes_csv}")
 
 
+
 if __name__ == "__main__":
-    #download_studies(100000)
-    #json_file = os.path.join('data', 'dmd_current.json')
-    #csv_file = os.path.join('data', 'dmd_current.csv')
+    download_studies(100000)
+    json_file = os.path.join('data', 'dmd_current.json')
+    csv_file = os.path.join('data', 'dmd_current.csv')
     history_csv = os.path.join('data', 'dmd_history.csv')
 
-    #json_to_csv(json_file, csv_file)
-    #append_to_history(csv_file, history_csv)
+    json_to_csv(json_file, csv_file)
+    append_to_history(csv_file, history_csv)
     generate_changes_last_n(history_csv, os.path.join('data', 'dmd_changes.csv'),10)
