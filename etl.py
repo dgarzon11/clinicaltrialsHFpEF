@@ -67,6 +67,17 @@ def json_to_csv(json_file, csv_file):
             design = protocol.get('designModule', {})
             description = protocol.get('descriptionModule', {})
 
+            # Standardize dates and numeric values
+            def standardize_date(date_str):
+                if isinstance(date_str, str):
+                    try:
+                        if len(date_str.split('-')) == 2:  # Year-Month format
+                            date_str += '-01'
+                        return pd.to_datetime(date_str, errors='coerce').strftime('%Y-%m-%d')
+                    except Exception:
+                        return ''
+                return ''
+
             row = {
                 'NCTId': identification.get('nctId', ''),
                 'BriefTitle': identification.get('briefTitle', ''),
@@ -92,12 +103,12 @@ def json_to_csv(json_file, csv_file):
                 'DesignPrimaryPurpose': design.get('designInfo', {}).get('primaryPurpose', ''),
                 'OrgStudyId': identification.get('orgStudyIdInfo', {}).get('id', ''),
                 'SecondaryId': ', '.join(sid.get('id', '') for sid in identification.get('secondaryIdInfos', [])),
-                'StartDate': status.get('startDateStruct', {}).get('date', ''),
-                'PrimaryCompletionDate': status.get('primaryCompletionDateStruct', {}).get('date', ''),
-                'CompletionDate': status.get('completionDateStruct', {}).get('date', ''),
-                'StudyFirstPostDate': status.get('studyFirstPostDateStruct', {}).get('date', ''),
-                'ResultsFirstPostDate': status.get('resultsFirstPostDateStruct', {}).get('date', ''),
-                'LastUpdatePostDate': status.get('lastUpdatePostDateStruct', {}).get('date', ''),
+                'StartDate': standardize_date(status.get('startDateStruct', {}).get('date', '')),
+                'PrimaryCompletionDate': standardize_date(status.get('primaryCompletionDateStruct', {}).get('date', '')),
+                'CompletionDate': standardize_date(status.get('completionDateStruct', {}).get('date', '')),
+                'StudyFirstPostDate': standardize_date(status.get('studyFirstPostDateStruct', {}).get('date', '')),
+                'ResultsFirstPostDate': standardize_date(status.get('resultsFirstPostDateStruct', {}).get('date', '')),
+                'LastUpdatePostDate': standardize_date(status.get('lastUpdatePostDateStruct', {}).get('date', '')),
                 'Timestamp': timestamp
             }
 
@@ -106,91 +117,109 @@ def json_to_csv(json_file, csv_file):
     print(f"Data has been successfully written to {csv_file}.")
 
 def append_to_history(current_csv, history_csv):
-    """
-    Append rows from the current CSV to the history CSV, ensuring schema consistency.
-    """
-    expected_columns = 31
-
-    # Load the current CSV and validate its structure
-    current_data = pd.read_csv(current_csv)
-    if current_data.shape[1] != expected_columns:
-        print(f"Warning: The current file {current_csv} has an unexpected number of columns ({current_data.shape[1]}).")
-        current_data = current_data.iloc[:, :expected_columns]  # Trim to expected columns
-
-    # Validate history file structure
     file_exists = os.path.isfile(history_csv)
-    if file_exists:
-        history_data = pd.read_csv(history_csv)
-        if history_data.shape[1] != expected_columns:
-            print(f"Warning: The history file {history_csv} has an unexpected number of columns ({history_data.shape[1]}).")
-            history_data = history_data.iloc[:, :expected_columns]  # Trim to expected columns
-    else:
-        history_data = pd.DataFrame(columns=current_data.columns)  # Create an empty DataFrame
 
-    # Append current data to history
-    combined_data = pd.concat([history_data, current_data], ignore_index=True)
+    with open(history_csv, 'a', newline='', encoding='utf-8') as history_file:
+        with open(current_csv, 'r', newline='', encoding='utf-8') as current_file:
+            reader = csv.reader(current_file)
+            writer = csv.writer(history_file)
 
-    # Drop duplicate rows (optional)
-    combined_data.drop_duplicates(inplace=True)
+            header = next(reader)  # Skip header from current file
+            if not file_exists:
+                writer.writerow(header)  # Write header only if the file doesn't exist
 
-    # Save the updated history file
-    combined_data.to_csv(history_csv, index=False)
-    print(f"Data from {current_csv} has been appended to {history_csv} with schema validation.")
+            for row in reader:
+                writer.writerow(row)
 
+    print(f"Data from {current_csv} has been appended to {history_csv}.")
     
 def generate_changes_last_n(history_csv, changes_csv, n):
-    """
-    Identify changes in the last n Timestamps for each NCTId and generate a CSV of changes.
-    """
-    expected_columns = 31
-
-    # Load the history CSV and validate its structure
+    # Leer el archivo de historial
     df = pd.read_csv(history_csv)
-    if df.shape[1] != expected_columns:
-        print(f"Warning: The history file {history_csv} has an unexpected number of columns ({df.shape[1]}).")
-        df = df.iloc[:, :expected_columns]  # Trim to expected columns
 
-    # Ensure Timestamp is in datetime format
-    df['Timestamp'] = pd.to_datetime(df['Timestamp'], format='ISO8601', errors='coerce')
+    # Asegurarse de que la columna Timestamp está en formato datetime
+    df['Timestamp'] = pd.to_datetime(df['Timestamp'], errors='coerce')
+
+    # Normalizar las columnas de fechas relevantes
+    date_columns = ['StartDate', 'PrimaryCompletionDate', 'CompletionDate',
+                    'StudyFirstPostDate', 'ResultsFirstPostDate', 'LastUpdatePostDate']
+    for col in date_columns:
+        if col in df.columns:
+            df[col] = pd.to_datetime(df[col], errors='coerce')
+
+    # Eliminar filas con valores nulos en la columna Timestamp
     df.dropna(subset=['Timestamp'], inplace=True)
 
-    # Sort by NCTId and Timestamp
+    # Ordenar por NCTId y Timestamp
     df.sort_values(by=['NCTId', 'Timestamp'], inplace=True)
 
-    # Detect changes
     changes = []
-    for nct_id, group in df.groupby('NCTId'):
-        group = group.tail(n).reset_index(drop=True)
-        for i in range(1, len(group)):
-            current_row = group.iloc[i]
-            previous_row = group.iloc[i - 1]
-            for column in group.columns:
-                if column not in ['NCTId', 'Timestamp']:
-                    current_value = current_row[column]
-                    previous_value = previous_row[column]
-                    if pd.notnull(current_value) and pd.notnull(previous_value) and current_value != previous_value:
-                        changes.append({
-                            'NCTId': nct_id,
-                            'final_date': current_row['Timestamp'],
-                            'start_date': previous_row['Timestamp'],
-                            'change': column,
-                            'final_value': current_value,
-                            'start_value': previous_value
-                        })
 
-    # Create a DataFrame with changes
+    # Agrupar por NCTId y analizar los últimos 4 Timestamps
+    for nct_id, group in df.groupby('NCTId'):
+        if len(group) > 1:
+            # Tomar solo los últimos 4 registros por NCTId
+            group = group.tail(4).reset_index(drop=True)
+
+            # Comparar cada fila con la siguiente
+            for i in range(1, len(group)):
+                current_row = group.iloc[i]
+                previous_row = group.iloc[i - 1]
+
+                for column in group.columns:
+                    if column not in ['NCTId', 'Timestamp']:
+                        current_value = current_row[column]
+                        previous_value = previous_row[column]
+
+                        # Manejar valores numéricos
+                        if pd.api.types.is_numeric_dtype(group[column]):
+                            if pd.notnull(current_value) and pd.notnull(previous_value) and current_value != previous_value:
+                                changes.append({
+                                    'NCTId': nct_id,
+                                    'final_date': current_row['Timestamp'],
+                                    'start_date': previous_row['Timestamp'],
+                                    'change': column,
+                                    'final_value': current_value,
+                                    'start_value': previous_value
+                                })
+                        # Manejar valores de fecha
+                        elif pd.api.types.is_datetime64_any_dtype(group[column]):
+                            if pd.notnull(current_value) and pd.notnull(previous_value) and current_value != previous_value:
+                                changes.append({
+                                    'NCTId': nct_id,
+                                    'final_date': current_row['Timestamp'],
+                                    'start_date': previous_row['Timestamp'],
+                                    'change': column,
+                                    'final_value': current_value.strftime('%Y-%m-%d') if pd.notnull(current_value) else None,
+                                    'start_value': previous_value.strftime('%Y-%m-%d') if pd.notnull(previous_value) else None
+                                })
+                        # Manejar texto u otros tipos
+                        else:
+                            if pd.notnull(current_value) and pd.notnull(previous_value) and str(current_value) != str(previous_value):
+                                changes.append({
+                                    'NCTId': nct_id,
+                                    'final_date': current_row['Timestamp'],
+                                    'start_date': previous_row['Timestamp'],
+                                    'change': column,
+                                    'final_value': current_value,
+                                    'start_value': previous_value
+                                })
+
+    # Crear un DataFrame con los cambios
     changes_df = pd.DataFrame(changes)
 
-    # Save the changes CSV
+    # Guardar los cambios en un archivo CSV
     changes_df.to_csv(changes_csv, index=False)
-    print(f"Changes CSV generated: {changes_csv}")
+
+    print(f"Archivo de cambios generado en: {changes_csv}")
+
 
 if __name__ == "__main__":
-    download_studies(100000)
-    json_file = os.path.join('data', 'dmd_current.json')
-    csv_file = os.path.join('data', 'dmd_current.csv')
+    #download_studies(100000)
+    #json_file = os.path.join('data', 'dmd_current.json')
+    #csv_file = os.path.join('data', 'dmd_current.csv')
     history_csv = os.path.join('data', 'dmd_history.csv')
 
-    json_to_csv(json_file, csv_file)
-    append_to_history(csv_file, history_csv)
+    #json_to_csv(json_file, csv_file)
+    #append_to_history(csv_file, history_csv)
     generate_changes_last_n(history_csv, os.path.join('data', 'dmd_changes.csv'),10)
