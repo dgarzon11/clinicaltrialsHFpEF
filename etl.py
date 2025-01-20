@@ -123,12 +123,14 @@ def append_to_history(current_csv, history_csv):
     with open(history_csv, 'a', newline='', encoding='utf-8') as history_file:
         with open(current_csv, 'r', newline='', encoding='utf-8') as current_file:
             reader = csv.reader(current_file)
-            writer = csv.writer(history_file)
+            writer = csv.writer(history_file, quoting=csv.QUOTE_MINIMAL)
 
-            header = next(reader)  # Skip header from current file
+            # Read and write the header if history_csv doesn't exist
+            header = next(reader)
             if not file_exists:
-                writer.writerow(header)  # Write header only if the file doesn't exist
+                writer.writerow(header)
 
+            # Append rows with proper quoting
             for row in reader:
                 writer.writerow(row)
 
