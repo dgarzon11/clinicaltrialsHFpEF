@@ -1,4 +1,5 @@
 NCTId,final_date,start_date,change,final_value,start_value
+NCT06817382,2025-02-17 07:20:41.747565,,New  Study  Added,,
 NCT00005574,2025-01-20 15:44:21.155205,2025-01-13 20:26:18.141077,Org Study Id,000083,83
 NCT00428935,2024-12-30 07:21:33.015371,2024-12-23 07:20:41.925107,Collaborator Name,AskBio Inc,"Asklepios Biopharmaceutical, Inc."
 NCT01247207,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Last Update Post Date,2025-01-08,2024-11-22
@@ -12,6 +13,7 @@ NCT01999075,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Primary Outcom
 NCT01999075,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Secondary Outcome Measure,"FVC Decline of 10% of Predicted, Number of Participants Prescribed Outpatient Oral Antibiotic Courses Between Baseline and 2 Years, Health-related Quality of Life From Baseline to 2 Years, Change in Difference Between Assisted and Unassisted Peak Cough Flow (PCF) From Baseline to 2 Years, Change in Maximal Insufflation Capacity (MIC)-Vital Capacity (VC) From Baseline to 2 Years, Change in Maximum Inspiratory Pressures (MIP), From Baseline to 2 Years, Change in Maximal Expiratory Pressures (MEP), From Baseline to 2 Years","Time to FVC decline of 10% of predicted., Total number and duration of outpatient oral antibiotic courses, hospital and ICU admissions for respiratory exacerbations over 2 years, Health-related quality of life over 2 years, Change in unassisted peak cough flow (PCF), maximal insufflation capacity (MIC), maximum inspiratory and expiratory pressures (MIP, MEP), as well as MIC and PCF with LVR, over 2 years"
 NCT01999075,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Last Update Post Date,2025-01-09,2018-12-24
 NCT01999075,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Collaborator Name,Jesse's Journey,Jesse's Journey-The Foundation for Gene and Cell Therapy
+NCT02069756,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Last Update Post Date,2025-02-10,2023-09-13
 NCT02167217,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Collaborator Name,"Nationwide Children's Hospital, Northwestern University Feinberg School of Medicine, University of Texas Southwestern Medical Center, University of California, Davis, Nemours Children's Hospital","Nationwide Children's Hospital, Northwestern University Feinberg School of Medicine, University of Texas Southwestern Medical Center, University of California, Davis, Nemours Hospital, Orlando, FL"
 NCT02369731,2024-12-30 07:21:33.015371,2024-12-23 07:20:41.925107,Last Update Post Date,2024-12-24,2024-11-20
 NCT02369731,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Last Update Post Date,2025-01-28,2024-12-24
@@ -40,8 +42,13 @@ NCT03340675,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Overall Status
 NCT03340675,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Primary Completion Date,2025-01-31,2024-12-31
 NCT03340675,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Completion Date,2025-01-31,2024-12-31
 NCT03340675,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Last Update Post Date,2025-01-24,2024-10-23
+NCT03340675,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Primary Completion Date,2025-09-01,2025-01-31
+NCT03340675,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Completion Date,2025-12-01,2025-01-31
+NCT03340675,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Last Update Post Date,2025-02-12,2025-01-24
 NCT03368742,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Last Update Post Date,2025-01-27,2024-12-10
 NCT03368742,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Last Update Post Date,2025-02-06,2025-01-27
+NCT03863119,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Overall Status,APPROVED_FOR_MARKETING,AVAILABLE
+NCT03863119,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Last Update Post Date,2025-02-10,2023-11-09
 NCT03992430,2024-12-23 07:20:41.925107,2024-12-16 07:23:26.002895,Brief Title,A Study to Compare Safety and Efficacy of High Doses of Eteplirsen in Participants With Duchenne Muscular Dystrophy (DMD) (MIS51ON),A Study to Compare Safety and Efficacy of a High Dose of Eteplirsen in Participants With Duchenne Muscular Dystrophy (DMD) (MIS51ON)
 NCT03992430,2024-12-23 07:20:41.925107,2024-12-16 07:23:26.002895,Brief Summary,"Part 1 (dose escalation) will evaluate the safety and tolerability of 2 doses (100 milligrams/kilogram \[mg/kg\] and 200 mg/kg) of eteplirsen in approximately 10 participants with DMD; Part 2 (dose finding and dose comparison) will evaluate the efficacy and safety of the high doses (100 mg/kg and 200 mg/kg) of eteplirsen compared with that of the 30 mg/kg dose of eteplirsen, in approximately 144 participants with genetically confirmed deletion mutations amenable to treatment by skipping exon 51.","This study will be comprised of 2 parts: Part 1 (dose escalation) will be conducted to evaluate the safety and tolerability of 2 doses (100 milligrams/kilogram \[mg/kg\] and 200 mg/kg) of eteplirsen in approximately 10 participants with DMD; Part 2 (dose finding and dose comparison) will be conducted for the selection of a high dose (100 mg/kg versus 200 mg/kg) and its comparison with the 30 mg/kg dose of eteplirsen, in approximately 144 participants with genetically confirmed deletion mutations amenable to treatment by skipping exon 51."
 NCT03992430,2024-12-23 07:20:41.925107,2024-12-16 07:23:26.002895,Primary Outcome Measure,"Part 1: Incidence of Adverse Events (AEs), Part 2: Change From Baseline at Week 144 in the NSAA Total Score (for Final Analysis), Part 2: Change from Baseline at Week 72 or Week 96 in NSAA Total Score (for Conditional Efficacy Interim Analysis)","Part 1: Incidence of Adverse Events (AEs), Part 2: Change From Baseline in the NSAA Total Score at Week 144"
@@ -66,6 +73,10 @@ NCT05291091,2024-12-30 07:21:33.015371,2024-12-23 07:20:41.925107,Last Update Po
 NCT05291091,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Last Update Post Date,2025-01-30,2024-12-27
 NCT05291091,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Overall Status,ACTIVE_NOT_RECRUITING,RECRUITING
 NCT05291091,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Last Update Post Date,2025-02-05,2025-01-30
+NCT05412394,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Collaborator Name,"Children's Hospital Medical Center, Cincinnati, Muscular Dystrophy Association, University of Texas, Virginia Commonwealth University, Ann & Robert H Lurie Children's Hospital of Chicago","Ann & Robert H Lurie Children's Hospital of Chicago, Children's Hospital Medical Center, Cincinnati, Muscular Dystrophy Association, University of Texas, Virginia Commonwealth University"
+NCT05412394,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Primary Completion Date,2026-08-01,2026-08-30
+NCT05412394,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Completion Date,2026-12-01,2026-12-30
+NCT05412394,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Last Update Post Date,2025-02-13,2023-09-18
 NCT05524883,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Brief Title,"Safety, Tolerability, Pharmacodynamic, Efficacy, and Pharmacokinetic Study of DYNE-251 in Participants with Duchenne Muscular Dystrophy Amenable to Exon 51 Skipping","Safety, Tolerability, Pharmacodynamic, Efficacy, and Pharmacokinetic Study of DYNE-251 in Participants With Duchenne Muscular Dystrophy Amenable to Exon 51 Skipping"
 NCT05524883,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Last Update Post Date,2025-01-22,2024-10-24
 NCT05540860,2024-12-30 07:21:33.015371,2024-12-23 07:20:41.925107,Brief Title,A Study of EDG-5506 in Children With Duchenne Muscular Dystrophy (LYNX),A Study of EDG-5506 in Children with Duchenne Muscular Dystrophy (LYNX)
@@ -101,6 +112,9 @@ NCT05938023,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Completion Dat
 NCT05938023,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Last Update Post Date,2025-02-03,2024-05-30
 NCT05967351,2024-12-23 07:20:41.925107,2024-12-16 07:23:26.002895,Last Update Post Date,2024-12-16,2024-11-18
 NCT05967351,2025-01-20 15:44:21.155205,2025-01-13 20:26:18.141077,Last Update Post Date,2025-01-17,2024-12-16
+NCT05982119,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Brief Title,Assessments in Patients with Muscular Pathology and in Control Subjects : the ActiLiège Next Study,Assessments in Patients With Muscular Pathology and in Control Subjects : The ActiLiège Next Study
+NCT05982119,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Maximum Age,80 Years,100 Years
+NCT05982119,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Last Update Post Date,2025-02-12,2024-05-30
 NCT06053814,2024-12-23 07:20:41.925107,2024-12-16 07:23:26.002895,Overall Status,RECRUITING,NOT_YET_RECRUITING
 NCT06053814,2024-12-23 07:20:41.925107,2024-12-16 07:23:26.002895,Brief Summary,"This is a Phase 1/2 study of Multiple-Ascending Dose (MAD) levels for 12 weeks of treatment followed by 24 weeks of open-label treatment with a selected dose of NS-050/NCNP-03 administered once weekly to ambulant boys with DMD, who have a DMD exon deletion amenable to exon 50 skipping.","This is a Phase 1/2 study of Multiple-Ascending Dose (MAD) levels for 12 weeks of treatment followed by 24 weeks of open-label treatment with a selected dose of NS-050/NCNP-03 administered once weekly to ambulant boys with DMD, who have a DMD mutation amenable to exon 50 skipping."
 NCT06053814,2024-12-23 07:20:41.925107,2024-12-16 07:23:26.002895,Start Date,2024-09-18,2024-07-01
