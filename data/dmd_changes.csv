@@ -1,4 +1,5 @@
 NCTId,final_date,start_date,change,final_value,start_value
+NCT06861270,2025-03-10 07:19:06.139511,,New  Study  Added,,
 NCT00005574,2025-01-20 15:44:21.155205,2025-01-13 20:26:18.141077,Org Study Id,000083,83
 NCT01247207,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Last Update Post Date,2025-01-08,2024-11-22
 NCT01396239,2025-01-20 15:44:21.155205,2025-01-13 20:26:18.141077,Secondary Id,07-2484,Jul-84
@@ -48,6 +49,9 @@ NCT03406780,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Start Date,201
 NCT03406780,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Last Update Post Date,2025-02-24,2020-06-05
 NCT03863119,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Overall Status,APPROVED_FOR_MARKETING,AVAILABLE
 NCT03863119,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Last Update Post Date,2025-02-10,2023-11-09
+NCT03947112,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Brief Title,Physical Activity Level of Norwegian Boys with Duchenne Muscular Dystrophy,Physical Activity Level of Norwegian Boys With Duchenne Muscular Dystrophy
+NCT03947112,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Last Update Post Date,2025-03-05,2021-12-29
+NCT03963453,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Last Update Post Date,2025-03-05,2023-03-01
 NCT04281485,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Completion Date,2039-04-15,2029-04-19
 NCT04281485,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Last Update Post Date,2025-01-13,2024-09-19
 NCT04322357,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Overall Status,ACTIVE_NOT_RECRUITING,RECRUITING
@@ -58,6 +62,12 @@ NCT04428476,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Primary Outcom
 NCT04428476,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Secondary Outcome Measure,"Number of Participants With Treatment-Emergent Adverse Events (TEAEs) at Month 24, Month 36, Month 48 and Month 60, Number of Participants With Treatment-Emergent Adverse Events (TEAEs) by Severity From Baseline Through Month 60, Change From Baseline in Upper Limb Function as Assessed by Performance of the Upper Limb Test, Version 2 (PUL 2.0) at Month 12, Month 24, Month 36, Month 48, and Month 60, Change From Baseline in Distal-Level (Wrist and Hand) Upper Limb Function as Assessed by Performance of the Upper Limb Test, Version 2 (PUL 2.0) at Month 12, Month 24, Month 36, Month 48, and Month 60, Change From Baseline in Mid-Level (Elbow) as Assessed by Performance of the Upper Limb Test, Version 2 (PUL 2.0) at Month 12, Month 24, Month 36, Month 48, and Month 60, Change From Baseline in Cardiac Parameter: Left Ventricular Ejection Fraction (LVEF) at Month, 24, 36, 48, and 60, Change From Baseline in Cardiac Parameter: Left Ventricular End Systolic Volumes-Indexed (LV-ESVI) at Month 24, Month 36, Month 48, and Month 60, Change From Baseline in Cardiac Parameter: Left Ventricular End Diastolic Volumes-Indexed (LV-EDVI) at Month 24, Month 36, Month 48, and Month 60, Change From Baseline in Cardiac Parameter: Left Ventricle Mass (LV Mass) at Month 24, Month 36, Month 48, and Month 60, Change From Baseline in Cardiac Parameter: Unindexed Volumes at Month 24, Month 36, Month 48, and Month 60, Change From Baseline in Cardiac Parameter: Left Ventricle End Diastolic Wall Thickening (LVEDWT) at Month 24, Month 36, Month 48, and Month 60, Change From Baseline in Cardiac Parameter: Left Ventricle End Systolic Wall Thickening (LVESWT) at Month 24, Month 36, Month 48, and Month 60","Incidence and severity of all treatment-emergent adverse events, Change from baseline in upper limb function, Change from from baseline in distal-level (wrist and hand) upper limb function, Change from baseline in mid-level (elbow) upper limb function, Change in cardiac muscle function and structure by assessment of Left Ventricular Ejection Fraction (LVEF), Change in cardiac muscle function and structure by assessment of Left Ventricular End Systolic Volumes-Indexed (ESVI), Change in cardiac muscle function and structure by assessment of Left Ventricular End Diastolic Volumes-Indexed (EDVI), Change in cardiac muscle function and structure by assessment of mass, Change in cardiac muscle function and structure by assessment of unindexed volumes, Change in cardiac muscle function and structure by assessment of cardiac output, Change in cardiac muscle function and structure by assessment of wall thickening percentage, Change in cardiac muscle function and structure by assessment of end diastolic wall thickness, Change in cardiac muscle function and structure by assessment of end systolic wall thickness"
 NCT04428476,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Start Date,2020-08-05,2020-07-20
 NCT04428476,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Last Update Post Date,2025-02-24,2024-11-12
+NCT04529707,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Brief Title,Sleep Intervention in Young Boys with Duchenne Muscular Dystrophy,Sleep Intervention in Young Boys With Duchenne Muscular Dystrophy
+NCT04529707,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Overall Status,COMPLETED,RECRUITING
+NCT04529707,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Enrollment Count,38.0,100.0
+NCT04529707,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Primary Completion Date,2024-10-31,2025-12-31
+NCT04529707,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Completion Date,2024-12-31,2026-08-31
+NCT04529707,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Last Update Post Date,2025-03-07,2024-03-05
 NCT04906460,2025-02-24 07:20:42.147479,2025-02-17 07:20:41.747565,Brief Title,Open-label Study of WVE-N531 in Patients with Duchenne Muscular Dystrophy (FORWARD-53),Open-label Study of WVE-N531 in Patients With Duchenne Muscular Dystrophy (FORWARD-53)
 NCT04906460,2025-02-24 07:20:42.147479,2025-02-17 07:20:41.747565,Brief Summary,"This is a Phase 1b/2 open-label study to evaluate the safety, tolerability, pharmacokinetic (PK), pharmacodynamic (PD), and clinical effects of intravenous (IV) WVE-N531 in patients with Duchenne muscular dystrophy (DMD). To participate in the study, patients must have a documented mutation of the DMD gene that is amenable to exon 53 skipping intervention. This study has 2 parts, Part A and Part B. Part A is completed. Part B is completed. Following completion of Part B, all patients have elected to continue to receive study drug in an optional open-label extension arm.","This is a Phase 1b/2a open-label study to evaluate the safety, tolerability, pharmacokinetic (PK), pharmacodynamic (PD), and clinical effects of intravenous (IV) WVE-N531 in patients with Duchenne muscular dystrophy (DMD). To participate in the study, patients must have a documented mutation of the DMD gene that is amenable to exon 53 skipping intervention. This study has 2 parts, Part A and Part B. Part A is complete."
 NCT04906460,2025-02-24 07:20:42.147479,2025-02-17 07:20:41.747565,Primary Completion Date,2025-01-16,2025-01-01
@@ -78,10 +88,17 @@ NCT05195775,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Last Update Po
 NCT05291091,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Last Update Post Date,2025-01-30,2024-12-27
 NCT05291091,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Overall Status,ACTIVE_NOT_RECRUITING,RECRUITING
 NCT05291091,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Last Update Post Date,2025-02-05,2025-01-30
+NCT05291091,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Enrollment Count,175.0,170.0
+NCT05291091,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Primary Completion Date,2026-08-01,2026-06-01
+NCT05291091,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Completion Date,2026-08-01,2026-06-01
+NCT05291091,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Last Update Post Date,2025-03-04,2025-02-05
 NCT05412394,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Collaborator Name,"Children's Hospital Medical Center, Cincinnati, Muscular Dystrophy Association, University of Texas, Virginia Commonwealth University, Ann & Robert H Lurie Children's Hospital of Chicago","Ann & Robert H Lurie Children's Hospital of Chicago, Children's Hospital Medical Center, Cincinnati, Muscular Dystrophy Association, University of Texas, Virginia Commonwealth University"
 NCT05412394,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Primary Completion Date,2026-08-01,2026-08-30
 NCT05412394,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Completion Date,2026-12-01,2026-12-30
 NCT05412394,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Last Update Post Date,2025-02-13,2023-09-18
+NCT05429372,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Primary Completion Date,2025-05-30,2024-12-27
+NCT05429372,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Last Update Post Date,2025-03-04,2024-04-04
+NCT05516745,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Overall Status,UNKNOWN,RECRUITING
 NCT05524883,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Brief Title,"Safety, Tolerability, Pharmacodynamic, Efficacy, and Pharmacokinetic Study of DYNE-251 in Participants with Duchenne Muscular Dystrophy Amenable to Exon 51 Skipping","Safety, Tolerability, Pharmacodynamic, Efficacy, and Pharmacokinetic Study of DYNE-251 in Participants With Duchenne Muscular Dystrophy Amenable to Exon 51 Skipping"
 NCT05524883,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Last Update Post Date,2025-01-22,2024-10-24
 NCT05558813,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Overall Status,WITHDRAWN,NOT_YET_RECRUITING
@@ -125,6 +142,11 @@ NCT06079736,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Enrollment Cou
 NCT06079736,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Primary Completion Date,2025-11-01,2025-03-01
 NCT06079736,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Completion Date,2027-11-01,2027-05-01
 NCT06079736,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Last Update Post Date,2025-01-07,2024-05-13
+NCT06079736,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Overall Status,ACTIVE_NOT_RECRUITING,RECRUITING
+NCT06079736,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Enrollment Count,7.0,11.0
+NCT06079736,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Primary Completion Date,2025-04-01,2025-11-01
+NCT06079736,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Completion Date,2027-04-01,2027-11-01
+NCT06079736,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Last Update Post Date,2025-03-04,2025-01-07
 NCT06128564,2025-01-20 15:44:21.155205,2025-01-13 20:26:18.141077,Last Update Post Date,2025-01-16,2024-12-18
 NCT06128564,2025-02-24 07:20:42.147479,2025-02-17 07:20:41.747565,Primary Completion Date,2033-05-30,2032-11-30
 NCT06128564,2025-02-24 07:20:42.147479,2025-02-17 07:20:41.747565,Last Update Post Date,2025-02-17,2025-01-16
@@ -135,22 +157,19 @@ NCT06224660,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Start Date,202
 NCT06224660,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Primary Completion Date,2027-10-01,2027-02-01
 NCT06224660,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Completion Date,2030-10-01,2030-02-01
 NCT06224660,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Last Update Post Date,2025-02-27,2024-01-25
+NCT06241950,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Primary Completion Date,2026-01-31,2025-01-31
+NCT06241950,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Completion Date,2027-10-31,2026-09-30
+NCT06241950,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Last Update Post Date,2025-03-03,2024-08-13
 NCT06244082,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Overall Status,ACTIVE_NOT_RECRUITING,RECRUITING
 NCT06244082,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Last Update Post Date,2025-02-07,2024-09-23
 NCT06445985,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Overall Status,ACTIVE_NOT_RECRUITING,RECRUITING
 NCT06445985,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Enrollment Count,31.0,44.0
 NCT06445985,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Primary Completion Date,2025-04-01,2025-12-12
 NCT06445985,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Last Update Post Date,2025-01-30,2024-06-06
-NCT06450639,2025-01-06 07:21:11.033402,2024-12-30 07:21:33.015371,Brief Title,A Study to Assess the Efficacy and Safety of Satralizumab in Duchenne Muscular Dystrophy (DMD),An Open-label Study to Assess the Efficacy and Safety of Satralizumab in Duchenne Muscular Dystrophy
-NCT06450639,2025-01-06 07:21:11.033402,2024-12-30 07:21:33.015371,Brief Summary,"The purpose of this study is to assess the efficacy, safety, pharmacokinetics (PK) and pharmacodynamics (PD) of satralizumab, a humanized anti-interleukin-6 receptor (aIL-6R) monoclonal antibody, in ambulatory and non-ambulatory participants with DMD age ≥ 8 to \< 18 years old receiving corticosteroid therapy.","The purpose of this study is to assess the efficacy, safety, pharmacokinetics (PK) and pharmacodynamics (PD) of satralizumab, a humanized anti-interleukin-6 receptor (aIL-6R) monoclonal antibody, in ambulatory and non-ambulatory patients with Duchenne muscular dystrophy (DMD) age ≥ 8 to \< 16 years old receiving corticosteroid therapy."
-NCT06450639,2025-01-06 07:21:11.033402,2024-12-30 07:21:33.015371,Primary Outcome Measure,Group 2: Change From Baseline to Week 52 in Lumbar Spine (LS) Bone Mineral Density (BMD) Z-score Measured by Dual-energy X-ray Absorptiometry (DEXA),Change from Baseline to Week 52 in Lumbar Spine (LS) Bone Mineral Density (BMD) Z-Score Measured By Dual-Energy X-ray Absorptiometry (DEXA)
-NCT06450639,2025-01-06 07:21:11.033402,2024-12-30 07:21:33.015371,Secondary Outcome Measure,"All Participants: Change From Baseline to Weeks 24, 52, and 104 in LS BMD Z-score Measured by DEXA, Group 2: Change From Baseline to Weeks 24 and 104 in LS BMD Z-score Measured by DEXA, Group 2: Change From Baseline to Weeks 24, 52 and 104 in Total Body Less Head Bone Mineral Density (TBLH BMD) Z-score Measured by DEXA, Group 2: Change From Baseline to Weeks 24, 52 and 104 in Total Hip BMD Z-score Measured by DEXA, Group 2: Change From Baseline to Weeks 12, 24 and 52 in Circulating Bone Metabolism Biomarkers, All Participants: Change From Baseline to Weeks 12, 24 and 52 in Circulating Bone Metabolism Biomarkers, All Participants: Mean Number Per Participants of New Low-trauma Long-bone or Vertebral Fractures (VF), All Participants: Percentage of Participants With New Low-trauma Long-bone or VF, Percentage of Participants With Treatment-emergent Adverse Events (TEAEs), Percentage of Participants With Serious Adverse Events (SAEs), Percentage of Participants With Adverse Events of Special Interest (AESIs), Observed Serum Concentration of Satralizumab at Specified Trough Timepoints up to Week 104, Apparent Clearance of Satralizumab, Apparent Volume of Distribution of Satralizumab, Area Under the Concentration-time Curve of Satralizumab, Percentage of Participants With Anti-drug Antibodies (ADAs) at Baseline and During the Study","Percentage of Participants with Treatment-Emergent Adverse Events, Percentage of Participants with Serious Adverse Events, Percentage of Participants with Adverse Events of Special Interest, Change from Baseline to Weeks 24 and 52 in LS BMD Z-Score Measured by DEXA, Change from Baseline to Weeks 24 and 52 in Total Body Less Head Bone Mineral Density (TBLH BMD) Z-Score Measured by DEXA, Change from Baseline to Weeks 24 and 52 in Circulating Bone Metabolism Biomarkers, Mean Number Per Participants of New Low-Trauma Long-Bone or Vertebral Fractures (VF), Percentage of Participants with New Low-Trauma Long-Bone or VF, Change in Time to Rise From the Floor (RFF) Velocity, Observed Serum Concentration of Satralizumab at Specified Trough Timepoints Up To Week 104, Apparent Clearance of Satralizumab, Apparent Volume of Distribution of Satralizumab, Area Under the Concentration-Time Curve of Satralizumab, Anti-Drug Antibodies (ADAs) at Baseline and Incidence of ADAs During the Study"
-NCT06450639,2025-01-06 07:21:11.033402,2024-12-30 07:21:33.015371,Maximum Age,17 Years,15 Years
-NCT06450639,2025-01-06 07:21:11.033402,2024-12-30 07:21:33.015371,Start Date,2025-02-15,2024-11-29
-NCT06450639,2025-01-06 07:21:11.033402,2024-12-30 07:21:33.015371,Primary Completion Date,2026-11-30,2026-06-30
-NCT06450639,2025-01-06 07:21:11.033402,2024-12-30 07:21:33.015371,Completion Date,2027-11-15,2027-06-30
-NCT06450639,2025-01-06 07:21:11.033402,2024-12-30 07:21:33.015371,Last Update Post Date,2025-01-03,2024-12-06
 NCT06450639,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Last Update Post Date,2025-02-05,2025-01-03
+NCT06450639,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Start Date,2025-03-31,2025-02-15
+NCT06450639,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Last Update Post Date,2025-03-07,2025-02-05
+NCT06597656,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Last Update Post Date,2025-03-03,2024-10-16
 NCT06692426,2025-01-20 15:44:21.155205,2025-01-13 20:26:18.141077,Start Date,2025-05-16,2024-12-16
 NCT06692426,2025-01-20 15:44:21.155205,2025-01-13 20:26:18.141077,Last Update Post Date,2025-01-17,2024-11-18
 NCT06692426,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Brief Title,Trial of Cell Based Therapy for DMD,Ph I Trial of Cell Based Therapy for DMD
