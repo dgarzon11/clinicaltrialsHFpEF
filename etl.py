@@ -25,7 +25,6 @@ Dependencies:
 - csv: CSV file operations
 - datetime: Date and time operations
 """
-
 import json
 import csv
 import datetime
@@ -63,6 +62,7 @@ def download_studies(page_size):
             print("No studies found. Please try again with a different number of studies.")
             return
 
+        os.makedirs('data', exist_ok=True)
         os.makedirs('data', exist_ok=True)
         file_name = os.path.join('data', "studies.json")
         with open(file_name, mode="w") as f:
