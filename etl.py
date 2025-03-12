@@ -1,3 +1,31 @@
+"""
+ETL Pipeline for Clinical Trials Data Processing
+---------------------------------------------
+
+This script implements an ETL (Extract, Transform, Load) pipeline for processing clinical trials data
+specifically related to Duchenne Muscular Dystrophy (DMD) from clinicaltrials.gov.
+
+The pipeline consists of four main components:
+1. Data Extraction: Downloads clinical trials data from clinicaltrials.gov API
+2. Data Transformation: Converts JSON data to a structured CSV format
+3. Historical Data Management: Maintains a history of all data updates
+4. Change Detection: Analyzes and records changes between data updates
+
+Key Features:
+- Fetches clinical trial data using the clinicaltrials.gov API v2
+- Processes and standardizes various data fields including dates and measures
+- Maintains a historical record of all data changes
+- Generates detailed change logs for tracking updates
+- Handles multiple data types and formats (JSON, CSV)
+
+Dependencies:
+- pandas: Data manipulation and analysis
+- requests: HTTP requests to the API
+- json: JSON data processing
+- csv: CSV file operations
+- datetime: Date and time operations
+"""
+
 import json
 import csv
 import datetime
@@ -7,6 +35,15 @@ import pandas as pd
 import re
 
 def download_studies(page_size):
+    """
+    Downloads clinical trials data from clinicaltrials.gov API.
+    
+    Args:
+        page_size (int): Number of studies to retrieve
+    
+    Returns:
+        None. Saves downloaded data to a JSON file in the data directory.
+    """
     base_url = "https://clinicaltrials.gov/api/v2/studies?query.cond=duchenne"
     params = {
         "format": "json",
@@ -35,7 +72,17 @@ def download_studies(page_size):
         if hasattr(e, 'response') and e.response is not None:
             print(f"Response content: {e.response.text}")
 
-def json_to_csv(json_file, csv_file):
+def data_preparation(json_file, csv_file):
+    """
+    Transforms JSON clinical trials data into a structured CSV format.
+    
+    Args:
+        json_file (str): Path to the source JSON file
+        csv_file (str): Path where the CSV file will be saved
+    
+    Returns:
+        None. Writes processed data to specified CSV file.
+    """
     with open(json_file, 'r') as f:
         data = json.load(f)
 
@@ -118,6 +165,16 @@ def json_to_csv(json_file, csv_file):
     print(f"Data has been successfully written to {csv_file}.")
 
 def append_to_history(current_csv, history_csv):
+    """
+    Appends current data to the historical record.
+    
+    Args:
+        current_csv (str): Path to the current CSV data file
+        history_csv (str): Path to the historical CSV file
+    
+    Returns:
+        None. Appends current data to historical record.
+    """
     file_exists = os.path.isfile(history_csv)
 
     with open(history_csv, 'a', newline='', encoding='utf-8') as history_file:
@@ -137,6 +194,17 @@ def append_to_history(current_csv, history_csv):
     print(f"Data from {current_csv} has been appended to {history_csv}.")
     
 def generate_changes_last_n(history_csv, changes_csv, n):
+    """
+    Analyzes and generates a report of changes in the last N versions of each study.
+    
+    Args:
+        history_csv (str): Path to the historical data CSV file
+        changes_csv (str): Path where the changes report will be saved
+        n (int): Number of most recent versions to compare
+    
+    Returns:
+        None. Generates a CSV file containing detected changes.
+    """
     # Leer el archivo de historial
     df = pd.read_csv(history_csv)
 
@@ -263,11 +331,13 @@ def generate_changes_last_n(history_csv, changes_csv, n):
 
 
 if __name__ == "__main__":
-    download_studies(100000)
+    # Define file paths
     json_file = os.path.join('data', 'studies.json')
     csv_file = os.path.join('data', 'studies.csv')
     history_csv = os.path.join('data', 'studies_history.csv')
-
-    json_to_csv(json_file, csv_file)
-    append_to_history(csv_file, history_csv)
-    generate_changes_last_n(history_csv, os.path.join('data', 'changes.csv'),10)
+    
+    # Execute ETL pipeline
+    download_studies(100000)  # Download latest data
+    data_preparation(json_file, csv_file)  # Transform data
+    append_to_history(csv_file, history_csv)  # Update historical record
+    generate_changes_last_n(history_csv, os.path.join('data', 'changes.csv'), 10)  # Generate change report

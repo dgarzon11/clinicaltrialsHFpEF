@@ -1,180 +1,444 @@
 NCTId,final_date,start_date,change,final_value,start_value
-NCT06861270,2025-03-10 07:19:06.139511,,New  Study  Added,,
-NCT00005574,2025-01-20 15:44:21.155205,2025-01-13 20:26:18.141077,Org Study Id,000083,83
-NCT01247207,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Last Update Post Date,2025-01-08,2024-11-22
-NCT01396239,2025-01-20 15:44:21.155205,2025-01-13 20:26:18.141077,Secondary Id,07-2484,Jul-84
-NCT01834040,2025-01-20 15:44:21.155205,2025-01-13 20:26:18.141077,Org Study Id,00102,102
-NCT01834066,2025-01-20 15:44:21.155205,2025-01-13 20:26:18.141077,Secondary Outcome Measure,-Improvement of daily living scale and baseline in EMG(electromyography),#NAME?
-NCT01834066,2025-01-20 15:44:21.155205,2025-01-13 20:26:18.141077,Org Study Id,00101,101
-NCT01999075,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Has Results,True,False
-NCT01999075,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Primary Outcome Measure,Change in FVC (%-Predicted) From Baseline to 2 Years.,"Relative decline in FVC (%-predicted) over 2 years, measured according to American Thoracic Society (ATS) standards, using the Stanojevic normative equations."
-NCT01999075,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Secondary Outcome Measure,"FVC Decline of 10% of Predicted, Number of Participants Prescribed Outpatient Oral Antibiotic Courses Between Baseline and 2 Years, Health-related Quality of Life From Baseline to 2 Years, Change in Difference Between Assisted and Unassisted Peak Cough Flow (PCF) From Baseline to 2 Years, Change in Maximal Insufflation Capacity (MIC)-Vital Capacity (VC) From Baseline to 2 Years, Change in Maximum Inspiratory Pressures (MIP), From Baseline to 2 Years, Change in Maximal Expiratory Pressures (MEP), From Baseline to 2 Years","Time to FVC decline of 10% of predicted., Total number and duration of outpatient oral antibiotic courses, hospital and ICU admissions for respiratory exacerbations over 2 years, Health-related quality of life over 2 years, Change in unassisted peak cough flow (PCF), maximal insufflation capacity (MIC), maximum inspiratory and expiratory pressures (MIP, MEP), as well as MIC and PCF with LVR, over 2 years"
-NCT01999075,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Last Update Post Date,2025-01-09,2018-12-24
-NCT01999075,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Collaborator Name,Jesse's Journey,Jesse's Journey-The Foundation for Gene and Cell Therapy
-NCT02069756,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Last Update Post Date,2025-02-10,2023-09-13
-NCT02167217,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Collaborator Name,"Nationwide Children's Hospital, Northwestern University Feinberg School of Medicine, University of Texas Southwestern Medical Center, University of California, Davis, Nemours Children's Hospital","Nationwide Children's Hospital, Northwestern University Feinberg School of Medicine, University of Texas Southwestern Medical Center, University of California, Davis, Nemours Hospital, Orlando, FL"
-NCT02369731,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Last Update Post Date,2025-01-28,2024-12-24
-NCT02413450,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Primary Completion Date,2030-08-01,2028-08-01
-NCT02413450,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Completion Date,2031-08-01,2029-08-01
-NCT02413450,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Last Update Post Date,2025-01-31,2024-01-08
-NCT02485938,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Brief Summary,"Male participants with cardiomyopathy secondary to Duchenne muscular dystrophy (DMD) meeting all inclusion and no exclusion criteria will be randomized. All participants will be at least 12 years of age. They will be randomized in a 1:1 manner to either intracoronary infusion of CAP-1002 in three coronary arteries supplying the three major cardiac territories of the left ventricle of the heart (anterior, lateral, inferior/posterior) or usual care. In the active treatment arm, all three major cardiac territories will be treated (infused) during a single procedure in an open-label fashion.","Male subjects with cardiomyopathy secondary to Duchenne muscular dystrophy (DMD) meeting all inclusion and no exclusion criteria will be randomized. All subjects will be at least 12 years of age. They will be randomized in a 1:1 manner to either intracoronary infusion of CAP-1002 in three coronary arteries supplying the three major cardiac territories of the left ventricle of the heart (anterior, lateral, inferior/posterior) or usual care. In the active treatment arm, all three major cardiac territories will be treated (infused) during a single procedure in an open-label fashion."
-NCT02485938,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Has Results,True,False
-NCT02485938,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Primary Outcome Measure,"Number of Participants Experiencing Any of the Adjudicated Events, Number of Participants With Treatment-emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs), Change From Baseline in Clinical Laboratory Parameters (Chloride, Potassium and Sodium) at Month 6 and Month 12, Change From Baseline in Clinical Laboratory Parameter - Albumin at Month 6 and Month 12, Change From Baseline in Clinical Laboratory Parameter - Glucose at Month 6 and Month 12, Change From Baseline in Hematological Parameters (Platelets, White Blood Cells, Basophils, Eosinophils, Lymphocytes, Monocytes and Neutrophils) at Month 6 and Month 12, Change From Baseline in Hematological Parameter - Hemoglobin at Month 6 and Month 12, Change From Baseline in Hematological Parameter - Red Blood Cells at Month 6 and Month 12, Change From Baseline in Vital Signs - Blood Pressure at Month 6 and Month 12, Change From Baseline in Vital Signs - Heart Rate at Month 6 and Month 12, Change From Baseline in Vital Signs - Respiratory Rate at Month 6 and Month 12, Change From Baseline in Vital Signs - Temperature at Month 6 and Month 12, Number of Participants With Clinically Significant Change From Baseline in Cardiac Physical Examinations at Month 6 and Month 12, Change From Baseline in Electrocardiogram (ECG) Parameters (QRS Duration, PR, QT, QTc and QT Interval) at Month 6 and Month 12, Change From Baseline in Electrocardiogram Parameter - Ventricular Rate at Month 6 and Month 12",Safety and tolerability composite of CAP-1002 will be established as described below.
-NCT02485938,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Phase,PHASE2,"PHASE1, PHASE2"
-NCT02485938,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Start Date,2016-01-07,2016-01-01
-NCT02485938,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Primary Completion Date,2017-09-14,2017-09-01
-NCT02485938,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Completion Date,2017-09-14,2017-09-01
-NCT02485938,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Last Update Post Date,2025-01-09,2018-07-20
-NCT02667483,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Collaborator Name,Daiichi Sankyo,"Orphan Disease Treatment Institute Co., Ltd."
-NCT03167255,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Collaborator Name,"Nippon Shinyaku Co., Ltd., Cooperative International Neuromuscular Research Group, Therapeutic Research in Neuromuscular Disorders Solutions","Nippon Shinyaku Co., Ltd., Cooperative International Neuromuscular Research Group, Therapeutic Research in Neuromuscular Disorders Solutions (TRiNDS)"
-NCT03340675,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Brief Title,Oral Ifetroban in Subjects with Duchenne Muscular Dystrophy,Oral Ifetroban in Subjects With Duchenne Muscular Dystrophy
-NCT03340675,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Overall Status,ACTIVE_NOT_RECRUITING,RECRUITING
-NCT03340675,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Primary Completion Date,2025-01-31,2024-12-31
-NCT03340675,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Completion Date,2025-01-31,2024-12-31
-NCT03340675,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Last Update Post Date,2025-01-24,2024-10-23
-NCT03340675,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Primary Completion Date,2025-09-01,2025-01-31
-NCT03340675,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Completion Date,2025-12-01,2025-01-31
-NCT03340675,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Last Update Post Date,2025-02-12,2025-01-24
-NCT03362502,2025-02-24 07:20:42.147479,2025-02-17 07:20:41.747565,Enrollment Count,23.0,22.0
-NCT03362502,2025-02-24 07:20:42.147479,2025-02-17 07:20:41.747565,Completion Date,2025-05-30,2026-03-30
-NCT03362502,2025-02-24 07:20:42.147479,2025-02-17 07:20:41.747565,Last Update Post Date,2025-02-21,2024-09-20
-NCT03368742,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Last Update Post Date,2025-01-27,2024-12-10
-NCT03368742,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Last Update Post Date,2025-02-06,2025-01-27
-NCT03406780,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Brief Summary,HOPE-2 is a double-blind clinical trial evaluating the safety and efficacy of a cell therapy called CAP-1002 in study participants with Duchenne Muscular Dystrophy (DMD). Non-ambulatory and ambulatory boys and young men who meet eligibility criteria will be randomly assigned to receive either CAP-1002 or placebo every 3 months for a total of 4 doses during a 12-month period.,HOPE-2 is a double-blind clinical trial evaluating the safety and efficacy of a cell therapy called CAP-1002 in study participants with Duchenne muscular dystrophy (DMD). Non-ambulatory and ambulatory boys and young men who meet eligibility criteria will be randomly assigned to receive either CAP-1002 or placebo every 3 months for a total of 4 doses during a 12-month period.
-NCT03406780,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Has Results,True,False
-NCT03406780,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Primary Outcome Measure,"Change From Baseline in Functional Capacity as Assessed by the Mid-level (Elbow) Dimension Score of the Performance of Upper Limb (PUL) Version 1.2 at Month 12, Number of Participants Experiencing Acute Respiratory Decompensation, Number of Participants With Hypersensitivity Reactions, Number of Participants With All-cause Mortality, Number of Participants With Serious Adverse Events (SAEs), Number of Participants With Treatment-emergent Adverse Events (TEAEs) Related to Investigational Product (IP) or Administration Procedure, Number of Participants With Immune Sensitization Syndrome",Change in the mid-level (elbow) dimension of the Performance of the Upper Limb (PUL)
-NCT03406780,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Secondary Outcome Measure,"Number of Participants With TEAEs and Severity of TEAEs, Change From Baseline in the Mid-level (Elbow) Dimension Score of the PUL 1.2 at Months 3, 6, and 9, Change From Baseline in Regional Systolic Left Ventricular (LV) Wall Thickening, as Assessed by Cardiac Magnetic Resonance Imaging (MRI) at Months 6 and 12","Change in the mid-level (elbow) dimension of the PUL, Change in regional systolic left ventricular wall thickening as assessed by cardiac MRI"
-NCT03406780,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Enrollment Count,20.0,18.0
-NCT03406780,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Start Date,2018-04-04,2018-03-04
-NCT03406780,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Last Update Post Date,2025-02-24,2020-06-05
-NCT03863119,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Overall Status,APPROVED_FOR_MARKETING,AVAILABLE
-NCT03863119,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Last Update Post Date,2025-02-10,2023-11-09
-NCT03947112,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Brief Title,Physical Activity Level of Norwegian Boys with Duchenne Muscular Dystrophy,Physical Activity Level of Norwegian Boys With Duchenne Muscular Dystrophy
-NCT03947112,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Last Update Post Date,2025-03-05,2021-12-29
-NCT03963453,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Last Update Post Date,2025-03-05,2023-03-01
-NCT04281485,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Completion Date,2039-04-15,2029-04-19
-NCT04281485,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Last Update Post Date,2025-01-13,2024-09-19
-NCT04322357,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Overall Status,ACTIVE_NOT_RECRUITING,RECRUITING
-NCT04322357,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Primary Completion Date,2025-09-05,2025-01-05
-NCT04322357,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Last Update Post Date,2025-02-27,2024-11-06
-NCT04428476,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Has Results,True,False
-NCT04428476,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Primary Outcome Measure,"Number of Participants With Treatment-Emergent Adverse Events (TEAEs) From Baseline Through Month 12, Number of Participants With Treatment-Emergent Adverse Events (TEAEs) by Severity From Baseline Through Month 12, Change From Baseline in Functional Capacity as Assessed by Performance of the Upper Limb Test, Version 2 (PUL 2.0) Total Score.","The primary safety endpoint is the incidence and severity of all treatment-emergent adverse events, The primary efficacy endpoint is change in upper limb function"
-NCT04428476,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Secondary Outcome Measure,"Number of Participants With Treatment-Emergent Adverse Events (TEAEs) at Month 24, Month 36, Month 48 and Month 60, Number of Participants With Treatment-Emergent Adverse Events (TEAEs) by Severity From Baseline Through Month 60, Change From Baseline in Upper Limb Function as Assessed by Performance of the Upper Limb Test, Version 2 (PUL 2.0) at Month 12, Month 24, Month 36, Month 48, and Month 60, Change From Baseline in Distal-Level (Wrist and Hand) Upper Limb Function as Assessed by Performance of the Upper Limb Test, Version 2 (PUL 2.0) at Month 12, Month 24, Month 36, Month 48, and Month 60, Change From Baseline in Mid-Level (Elbow) as Assessed by Performance of the Upper Limb Test, Version 2 (PUL 2.0) at Month 12, Month 24, Month 36, Month 48, and Month 60, Change From Baseline in Cardiac Parameter: Left Ventricular Ejection Fraction (LVEF) at Month, 24, 36, 48, and 60, Change From Baseline in Cardiac Parameter: Left Ventricular End Systolic Volumes-Indexed (LV-ESVI) at Month 24, Month 36, Month 48, and Month 60, Change From Baseline in Cardiac Parameter: Left Ventricular End Diastolic Volumes-Indexed (LV-EDVI) at Month 24, Month 36, Month 48, and Month 60, Change From Baseline in Cardiac Parameter: Left Ventricle Mass (LV Mass) at Month 24, Month 36, Month 48, and Month 60, Change From Baseline in Cardiac Parameter: Unindexed Volumes at Month 24, Month 36, Month 48, and Month 60, Change From Baseline in Cardiac Parameter: Left Ventricle End Diastolic Wall Thickening (LVEDWT) at Month 24, Month 36, Month 48, and Month 60, Change From Baseline in Cardiac Parameter: Left Ventricle End Systolic Wall Thickening (LVESWT) at Month 24, Month 36, Month 48, and Month 60","Incidence and severity of all treatment-emergent adverse events, Change from baseline in upper limb function, Change from from baseline in distal-level (wrist and hand) upper limb function, Change from baseline in mid-level (elbow) upper limb function, Change in cardiac muscle function and structure by assessment of Left Ventricular Ejection Fraction (LVEF), Change in cardiac muscle function and structure by assessment of Left Ventricular End Systolic Volumes-Indexed (ESVI), Change in cardiac muscle function and structure by assessment of Left Ventricular End Diastolic Volumes-Indexed (EDVI), Change in cardiac muscle function and structure by assessment of mass, Change in cardiac muscle function and structure by assessment of unindexed volumes, Change in cardiac muscle function and structure by assessment of cardiac output, Change in cardiac muscle function and structure by assessment of wall thickening percentage, Change in cardiac muscle function and structure by assessment of end diastolic wall thickness, Change in cardiac muscle function and structure by assessment of end systolic wall thickness"
-NCT04428476,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Start Date,2020-08-05,2020-07-20
-NCT04428476,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Last Update Post Date,2025-02-24,2024-11-12
-NCT04529707,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Brief Title,Sleep Intervention in Young Boys with Duchenne Muscular Dystrophy,Sleep Intervention in Young Boys With Duchenne Muscular Dystrophy
-NCT04529707,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Overall Status,COMPLETED,RECRUITING
-NCT04529707,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Enrollment Count,38.0,100.0
-NCT04529707,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Primary Completion Date,2024-10-31,2025-12-31
-NCT04529707,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Completion Date,2024-12-31,2026-08-31
-NCT04529707,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Last Update Post Date,2025-03-07,2024-03-05
-NCT04906460,2025-02-24 07:20:42.147479,2025-02-17 07:20:41.747565,Brief Title,Open-label Study of WVE-N531 in Patients with Duchenne Muscular Dystrophy (FORWARD-53),Open-label Study of WVE-N531 in Patients With Duchenne Muscular Dystrophy (FORWARD-53)
-NCT04906460,2025-02-24 07:20:42.147479,2025-02-17 07:20:41.747565,Brief Summary,"This is a Phase 1b/2 open-label study to evaluate the safety, tolerability, pharmacokinetic (PK), pharmacodynamic (PD), and clinical effects of intravenous (IV) WVE-N531 in patients with Duchenne muscular dystrophy (DMD). To participate in the study, patients must have a documented mutation of the DMD gene that is amenable to exon 53 skipping intervention. This study has 2 parts, Part A and Part B. Part A is completed. Part B is completed. Following completion of Part B, all patients have elected to continue to receive study drug in an optional open-label extension arm.","This is a Phase 1b/2a open-label study to evaluate the safety, tolerability, pharmacokinetic (PK), pharmacodynamic (PD), and clinical effects of intravenous (IV) WVE-N531 in patients with Duchenne muscular dystrophy (DMD). To participate in the study, patients must have a documented mutation of the DMD gene that is amenable to exon 53 skipping intervention. This study has 2 parts, Part A and Part B. Part A is complete."
-NCT04906460,2025-02-24 07:20:42.147479,2025-02-17 07:20:41.747565,Primary Completion Date,2025-01-16,2025-01-01
-NCT04906460,2025-02-24 07:20:42.147479,2025-02-17 07:20:41.747565,Completion Date,2026-10-01,2025-05-01
-NCT04906460,2025-02-24 07:20:42.147479,2025-02-17 07:20:41.747565,Last Update Post Date,2025-02-19,2024-02-28
-NCT05126758,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Brief Title,A Study of Deramiocel (CAP-1002) in Ambulatory and Non-Ambulatory Patients With Duchenne Muscular Dystrophy,A Study of CAP-1002 in Ambulatory and Non-Ambulatory Patients With Duchenne Muscular Dystrophy
-NCT05126758,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Overall Status,ACTIVE_NOT_RECRUITING,RECRUITING
-NCT05126758,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Brief Summary,"HOPE-3 is a two cohort, Phase 3, multi-center, randomized, double-blind, placebo-controlled clinical trial evaluating the efficacy and safety of a cell therapy called deramiocel (CAP-1002) in study participants with Duchenne muscular dystrophy (DMD) and impaired skeletal muscle function. Non-ambulatory and ambulatory boys and young men who meet eligibility criteria will be randomly assigned to receive either deramiocel or placebo every 3 months for a total of 4 doses during the first 12 months of the study. All participants will be eligible to receive 4 doses of deramiocel for an additional 12 months as part of an open-label extended assessment period. After completion of the first open-label extension (Months 12-24), subjects who have completed Month 24 are eligible to continue onto a Long-Term Open-Label Extension period that will provide treatment with deramiocel until commercial availability, or until sponsor's decision to terminate the trial, or the participant withdraws consent.","HOPE-3 is a two cohort, Phase 3, multi-center, randomized, double-blind, placebo-controlled clinical trial evaluating the efficacy and safety of a cell therapy called CAP-1002 in study participants with Duchenne muscular dystrophy (DMD) and impaired skeletal muscle function. Non-ambulatory and ambulatory boys and young men who meet eligibility criteria will be randomly assigned to receive either CAP-1002 or placebo every 3 months for a total of 4 doses during the first 12-months of the study. All participants will be eligible to receive 4 doses of CAP-1002 for an additional 12 months as part of an open-label extended assessment period."
-NCT05126758,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Intervention Name,"Deramiocel (CAP-1002), Placebo","CAP-1002, Placebo"
-NCT05126758,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Secondary Outcome Measure,"Change in cardiac muscle function and structure by assessment of left ventricular ejection fraction, Change in cardiac muscle function and structure by assessment of left ventricular end-systolic volume, Change in cardiac muscle function and structure by assessment of left ventricular end-diastolic volume, Change in elbow and distal level upper limb function, Change in Global Statistical Test (Total GST) combining upper limb function, cardiac muscle function, and patient reported measure of disease severity, Change in hand-to-mouth function in the context of functional eating, Change in hand-to-mouth function, Number of patients with total loss of hand-to-mouth function, Changes in patient-reported upper limb function, Changes in cardiac inflammation biomarker, creatine kinase MB isoenzyme [CK-MB]","Change in cardiac muscle function and structure by assessment of left ventricular ejection fraction, Change in cardiac muscle function and structure by assessment of left ventricular end-systolic volume, Change in cardiac muscle function and structure by assessment of left ventricular end-diastolic volume, Change in elbow and distal level upper limb function, Change in hand-to-mouth function in the context of functional eating, Change in hand-to-mouth function, Number of patients with total loss of hand-to-mouth function, Changes in patient-reported upper limb function, Changes in cardiac inflammation biomarker, creatine kinase MB isoenzyme [CK-MB], Evaluation of disease modifying effects of CAP-1002"
-NCT05126758,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Enrollment Count,104.0,102.0
-NCT05126758,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Primary Completion Date,2025-12-01,2024-12-01
-NCT05126758,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Completion Date,2027-12-01,2026-12-01
-NCT05126758,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Last Update Post Date,2025-02-04,2024-07-23
-NCT05195775,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Primary Completion Date,2025-09-05,2025-01-20
-NCT05195775,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Completion Date,2025-09-05,2025-01-20
-NCT05195775,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Last Update Post Date,2025-02-27,2024-11-06
-NCT05291091,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Last Update Post Date,2025-01-30,2024-12-27
-NCT05291091,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Overall Status,ACTIVE_NOT_RECRUITING,RECRUITING
-NCT05291091,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Last Update Post Date,2025-02-05,2025-01-30
-NCT05291091,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Enrollment Count,175.0,170.0
-NCT05291091,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Primary Completion Date,2026-08-01,2026-06-01
-NCT05291091,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Completion Date,2026-08-01,2026-06-01
-NCT05291091,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Last Update Post Date,2025-03-04,2025-02-05
-NCT05412394,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Collaborator Name,"Children's Hospital Medical Center, Cincinnati, Muscular Dystrophy Association, University of Texas, Virginia Commonwealth University, Ann & Robert H Lurie Children's Hospital of Chicago","Ann & Robert H Lurie Children's Hospital of Chicago, Children's Hospital Medical Center, Cincinnati, Muscular Dystrophy Association, University of Texas, Virginia Commonwealth University"
-NCT05412394,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Primary Completion Date,2026-08-01,2026-08-30
-NCT05412394,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Completion Date,2026-12-01,2026-12-30
-NCT05412394,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Last Update Post Date,2025-02-13,2023-09-18
-NCT05429372,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Primary Completion Date,2025-05-30,2024-12-27
-NCT05429372,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Last Update Post Date,2025-03-04,2024-04-04
-NCT05516745,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Overall Status,UNKNOWN,RECRUITING
-NCT05524883,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Brief Title,"Safety, Tolerability, Pharmacodynamic, Efficacy, and Pharmacokinetic Study of DYNE-251 in Participants with Duchenne Muscular Dystrophy Amenable to Exon 51 Skipping","Safety, Tolerability, Pharmacodynamic, Efficacy, and Pharmacokinetic Study of DYNE-251 in Participants With Duchenne Muscular Dystrophy Amenable to Exon 51 Skipping"
-NCT05524883,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Last Update Post Date,2025-01-22,2024-10-24
-NCT05558813,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Overall Status,WITHDRAWN,NOT_YET_RECRUITING
-NCT05558813,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Enrollment Count,0.0,150.0
-NCT05558813,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Last Update Post Date,2025-02-03,2023-10-30
-NCT05641805,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Overall Status,UNKNOWN,RECRUITING
-NCT05689164,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Overall Status,ACTIVE_NOT_RECRUITING,RECRUITING
-NCT05689164,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Enrollment Count,5.0,250.0
-NCT05689164,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Last Update Post Date,2025-02-07,2024-02-22
-NCT05693142,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Brief Title,AFFINITY DUCHENNE: RGX-202 Gene Therapy in Participants with Duchenne Muscular Dystrophy (DMD),AFFINITY DUCHENNE: RGX-202 Gene Therapy in Participants With Duchenne Muscular Dystrophy (DMD)
-NCT05693142,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Brief Summary,"RGX-202 is a gene therapy designed to deliver a transgene for a novel microdystrophin that includes functional elements of naturally-occurring dystrophin including the C-Terminal (CT) domain.
-This is a multicenter, open-label dose evaluation clinical study to assess the safety, tolerability, and clinical efficacy of a one-time intravenous (IV) dose of RGX-202 in participants with Duchenne.","RGX-202 is a gene therapy designed to deliver a transgene for a novel microdystrophin that includes functional elements of naturally-occurring dystrophin including the C-Terminal (CT) domain.
-This is a multicenter, open-label dose evaluation clinical study to assess the safety, tolerability and clinical efficacy of a one-time intravenous (IV) dose of RGX-202 in participants with Duchenne."
-NCT05693142,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Primary Outcome Measure,"Part 1 Safety measured by incidence of Adverse Events and Serious Adverse Events, Part 2 and 3 Pharmacodynamic",Safety measured by incidence of Adverse Events and Serious Adverse Events
-NCT05693142,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Secondary Outcome Measure,"Time to Stand (TTSTAND), Time to Walk/Run 10 meters (TTWR), Time to Climb 4 Stairs (TTCLIMB), North Star Ambulatory Assessment (NSAA), Peabody Developmental Motor Scale, Third Edition (PDMS-3); Body Control Subtest, Peabody Developmental Motor Scale, Third Edition (PDMS-3); Body Transport Subtest, Part 2 and 3: Stride velocity 95th centile, Part 1 Microdystrophin protein expression, Part 1 Pharmacokinetics (PK), Part 1 Vector Shedding, Part 2 and 3 Microdystrophin protein expression, Part 2 and 3 Safety measured by incidence of Adverse Events and Serious Adverse Events, Part 2 and 3 Pharmacokinetics (PK), Part 2 and 3 Vector Shedding","Efficacy measured by change in Functional Assessment, Efficacy measured by change in Functional Assessment, Microdystrophin protein expression, Pharmacokinetics (PK), Vector Shedding"
-NCT05693142,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Std Age,"CHILD, ADULT, OLDER_ADULT",CHILD
-NCT05693142,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Phase,"PHASE2, PHASE3","PHASE1, PHASE2"
-NCT05693142,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Enrollment Count,65.0,15.0
-NCT05693142,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Primary Completion Date,2026-02-01,2025-12-01
-NCT05693142,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Completion Date,2028-08-01,2025-12-01
-NCT05693142,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Last Update Post Date,2025-01-20,2024-07-23
-NCT05881408,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Secondary Outcome Measure,"Part 1: Change From Baseline in Percent Predicted Forced Vital Capacity (FVC) at Week 72, Part 1: Change From Baseline in Percent Predicted Peak Expiratory Flow (PEF) at Week 72, Part 1: Quantity of Delandistrogene Moxeparvovec Dystrophin Expression at Week 12 as Measured by Western Blot, Part 1: Change From Baseline in Patient-Reported Outcomes Measurement Information (PROMIS) Score in Upper Extremity Function to Week 72, Number of Participants with a Treatment Emergent Adverse Event (TEAE), Adverse Event of Special Interest (AESI), and Serious Adverse Event (SAE), Part 1 (For Cohort 2 Only): Change From Baseline in the North Star Ambulatory Assessment (NSAA) Total Score at Week 72, Part 1: Change From Baseline in Global Circumferential Strain as Measured by Cardiac MRI at Week 72, Part 1: Change From Baseline in the Middle Domain Score of PUL (Version 2.0) at Week 72","Part 1: Change From Baseline in Percent Predicted Forced Vital Capacity (FVC) at Week 72, Part 1: Change From Baseline in Percent Predicted Peak Expiratory Flow (PEF) at Week 72, Part 1: Quantity of Delandistrogene Moxeparvovec Dystrophin Expression at Week 12 as Measured by Western Blot, Part 1: Change From Baseline in Patient-Reported Outcomes Measurement Information (PROMIS) Score in Upper Extremity Function to Week 72, Number of Participants with a Treatment Emergent Adverse Event (TEAE), Adverse Event of Special Interest (AESI), and Serious Adverse Event (SAE), Part 1 (For Cohort 2 Only): Change From Baseline in the North Star Ambulatory Assessment (NSAA) Total Score at Week 72, Part 1: Change From Baseline in Global Circumferential Strain as Measured by Cardiac MRI at Week 72"
-NCT05881408,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Last Update Post Date,2025-01-22,2024-12-24
-NCT05881408,2025-02-24 07:20:42.147479,2025-02-17 07:20:41.747565,Last Update Post Date,2025-02-17,2025-01-22
-NCT05938023,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Brief Title,A Study of ATL1102 or Placebo in Participants with Non-ambulatory Duchenne Muscular Dystrophy,A Study of ATL1102 or Placebo in Participants With Non-ambulatory Duchenne Muscular Dystrophy
-NCT05938023,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Overall Status,TERMINATED,ACTIVE_NOT_RECRUITING
-NCT05938023,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Primary Completion Date,2024-11-19,2024-11-13
-NCT05938023,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Completion Date,2025-01-15,2025-03-05
-NCT05938023,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Last Update Post Date,2025-02-03,2024-05-30
-NCT05967351,2025-01-20 15:44:21.155205,2025-01-13 20:26:18.141077,Last Update Post Date,2025-01-17,2024-12-16
-NCT05982119,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Brief Title,Assessments in Patients with Muscular Pathology and in Control Subjects : the ActiLiège Next Study,Assessments in Patients With Muscular Pathology and in Control Subjects : The ActiLiège Next Study
-NCT05982119,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Maximum Age,80 Years,100 Years
-NCT05982119,2025-02-17 07:20:41.747565,2025-02-10 07:20:33.372640,Last Update Post Date,2025-02-12,2024-05-30
-NCT06079736,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Brief Summary,"The study consists of 3 periods: A Screening Period (up to 45 days), a Multiple Ascending Dose (MAD) Period (16 weeks), and a Long-Term Extension (LTE) Period (108 weeks).
-The primary purpose of the MAD period is to evaluate the safety and tolerability of multiple ascending intravenous (IV) doses of PGN-EDO51 administered to participants with Duchenne Muscular Dystrophy (DMD). The primary purpose of the LTE period is to evaluate the long-term safety and tolerability of PGN-EDO51 in participants who have completed the MAD period.","The primary purpose of the MAD period is to evaluate the safety and tolerability of multiple ascending intravenous (IV) doses of PGN-EDO51 administered to participants with Duchenne muscular dystrophy (DMD). The primary purpose of the LTE period is to evaluate the long-term safety and tolerability of PGN-EDO51 in participants who have completed the MAD period.
-The study consists of 3 periods: A Screening Period (up to 45 days), a Treatment and Observation Period (16 weeks), and an Extension Period (108 weeks)."
-NCT06079736,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Secondary Outcome Measure,"Plasma pharmacokinetic (PK) parameters (MAD period), Plasma pharmacokinetic (PK) parameters (MAD period), Plasma pharmacokinetic (PK) parameters (MAD period), Plasma pharmacokinetic (PK) parameters (MAD period), PK Plasma levels (LTE period), Skeletal muscle concentration of PGN-EDO51 (MAD period), Dystrophin Levels (MAD period)","Plasma pharmacokinetic (PK) parameters (MAD period), Plasma pharmacokinetic (PK) parameters (MAD period), Plasma pharmacokinetic (PK) parameters (MAD period), Plasma pharmacokinetic (PK) parameters (MAD period), PK Plasma levels (LTE period), Skeletal muscle concentration (MAD period), Dystrophin Levels (MAD period)"
-NCT06079736,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Minimum Age,6 Years,8 Years
-NCT06079736,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Std Age,CHILD,"CHILD, ADULT, OLDER_ADULT"
-NCT06079736,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Enrollment Count,11.0,10.0
-NCT06079736,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Primary Completion Date,2025-11-01,2025-03-01
-NCT06079736,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Completion Date,2027-11-01,2027-05-01
-NCT06079736,2025-01-13 20:26:18.141077,2025-01-06 07:21:11.033402,Last Update Post Date,2025-01-07,2024-05-13
-NCT06079736,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Overall Status,ACTIVE_NOT_RECRUITING,RECRUITING
-NCT06079736,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Enrollment Count,7.0,11.0
-NCT06079736,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Primary Completion Date,2025-04-01,2025-11-01
-NCT06079736,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Completion Date,2027-04-01,2027-11-01
-NCT06079736,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Last Update Post Date,2025-03-04,2025-01-07
-NCT06128564,2025-01-20 15:44:21.155205,2025-01-13 20:26:18.141077,Last Update Post Date,2025-01-16,2024-12-18
-NCT06128564,2025-02-24 07:20:42.147479,2025-02-17 07:20:41.747565,Primary Completion Date,2033-05-30,2032-11-30
-NCT06128564,2025-02-24 07:20:42.147479,2025-02-17 07:20:41.747565,Last Update Post Date,2025-02-17,2025-01-16
-NCT06138639,2025-01-20 15:44:21.155205,2025-01-13 20:26:18.141077,Last Update Post Date,2025-01-17,2024-12-16
-NCT06138639,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Last Update Post Date,2025-02-06,2025-01-17
-NCT06224660,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Overall Status,RECRUITING,NOT_YET_RECRUITING
-NCT06224660,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Start Date,2024-10-02,2024-03-01
-NCT06224660,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Primary Completion Date,2027-10-01,2027-02-01
-NCT06224660,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Completion Date,2030-10-01,2030-02-01
-NCT06224660,2025-03-03 07:22:10.748542,2025-02-24 07:20:42.147479,Last Update Post Date,2025-02-27,2024-01-25
-NCT06241950,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Primary Completion Date,2026-01-31,2025-01-31
-NCT06241950,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Completion Date,2027-10-31,2026-09-30
-NCT06241950,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Last Update Post Date,2025-03-03,2024-08-13
-NCT06244082,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Overall Status,ACTIVE_NOT_RECRUITING,RECRUITING
-NCT06244082,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Last Update Post Date,2025-02-07,2024-09-23
-NCT06445985,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Overall Status,ACTIVE_NOT_RECRUITING,RECRUITING
-NCT06445985,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Enrollment Count,31.0,44.0
-NCT06445985,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Primary Completion Date,2025-04-01,2025-12-12
-NCT06445985,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Last Update Post Date,2025-01-30,2024-06-06
-NCT06450639,2025-02-10 07:20:33.372640,2025-02-03 17:56:47.244600,Last Update Post Date,2025-02-05,2025-01-03
-NCT06450639,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Start Date,2025-03-31,2025-02-15
-NCT06450639,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Last Update Post Date,2025-03-07,2025-02-05
-NCT06597656,2025-03-10 07:19:06.139511,2025-03-03 07:22:10.748542,Last Update Post Date,2025-03-03,2024-10-16
-NCT06692426,2025-01-20 15:44:21.155205,2025-01-13 20:26:18.141077,Start Date,2025-05-16,2024-12-16
-NCT06692426,2025-01-20 15:44:21.155205,2025-01-13 20:26:18.141077,Last Update Post Date,2025-01-17,2024-11-18
-NCT06692426,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Brief Title,Trial of Cell Based Therapy for DMD,Ph I Trial of Cell Based Therapy for DMD
-NCT06692426,2025-02-03 17:56:47.244600,2025-01-27 07:19:59.044837,Last Update Post Date,2025-01-28,2025-01-17
-NCT06755138,2025-01-20 15:44:21.155205,2025-01-13 20:26:18.141077,Org Study Id,0420240390,420240390
-NCT06769633,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Overall Status,RECRUITING,NOT_YET_RECRUITING
-NCT06769633,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Start Date,2025-01-02,2025-01-01
-NCT06769633,2025-01-27 07:19:59.044837,2025-01-20 15:44:21.155205,Last Update Post Date,2025-01-24,2025-01-10
+NCT06833931,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01478022,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02329769,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03238235,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02069756,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05639257,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00606775,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04060199,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05274555,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02078076,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06053814,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06224660,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06579859,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00592553,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06539169,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01540604,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06174025,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02432885,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01388764,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02525302,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05540860,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06540365,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02994030,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03521271,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02418338,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05967351,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04349566,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01865084,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03703882,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04768062,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02851797,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05244395,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02081625,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02972580,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04821063,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06565208,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04179409,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06186310,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00033189,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03531788,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02246478,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00758225,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04371666,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02241434,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02310763,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00654784,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01890616,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01197300,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04668716,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04281485,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05209087,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03002298,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01519349,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05689164,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02760277,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05305976,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04428476,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06304064,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01918384,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01823783,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04956289,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01451281,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02439216,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05683379,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06594094,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06711692,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01978366,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05559710,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00720161,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03541070,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01539772,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04906460,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01957059,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02835079,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03507530,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00264888,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00005574,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06244082,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06643442,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05436210,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03863119,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06769633,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04353167,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03127241,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01521546,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00893334,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03603288,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01182324,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02161835,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03362502,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01803412,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04384354,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04335942,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03335384,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04626674,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01128855,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06773988,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02037243,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06093100,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02376816,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04287582,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06109103,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01027884,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00004646,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03433807,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02740972,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05066633,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05996003,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02964377,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05409079,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02667483,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04184882,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02354352,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06378203,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03917719,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01491555,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04587908,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06241950,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01910649,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02789059,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04687020,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00799266,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05688072,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03490214,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03340675,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03882827,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02958202,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01712152,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00844597,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02056808,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02472990,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03373968,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04322357,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06682585,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02018731,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00451074,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03879304,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00750685,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01995032,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01523964,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01254019,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02710591,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04782440,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05135663,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03039686,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02369731,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06328725,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05429372,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01645098,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02436720,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06274983,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00110669,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01484678,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06491927,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05558813,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06066580,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01847573,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05575648,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06124196,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05126758,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06485661,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01999075,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04336826,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02500381,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06732011,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02485938,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06379906,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02752048,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02834650,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02421523,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00847379,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04337112,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05938023,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03038399,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01480245,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06579352,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02109692,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02167217,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03513367,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02235844,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06597656,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02516085,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01183767,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02907619,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03354039,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02340923,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02847975,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01963897,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02310906,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05661071,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04004065,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05881408,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05549999,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04386304,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06564974,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03372655,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03067831,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05933057,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05657938,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06290713,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03648827,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05257473,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03760029,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01772043,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01753804,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05249361,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06402942,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05670730,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01648634,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01380964,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01396239,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00312247,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03532542,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03779646,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01098708,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06450639,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00308113,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04708314,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06366815,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00839033,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02383511,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03057002,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03769116,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01239758,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06363526,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04632940,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06445985,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03951675,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05967793,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01580501,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02780492,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03552874,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01386515,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05753462,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04972604,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06574919,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01826422,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03508947,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05291091,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01081080,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01335295,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03368742,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03589612,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00159250,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03589573,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05019625,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01126697,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05096221,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06079736,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02295748,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05464446,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05016908,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03680365,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00296621,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02530905,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03985878,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06868784,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06054971,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03979157,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03907072,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03558958,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04193085,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01422200,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03400852,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01359670,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01761292,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03947112,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01890798,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02653833,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01874275,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03789734,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06713135,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02168114,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02891434,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04740554,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05338099,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05641805,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02470962,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03633565,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02810028,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02354781,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02285673,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03963453,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01603407,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01610440,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01350154,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06606340,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01070511,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04433234,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06692426,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06100887,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03375255,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05185622,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00674843,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00104078,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02315339,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04529707,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05110885,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01506518,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01247207,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01540409,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05330195,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03443115,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02858362,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04173234,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02484560,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05982119,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01954940,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01834040,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02606136,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03439670,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05280730,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00207857,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01385917,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02413450,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01856868,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06013839,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06412328,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04607824,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02704325,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00819845,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02571205,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06103006,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02034305,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01826487,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01462292,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06114056,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05516745,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04054375,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05313295,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04129294,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02434627,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04669847,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00033813,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01099761,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00102453,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00428935,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03796637,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04120168,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06839469,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01009294,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06363357,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04012671,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03786913,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03611244,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01557400,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00759876,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02196467,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05833633,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00018109,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02636686,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02592941,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02819557,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05029232,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03236662,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01168908,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01153932,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00981266,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03319030,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06147414,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05712447,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05715957,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03992430,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00468832,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06755138,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01826474,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03675126,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04139460,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06643923,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03375164,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04254172,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00390104,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06756633,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05281120,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00243789,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06128564,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02515669,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02147639,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03167255,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02760264,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01982695,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05524883,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01207908,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06280209,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03179631,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02165358,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05160415,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03534349,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06392724,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03689660,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02251600,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06833489,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00016653,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01037309,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06867107,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03936894,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05195775,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05990608,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06817382,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02286947,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02195999,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06295718,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01000012,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02090959,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05514249,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03529240,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05564962,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04240314,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01981915,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06138639,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01921374,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06861270,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06641895,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03655223,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02036463,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03777319,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02255552,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02420379,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06337669,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05412394,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03642145,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01125709,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01834066,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03836300,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01633866,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05601986,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01931644,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03333590,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01286870,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT00873782,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02814019,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05849688,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04583917,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT06270719,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02020954,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05166109,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT05693142,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03218995,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02614820,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT04585464,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT01066455,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT02194725,2025-03-12 15:51:42.328819,,New  Study  Added,,
+NCT03406780,2025-03-12 15:51:42.328819,,New  Study  Added,,
