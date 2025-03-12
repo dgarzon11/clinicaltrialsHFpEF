@@ -25,7 +25,7 @@ def download_studies(page_size):
             return
 
         os.makedirs('data', exist_ok=True)
-        file_name = os.path.join('data', "dmd_current.json")
+        file_name = os.path.join('data', "studies.json")
         with open(file_name, mode="w") as f:
             json.dump(studies, f, indent=2)
         print(f"Successfully downloaded and saved {len(studies)} studies to {file_name}.")
@@ -264,10 +264,10 @@ def generate_changes_last_n(history_csv, changes_csv, n):
 
 if __name__ == "__main__":
     download_studies(100000)
-    json_file = os.path.join('data', 'dmd_current.json')
-    csv_file = os.path.join('data', 'dmd_current.csv')
-    history_csv = os.path.join('data', 'dmd_history.csv')
+    json_file = os.path.join('data', 'studies.json')
+    csv_file = os.path.join('data', 'studies.csv')
+    history_csv = os.path.join('data', 'studies_history.csv')
 
     json_to_csv(json_file, csv_file)
     append_to_history(csv_file, history_csv)
-    generate_changes_last_n(history_csv, os.path.join('data', 'dmd_changes.csv'),10)
+    generate_changes_last_n(history_csv, os.path.join('data', 'changes.csv'),10)
