@@ -46,7 +46,7 @@ def download_studies(page_size):
         None. Saves downloaded data to a JSON file in the data directory.
     """
     # Using OR operator to search for either duchenne or DMD in conditions
-    base_url = "https://clinicaltrials.gov/api/v2/studies?query.cond=duchenne+OR+DMD"
+    base_url = "https://clinicaltrials.gov/api/v2/studies?query.cond=duchenne%20OR%20dmd"
     params = {
         "format": "json",
         "pageSize": page_size,
