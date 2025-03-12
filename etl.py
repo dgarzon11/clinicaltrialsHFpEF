@@ -37,6 +37,7 @@ import re
 def download_studies(page_size):
     """
     Downloads clinical trials data from clinicaltrials.gov API.
+    Searches for studies related to both 'duchenne' and 'DMD' conditions.
     
     Args:
         page_size (int): Number of studies to retrieve
@@ -44,7 +45,8 @@ def download_studies(page_size):
     Returns:
         None. Saves downloaded data to a JSON file in the data directory.
     """
-    base_url = "https://clinicaltrials.gov/api/v2/studies?query.cond=duchenne"
+    # Using OR operator to search for either duchenne or DMD in conditions
+    base_url = "https://clinicaltrials.gov/api/v2/studies?query.cond=duchenne+OR+DMD"
     params = {
         "format": "json",
         "pageSize": page_size,
@@ -205,13 +207,13 @@ def generate_changes_last_n(history_csv, changes_csv, n):
     Returns:
         None. Generates a CSV file containing detected changes.
     """
-    # Leer el archivo de historial
+    # Read historical data
     df = pd.read_csv(history_csv)
 
-    # Asegurarse de que la columna Timestamp está en formato datetime
+    # Ensure the Timestamp column is in datetime format
     df['Timestamp'] = pd.to_datetime(df['Timestamp'], errors='coerce')
 
-    # Normalizar las columnas de fechas relevantes
+    # Normalize relevant date columns
     date_columns = ['StartDate', 'PrimaryCompletionDate', 'CompletionDate',
                     'StudyFirstPostDate', 'ResultsFirstPostDate', 'LastUpdatePostDate']
     for col in date_columns:
@@ -221,23 +223,23 @@ def generate_changes_last_n(history_csv, changes_csv, n):
             except ValueError:
                 df[col] = pd.to_datetime(df[col], errors='coerce')
 
-    # Eliminar filas con valores nulos en la columna Timestamp
+    # Drop rows with null values in the Timestamp column
     df.dropna(subset=['Timestamp'], inplace=True)
 
-    # Ordenar por NCTId y Timestamp
+    # Sort by NCTId and Timestamp
     df.sort_values(by=['NCTId', 'Timestamp'], inplace=True)
 
     changes = []
 
-    # Identificar las últimas NCTIds en el conjunto de datos
+    # Identify latest NCTIds in the dataset
     latest_data = df[df['Timestamp'] == df['Timestamp'].max()]
     latest_nct_ids = set(latest_data['NCTId'])
 
-    # Identificar los NCTIds en el conjunto de datos anterior
+    # Identify NCTIds in the previous dataset
     previous_data = df[df['Timestamp'] < df['Timestamp'].max()]
     previous_nct_ids = set(previous_data['NCTId'])
 
-    # Identificar nuevos estudios añadidos (NCTIds que están en los últimos datos pero no en los anteriores)
+    # Identify new studies added (NCTIds that are in the latest data but not in the previous)
     new_nct_ids = latest_nct_ids - previous_nct_ids
     for nct_id in new_nct_ids:
         changes.append({
@@ -249,7 +251,7 @@ def generate_changes_last_n(history_csv, changes_csv, n):
             'start_value': None
         })
 
-    # Identificar estudios eliminados (NCTIds que están en los datos anteriores pero no en los últimos)
+    # Identify studies removed (NCTIds that are in the previous data but not in the latest)
     removed_nct_ids = previous_nct_ids - latest_nct_ids
     for nct_id in removed_nct_ids:
         changes.append({
@@ -261,13 +263,13 @@ def generate_changes_last_n(history_csv, changes_csv, n):
             'start_value': None
         })
 
-    # Agrupar por NCTId y analizar los últimos N Timestamps
+    # Group by NCTId and analyze the last N Timestamps
     for nct_id, group in df.groupby('NCTId'):
         if len(group) > 1:
-            # Tomar solo los últimos N registros por NCTId
+            # Take only the last N records per NCTId
             group = group.tail(n).reset_index(drop=True)
 
-            # Comparar cada fila con la siguiente
+            # Compare each row with the next
             for i in range(1, len(group)):
                 current_row = group.iloc[i]
                 previous_row = group.iloc[i - 1]
@@ -277,7 +279,7 @@ def generate_changes_last_n(history_csv, changes_csv, n):
                         current_value = current_row[column]
                         previous_value = previous_row[column]
 
-                        # Manejar valores numéricos
+                        # Handle numeric values
                         if pd.api.types.is_numeric_dtype(group[column]):
                             if pd.notnull(current_value) and pd.notnull(previous_value) and current_value != previous_value:
                                 changes.append({
@@ -288,7 +290,7 @@ def generate_changes_last_n(history_csv, changes_csv, n):
                                     'final_value': current_value,
                                     'start_value': previous_value
                                 })
-                        # Manejar valores de fecha
+                        # Handle date values
                         elif pd.api.types.is_datetime64_any_dtype(group[column]):
                             if pd.notnull(current_value) and pd.notnull(previous_value) and current_value != previous_value:
                                 changes.append({
@@ -299,9 +301,9 @@ def generate_changes_last_n(history_csv, changes_csv, n):
                                     'final_value': current_value.strftime('%Y-%m-%d') if pd.notnull(current_value) else None,
                                     'start_value': previous_value.strftime('%Y-%m-%d') if pd.notnull(previous_value) else None
                                 })
-                        # Manejar texto u otros tipos
+                        # Handle text or other types
                         else:
-                            # Ignorar diferencias de doble retorno de carro
+                            # Ignore double carriage return differences
                             if pd.notnull(current_value) and pd.notnull(previous_value):
                                 current_value_str = str(current_value).replace('\n\n', '\n')
                                 previous_value_str = str(previous_value).replace('\n\n', '\n')
@@ -315,20 +317,19 @@ def generate_changes_last_n(history_csv, changes_csv, n):
                                         'start_value': previous_value_str
                                     })
 
-    # Crear un DataFrame con los cambios
+    # Create DataFrame with changes
     changes_df = pd.DataFrame(changes)
 
-    # Modificar la columna 'change' para ser más legible
+    # Modify the 'change' column to be more readable
     def make_human_readable(text):
         return re.sub(r'(?<!^)(?=[A-Z])', ' ', text)
 
     changes_df['change'] = changes_df['change'].apply(make_human_readable)
 
-    # Guardar los cambios en un archivo CSV
+    # Save changes to CSV
     changes_df.to_csv(changes_csv, index=False)
 
-    print(f"Archivo de cambios generado en: {changes_csv}")
-
+    print(f"Changes file generated at: {changes_csv}")
 
 if __name__ == "__main__":
     # Define file paths
