@@ -63,7 +63,6 @@ def download_studies(page_size):
             return
 
         os.makedirs('data', exist_ok=True)
-        os.makedirs('data', exist_ok=True)
         file_name = os.path.join('data', "studies.json")
         with open(file_name, mode="w") as f:
             json.dump(studies, f, indent=2)
@@ -127,12 +126,11 @@ def data_preparation(json_file, csv_file):
                     except Exception:
                         return ''
                 return ''
-
             row = {
                 'NCTId': identification.get('nctId', ''),
                 'BriefTitle': identification.get('briefTitle', ''),
                 'Acronym': identification.get('acronym', ''),
-                'OverallStatus': status.get('overallStatus', ''),
+                'OverallStatus': clean_status(status.get('overallStatus', '')),
                 'BriefSummary': description.get('briefSummary', ''),
                 'HasResults': study.get('hasResults', ''),
                 'Condition': ', '.join(conditions.get('conditions', [])),
@@ -161,9 +159,7 @@ def data_preparation(json_file, csv_file):
                 'LastUpdatePostDate': standardize_date(status.get('lastUpdatePostDateStruct', {}).get('date', '')),
                 'Timestamp': timestamp
             }
-
             writer.writerow(row)
-
     print(f"Data has been successfully written to {csv_file}.")
 
 def append_to_history(current_csv, history_csv):
@@ -301,6 +297,7 @@ def generate_changes_last_n(history_csv, changes_csv, n):
                                     'final_value': current_value.strftime('%Y-%m-%d') if pd.notnull(current_value) else None,
                                     'start_value': previous_value.strftime('%Y-%m-%d') if pd.notnull(previous_value) else None
                                 })
+
                         # Handle text or other types
                         else:
                             # Ignore double carriage return differences
@@ -330,6 +327,17 @@ def generate_changes_last_n(history_csv, changes_csv, n):
     changes_df.to_csv(changes_csv, index=False)
 
     print(f"Changes file generated at: {changes_csv}")
+
+def clean_status(status):
+    """
+    Clean status field to make it more human friendly.
+    Converts text like 'NOT_YET_RECRUITING' to 'Not Yet Recruiting'
+    """
+    if not status:
+        return ""
+    # Replace underscores with spaces and convert to title case
+    words = status.replace('_', ' ').title()
+    return words
 
 if __name__ == "__main__":
     # Define file paths
