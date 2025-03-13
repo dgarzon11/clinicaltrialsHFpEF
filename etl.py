@@ -33,6 +33,37 @@ import requests
 import pandas as pd
 import re
 
+def clean_unicode_text(text):
+    """
+    Clean and normalize Unicode text by properly handling special characters.
+    
+    Args:
+        text (str): Text that may contain Unicode characters
+    
+    Returns:
+        str: Properly decoded text with normalized characters
+    """
+    if not isinstance(text, str):
+        return ''
+    
+    # Handle HTML entities and common Unicode issues
+    import html
+    try:
+        # First unescape any HTML entities
+        text = html.unescape(text)
+        
+        # Handle direct Unicode characters
+        text = text.encode('utf-8', errors='ignore').decode('utf-8')
+        
+        # Normalize to composed form (combining characters are merged)
+        import unicodedata
+        text = unicodedata.normalize('NFKC', text)
+        
+        return text.strip()
+    except Exception as e:
+        print(f"Error cleaning text: {e}")
+        return text
+
 def download_studies(page_size):
     """
     Downloads clinical trials data from clinicaltrials.gov API.
@@ -75,16 +106,16 @@ def download_studies(page_size):
 
 def data_preparation(json_file, csv_file):
     """
-    Transforms JSON clinical trials data into a structured CSV format.
+    Transforms JSON clinical trials data into a structured CSV format and creates a separate conditions file.
     
     Args:
         json_file (str): Path to the source JSON file
-        csv_file (str): Path where the CSV file will be saved
+        csv_file (str): Path where the main CSV file will be saved
     
     Returns:
-        None. Writes processed data to specified CSV file.
+        None. Writes processed data to specified CSV files.
     """
-    with open(json_file, 'r') as f:
+    with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     csv_columns = [
@@ -98,7 +129,10 @@ def data_preparation(json_file, csv_file):
         'LastUpdatePostDate', 'Timestamp'
     ]
 
-    with open(csv_file, 'w', newline='', encoding='utf-8') as csvfile:
+    # Create a list to store condition mappings
+    conditions_data = []
+
+    with open(csv_file, 'w', newline='', encoding='utf-8-sig') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
         writer.writeheader()
 
@@ -128,18 +162,18 @@ def data_preparation(json_file, csv_file):
                 return ''
             row = {
                 'NCTId': identification.get('nctId', ''),
-                'BriefTitle': identification.get('briefTitle', ''),
-                'Acronym': identification.get('acronym', ''),
+                'BriefTitle': clean_unicode_text(identification.get('briefTitle', '')),
+                'Acronym': clean_unicode_text(identification.get('acronym', '')),
                 'OverallStatus': clean_status(status.get('overallStatus', '')),
-                'BriefSummary': description.get('briefSummary', ''),
+                'BriefSummary': clean_unicode_text(description.get('briefSummary', '')),
                 'HasResults': study.get('hasResults', ''),
-                'Condition': ', '.join(conditions.get('conditions', [])),
-                'InterventionType': ', '.join(i.get('type', '') for i in interventions),
-                'InterventionName': ', '.join(i.get('name', '') for i in interventions),
-                'PrimaryOutcomeMeasure': ', '.join(o.get('measure', '') for o in outcomes.get('primaryOutcomes', [])),
-                'SecondaryOutcomeMeasure': ', '.join(o.get('measure', '') for o in outcomes.get('secondaryOutcomes', [])),
-                'LeadSponsorName': sponsor.get('leadSponsor', {}).get('name', ''),
-                'CollaboratorName': ', '.join(c.get('name', '') for c in sponsor.get('collaborators', [])),
+                'Condition': clean_unicode_text(', '.join(conditions.get('conditions', []))),
+                'InterventionType': clean_unicode_text(', '.join(i.get('type', '') for i in interventions)),
+                'InterventionName': clean_unicode_text(', '.join(i.get('name', '') for i in interventions)),
+                'PrimaryOutcomeMeasure': clean_unicode_text(', '.join(o.get('measure', '') for o in outcomes.get('primaryOutcomes', []))),
+                'SecondaryOutcomeMeasure': clean_unicode_text(', '.join(o.get('measure', '') for o in outcomes.get('secondaryOutcomes', []))),
+                'LeadSponsorName': clean_unicode_text(sponsor.get('leadSponsor', {}).get('name', '')),
+                'CollaboratorName': clean_unicode_text(', '.join(c.get('name', '') for c in sponsor.get('collaborators', []))),
                 'Sex': eligibility.get('sex', ''),
                 'MinimumAge': eligibility.get('minimumAge', ''),
                 'MaximumAge': eligibility.get('maximumAge', ''),
@@ -150,7 +184,7 @@ def data_preparation(json_file, csv_file):
                 'StudyType': design.get('studyType', ''),
                 'DesignPrimaryPurpose': design.get('designInfo', {}).get('primaryPurpose', ''),
                 'OrgStudyId': identification.get('orgStudyIdInfo', {}).get('id', ''),
-                'SecondaryId': ', '.join(sid.get('id', '') for sid in identification.get('secondaryIdInfos', [])),
+                'SecondaryId': clean_unicode_text(', '.join(sid.get('id', '') for sid in identification.get('secondaryIdInfos', []))),
                 'StartDate': standardize_date(status.get('startDateStruct', {}).get('date', '')),
                 'PrimaryCompletionDate': standardize_date(status.get('primaryCompletionDateStruct', {}).get('date', '')),
                 'CompletionDate': standardize_date(status.get('completionDateStruct', {}).get('date', '')),
@@ -160,7 +194,23 @@ def data_preparation(json_file, csv_file):
                 'Timestamp': timestamp
             }
             writer.writerow(row)
+
+            # Process conditions for the separate conditions file
+            nct_id = identification.get('nctId', '')
+            study_conditions = conditions.get('conditions', [])
+            for condition in study_conditions:
+                conditions_data.append({
+                    'NCTId': nct_id,
+                    'condition': condition.strip()
+                })
+
     print(f"Data has been successfully written to {csv_file}.")
+
+    # Write conditions to a separate CSV file
+    conditions_file = os.path.join(os.path.dirname(csv_file), 'conditions.csv')
+    conditions_df = pd.DataFrame(conditions_data)
+    conditions_df.to_csv(conditions_file, index=False, encoding='utf-8-sig')
+    print(f"Conditions data has been successfully written to {conditions_file}.")
 
 def append_to_history(current_csv, history_csv):
     """
@@ -346,7 +396,7 @@ if __name__ == "__main__":
     history_csv = os.path.join('data', 'studies_history.csv')
     
     # Execute ETL pipeline
-    download_studies(100000)  # Download latest data
+    #download_studies(100000)  # Download latest data
     data_preparation(json_file, csv_file)  # Transform data
     append_to_history(csv_file, history_csv)  # Update historical record
     generate_changes_last_n(history_csv, os.path.join('data', 'changes.csv'), 10)  # Generate change report
