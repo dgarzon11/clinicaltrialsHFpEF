@@ -97,16 +97,16 @@ def download_studies(page_size):
         file_name = os.path.join('data', "studies.json")
         with open(file_name, mode="w") as f:
             json.dump(studies, f, indent=2)
-        print(f"Successfully downloaded and saved {len(studies)} studies to {file_name}.")
+        print(f"Step 1: Successfully downloaded and saved {len(studies)} studies to {file_name}.")
 
     except requests.RequestException as e:
-        print(f"An error occurred: {e}")
+        print(f"Error in Step 1: {e}")
         if hasattr(e, 'response') and e.response is not None:
             print(f"Response content: {e.response.text}")
 
 def data_preparation(json_file, csv_file):
     """
-    Transforms JSON clinical trials data into a structured CSV format and creates a separate conditions file.
+    Transforms JSON clinical trials data into a structured CSV format and creates separate files for conditions and locations.
     
     Args:
         json_file (str): Path to the source JSON file
@@ -129,8 +129,10 @@ def data_preparation(json_file, csv_file):
         'LastUpdatePostDate', 'Timestamp'
     ]
 
-    # Create a list to store condition mappings
+    # Create lists to store condition, location, and intervention mappings
     conditions_data = []
+    locations_data = []
+    interventions_data = []
 
     with open(csv_file, 'w', newline='', encoding='utf-8-sig') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
@@ -149,17 +151,12 @@ def data_preparation(json_file, csv_file):
             conditions = protocol.get('conditionsModule', {})
             design = protocol.get('designModule', {})
             description = protocol.get('descriptionModule', {})
+            contacts_locations = protocol.get('contactsLocationsModule', {})
 
-            # Standardize dates and numeric values
-            def standardize_date(date_str):
-                if isinstance(date_str, str):
-                    try:
-                        if len(date_str.split('-')) == 2:  # Year-Month format
-                            date_str += '-01'
-                        return pd.to_datetime(date_str, errors='coerce').strftime('%Y-%m-%d')
-                    except Exception:
-                        return ''
-                return ''
+            # Process interventions for the main CSV file
+            intervention_types = [clean_status(i.get('type', '')) for i in interventions]
+            intervention_names = [i.get('name', '') for i in interventions]
+
             row = {
                 'NCTId': identification.get('nctId', ''),
                 'BriefTitle': clean_unicode_text(identification.get('briefTitle', '')),
@@ -168,8 +165,8 @@ def data_preparation(json_file, csv_file):
                 'BriefSummary': clean_unicode_text(description.get('briefSummary', '')),
                 'HasResults': study.get('hasResults', ''),
                 'Condition': clean_unicode_text(', '.join(conditions.get('conditions', []))),
-                'InterventionType': clean_unicode_text(', '.join(i.get('type', '') for i in interventions)),
-                'InterventionName': clean_unicode_text(', '.join(i.get('name', '') for i in interventions)),
+                'InterventionType': clean_unicode_text(', '.join(intervention_types)),
+                'InterventionName': clean_unicode_text(', '.join(intervention_names)),
                 'PrimaryOutcomeMeasure': clean_unicode_text(', '.join(o.get('measure', '') for o in outcomes.get('primaryOutcomes', []))),
                 'SecondaryOutcomeMeasure': clean_unicode_text(', '.join(o.get('measure', '') for o in outcomes.get('secondaryOutcomes', []))),
                 'LeadSponsorName': clean_unicode_text(sponsor.get('leadSponsor', {}).get('name', '')),
@@ -204,13 +201,51 @@ def data_preparation(json_file, csv_file):
                     'condition': condition.strip()
                 })
 
-    print(f"Data has been successfully written to {csv_file}.")
+            # Process locations for the separate locations file
+            locations = contacts_locations.get('locations', [])
+            for location in locations:
+                locations_data.append({
+                    'NCTId': nct_id,
+                    'facility': clean_unicode_text(location.get('facility', '')),
+                    'city': clean_unicode_text(location.get('city', '')),
+                    'state': clean_unicode_text(location.get('state', '')),
+                    'country': clean_unicode_text(location.get('country', '')),
+                    'zip': clean_unicode_text(location.get('zip', '')),
+                    'status': clean_status(location.get('status', '')),
+                    'recruitment_status': clean_status(location.get('recruitmentStatus', ''))
+                })
+
+            # Process interventions for the separate interventions file
+            for intervention in interventions:
+                interventions_data.append({
+                    'NCTId': nct_id,
+                    'type': clean_status(intervention.get('type', '')),
+                    'name': clean_unicode_text(intervention.get('name', '')),
+                    'description': clean_unicode_text(intervention.get('description', '')),
+                    'arm_group_labels': clean_unicode_text(', '.join(intervention.get('armGroupLabels', []))),
+                    'other_names': clean_unicode_text(', '.join(intervention.get('otherNames', [])))
+                })
+
+    print(f"Step 2: Main data has been successfully written to {csv_file}.")
 
     # Write conditions to a separate CSV file
     conditions_file = os.path.join(os.path.dirname(csv_file), 'conditions.csv')
     conditions_df = pd.DataFrame(conditions_data)
     conditions_df.to_csv(conditions_file, index=False, encoding='utf-8-sig')
-    print(f"Conditions data has been successfully written to {conditions_file}.")
+    print(f"Step 3: Conditions data has been successfully written to {conditions_file}.")
+
+    # Write locations to a separate CSV file
+    locations_file = os.path.join(os.path.dirname(csv_file), 'locations.csv')
+    locations_df = pd.DataFrame(locations_data)
+    locations_df.to_csv(locations_file, index=False, encoding='utf-8-sig')
+    print(f"Step 4: Locations data has been successfully written to {locations_file}.")
+
+    # Write interventions to a separate CSV file
+    if interventions_data:  # Only create and save if we have intervention data
+        interventions_file = os.path.join(os.path.dirname(csv_file), 'interventions.csv')
+        interventions_df = pd.DataFrame(interventions_data)
+        interventions_df.to_csv(interventions_file, index=False, encoding='utf-8-sig')
+        print(f"Step 5: Interventions data has been successfully written to {interventions_file}.")
 
 def append_to_history(current_csv, history_csv):
     """
@@ -239,7 +274,7 @@ def append_to_history(current_csv, history_csv):
             for row in reader:
                 writer.writerow(row)
 
-    print(f"Data from {current_csv} has been appended to {history_csv}.")
+    print(f"Step 6: Data from {current_csv} has been appended to {history_csv}.")
     
 def generate_changes_last_n(history_csv, changes_csv, n):
     """
@@ -263,7 +298,7 @@ def generate_changes_last_n(history_csv, changes_csv, n):
     date_columns = ['StartDate', 'PrimaryCompletionDate', 'CompletionDate',
                     'StudyFirstPostDate', 'ResultsFirstPostDate', 'LastUpdatePostDate']
     for col in date_columns:
-        if col in df.columns:
+        if (col in df.columns):
             try:
                 df[col] = pd.to_datetime(df[col], format='%Y-%m-%d', errors='coerce')
             except ValueError:
@@ -277,6 +312,16 @@ def generate_changes_last_n(history_csv, changes_csv, n):
 
     changes = []
 
+    # Initialize changes list with required columns
+    changes_template = {
+        'NCTId': None,
+        'final_date': None,
+        'start_date': None,
+        'field_changed': None,  # Changed from 'change' to 'field_changed'
+        'final_value': None,
+        'start_value': None
+    }
+
     # Identify latest NCTIds in the dataset
     latest_data = df[df['Timestamp'] == df['Timestamp'].max()]
     latest_nct_ids = set(latest_data['NCTId'])
@@ -288,26 +333,24 @@ def generate_changes_last_n(history_csv, changes_csv, n):
     # Identify new studies added (NCTIds that are in the latest data but not in the previous)
     new_nct_ids = latest_nct_ids - previous_nct_ids
     for nct_id in new_nct_ids:
-        changes.append({
+        change_entry = changes_template.copy()
+        change_entry.update({
             'NCTId': nct_id,
             'final_date': df[df['NCTId'] == nct_id]['Timestamp'].max(),
-            'start_date': None,
-            'change': 'New Study Added',
-            'final_value': None,
-            'start_value': None
+            'field_changed': 'New Study Added'
         })
+        changes.append(change_entry)
 
     # Identify studies removed (NCTIds that are in the previous data but not in the latest)
     removed_nct_ids = previous_nct_ids - latest_nct_ids
     for nct_id in removed_nct_ids:
-        changes.append({
+        change_entry = changes_template.copy()
+        change_entry.update({
             'NCTId': nct_id,
-            'final_date': None,
             'start_date': df[df['NCTId'] == nct_id]['Timestamp'].max(),
-            'change': 'Study Removed',
-            'final_value': None,
-            'start_value': None
+            'field_changed': 'Study Removed'
         })
+        changes.append(change_entry)
 
     # Group by NCTId and analyze the last N Timestamps
     for nct_id, group in df.groupby('NCTId'):
@@ -328,26 +371,29 @@ def generate_changes_last_n(history_csv, changes_csv, n):
                         # Handle numeric values
                         if pd.api.types.is_numeric_dtype(group[column]):
                             if pd.notnull(current_value) and pd.notnull(previous_value) and current_value != previous_value:
-                                changes.append({
+                                change_entry = changes_template.copy()
+                                change_entry.update({
                                     'NCTId': nct_id,
                                     'final_date': current_row['Timestamp'],
                                     'start_date': previous_row['Timestamp'],
-                                    'change': column,
+                                    'field_changed': column,
                                     'final_value': current_value,
                                     'start_value': previous_value
                                 })
+                                changes.append(change_entry)
                         # Handle date values
                         elif pd.api.types.is_datetime64_any_dtype(group[column]):
                             if pd.notnull(current_value) and pd.notnull(previous_value) and current_value != previous_value:
-                                changes.append({
+                                change_entry = changes_template.copy()
+                                change_entry.update({
                                     'NCTId': nct_id,
                                     'final_date': current_row['Timestamp'],
                                     'start_date': previous_row['Timestamp'],
-                                    'change': column,
+                                    'field_changed': column,
                                     'final_value': current_value.strftime('%Y-%m-%d') if pd.notnull(current_value) else None,
                                     'start_value': previous_value.strftime('%Y-%m-%d') if pd.notnull(previous_value) else None
                                 })
-
+                                changes.append(change_entry)
                         # Handle text or other types
                         else:
                             # Ignore double carriage return differences
@@ -355,28 +401,57 @@ def generate_changes_last_n(history_csv, changes_csv, n):
                                 current_value_str = str(current_value).replace('\n\n', '\n')
                                 previous_value_str = str(previous_value).replace('\n\n', '\n')
                                 if current_value_str != previous_value_str:
-                                    changes.append({
+                                    change_entry = changes_template.copy()
+                                    change_entry.update({
                                         'NCTId': nct_id,
                                         'final_date': current_row['Timestamp'],
                                         'start_date': previous_row['Timestamp'],
-                                        'change': column,
+                                        'field_changed': column,
                                         'final_value': current_value_str,
                                         'start_value': previous_value_str
                                     })
+                                    changes.append(change_entry)
 
-    # Create DataFrame with changes
+    # Create DataFrame with changes, handling empty changes list
+    if not changes:
+        changes = [changes_template]  # Add a dummy row to prevent empty DataFrame issues
+    
     changes_df = pd.DataFrame(changes)
 
-    # Modify the 'change' column to be more readable
+    # Modify the 'field_changed' column to be more readable
     def make_human_readable(text):
+        if pd.isna(text):
+            return "No changes detected"
         return re.sub(r'(?<!^)(?=[A-Z])', ' ', text)
 
-    changes_df['change'] = changes_df['change'].apply(make_human_readable)
+    changes_df['field_changed'] = changes_df['field_changed'].apply(make_human_readable)
 
     # Save changes to CSV
     changes_df.to_csv(changes_csv, index=False)
 
-    print(f"Changes file generated at: {changes_csv}")
+    if len(changes) == 1 and all(v is None for v in changes[0].values()):
+        print("Step 7: No changes detected in the data.")
+    else:
+        print(f"Step 7: Changes file generated at: {changes_csv}")
+
+def standardize_date(date_str):
+    """
+    Standardize date strings to YYYY-MM-DD format.
+    
+    Args:
+        date_str (str): Date string to standardize
+    
+    Returns:
+        str: Standardized date in YYYY-MM-DD format or empty string if invalid
+    """
+    if isinstance(date_str, str):
+        try:
+            if len(date_str.split('-')) == 2:  # Year-Month format
+                date_str += '-01'
+            return pd.to_datetime(date_str, errors='coerce').strftime('%Y-%m-%d')
+        except Exception:
+            return ''
+    return ''
 
 def clean_status(status):
     """
@@ -396,7 +471,7 @@ if __name__ == "__main__":
     history_csv = os.path.join('data', 'studies_history.csv')
     
     # Execute ETL pipeline
-    #download_studies(100000)  # Download latest data
+    download_studies(100000)  # Download latest data
     data_preparation(json_file, csv_file)  # Transform data
     append_to_history(csv_file, history_csv)  # Update historical record
     generate_changes_last_n(history_csv, os.path.join('data', 'changes.csv'), 10)  # Generate change report
