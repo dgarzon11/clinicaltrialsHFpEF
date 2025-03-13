@@ -79,7 +79,6 @@ NCT06692426,Drug,MyoPAXon,MyoPAXon is a CD54+ allogeneic muscle progenitor cell 
 NCT06692426,Drug,Tacrolimus,"Tacrolimus (Prograf) is an immunosuppressant that inhibits calcineurin and T cell activation, and is commonly used to prevent solid organ transplant rejection1 and graft versus host disease (GVHD) as well as allograft rejection in the setting of allogeneic hematopoietic stem cell transplantation.","Arm A: MyoPAXon 25 x 10^6, Arm B: MyoPAXon 50 x 10^6, Arm C: MyoPAXon 100 x 10^6, Arm D: MyoPAXon 200 x 10^6",Prograf
 NCT00799266,Drug,Zoledronic acid,intravenous infusion,Zoledronic acid,
 NCT00799266,Drug,Placebo,intravenous infusion,Placebo,
-NCT05635266,Diagnostic Test,Specimen sample,"The study may require a tissue collection and/or a participant survey for participation. Most tissue collected will come from a blood draw; up to 100mL for the health condition group, 60mL for the exceptive condition group, and up to 180mL for the control group (if determined safe for the participant). Participant surveys may involve participant reported outcomes (PROs) or custom participant surveys.","Control Group, Exceptive Condition Group, Health Condition Group",
 NCT04371666,Drug,Pamrevlumab,Pamrevlumab per dose and schedule specified in the arm description,Pamrevlumab,FG-3019
 NCT04371666,Drug,Placebo,Matching placebo per schedule specified in the arm description,Placebo,
 NCT04371666,Drug,Corticosteroids,Systemic deflazacort or equivalent potency of corticosteroids administered orally,"Pamrevlumab, Placebo",
@@ -498,7 +497,6 @@ NCT02090959,Drug,Ataluren,Ataluren will be administered per the dose and schedul
 NCT03532542,Drug,Casimersen,Casimersen solution for IV infusion,Casimersen,"SRP-4045, AMONDYS 45"
 NCT03532542,Drug,Golodirsen,Golodirsen solution for IV infusion,Golodirsen,"SRP-4053, VYONDYS 53"
 NCT03863119,Drug,Vamorolone,"2.0 mg/kg/day, 4.0 mg/kg/day, or 6.0 mg/kg/day at physician discretion",,
-NCT03649919,Other,,Patients receive routine diagnostic and treatment medications.,"1 spinal muscular atrophy, SMA, 2 DMD, 3 X-linked adrenoleukodystrophy X-ALD, 4 tuberous sclerosis complex,TSC",
 NCT05096221,Genetic,delandistrogene moxeparvovec,Single IV infusion of delandistrogene moxeparvovec.,"Delandistrogene Moxeparvovec followed by Placebo, Placebo followed by Delandistrogene Moxeparvovec","SRP-9001, delandistrogene moxeparvovec-rokl, ELEVIDYS"
 NCT05096221,Genetic,placebo,Single IV infusion of matching placebo.,"Delandistrogene Moxeparvovec followed by Placebo, Placebo followed by Delandistrogene Moxeparvovec",
 NCT03057002,Diagnostic Test,Hyperpolarized 13C-Pyruvate,All subjects will be observed for myocardial hyperpolarized \[1-13C\]pyruvate flux during magnetic resonance spectroscopic imaging.,"Cardiomyopathy, Control",HP [1-13C]pyruvate
@@ -560,7 +558,6 @@ NCT01957059,Drug,Regimen Selection Phase Group 1 (COMPLETED),All doses of BMN053
 NCT01957059,Drug,Dosing Extension,All doses of PRO053 will be administered as IV infusions. The proposed doses will be decided upon completion of the Regimen Selection Phase of Groups 2 and 3 and the Treatment Phase Group 4.,Dosing extension,
 NCT01197300,Drug,Zoledronic acid,intravenous infusion,Zoledronic acid,
 NCT01557400,Drug,Ataluren,Oral powder for suspension,Ataluren,PTC124®
-NCT04934800,Drug,Cladribine,No intervention will be administered as a part of this study. Participants who had switched from first-line DMD treatments to treatment with cladribine tablets in routine clinical practice will be assessed for 2 years in this study.,Cladribine,MAVENCLAD ®
 NCT06093100,Device,wearable technology,Three wearable devices,,"Continuous glucose monitor (CGM): The Dexcom G6 Pro Continuous Glucose Monitoring System (Dexcom G6 Pro System), Holter Monitor: Body Guardian Mini Remote Monitoring System, Physical activity and sleep monitor: ActiGraph GT9X accelerometers"
 NCT01422200,Biological,2011-2012 seasonal flu vaccine Subcutaneous,,Subcutaneous,fluzone
 NCT01422200,Biological,2011-2012 seasonal flu vaccine Intramuscular,,Intramuscular,fluzone
@@ -648,8 +645,6 @@ NCT00018109,Drug,creatine monohydrate,,,
 NCT05166109,Drug,Vamorolone,Vamorolone 4.0% wt/wt oral suspension will be administered for the duration of the study.,Vamorolone 500mg/day [250mg if <50kg body weight],VBP15
 NCT05166109,Drug,Placebo,Placebo to Vamorolone 4.0% wt/wt oral suspension will be administered for the duration of the study.,Placebo,Placebo to vamorolone
 NCT05967793,Other,kinesio tape,"Kinesio Tape will be applied on paraspinal trunk extensors muscles for 8 weeks, changed every 3 days.","Routine physical therapy program, kinesio tape",
-NCT02808585,Drug,PB1046 Injection,Four weekly subcutaneous injections of PB1046.,"PB1046 Injection, 0.2 mg/kg, PB1046 Injection, 0.4 mg/kg, PB1046 Injection, 0.6 mg/kg, PB1046 Injection, 1.2 mg/kg",PB1046
-NCT02808585,Drug,Placebo Injection,Four weekly subcutaneous injections of placebo.,Placebo Comparator,Placebo
 NCT02432885,Drug,Enalapril,up to 20mg bid,ACE inhibitor,
 NCT06114056,Biological,JWK007 Single intravenous infusion administration,"Six male children aged 5-10 years were enrolled in the study. The patients were divided into two different dose groups, and a ""3+3"" dose escalation design was used, the low dose was 1.0×1014vg/kg, and the high dose was 2.0×1014vg/kg. Only one intravenous infusion of JWK007 was administered to each patient.",JWK007 injection,
 NCT05110885,Other,Questionnaire,A questionnaire prepared by the researchers will be presented to the group.,Individuals living in Turkey,
@@ -666,7 +661,6 @@ NCT06682585,Other,Individualised dietary intervention,"* Energy Intake: Caloric 
 * Fluid Intake: Fluid intake will be monitored to prevent dehydration and constipation.
 * Carbohydrate Intake: A low-glycemic index diet will be recommended to manage blood glucose levels and insulin resistance, especially in patients on corticosteroid therapy.
 * Sodium Intake: Sodium intake will be restricted to minimize fluid retention and hypertension.",Dietary Intervention,
-NCT06581887,Behavioral,Classical conditioning task,"To evaluate the neurophysiological and physiological response to a classical conditioning task, which is comparable to findings that have been made in the mdx dystrophic mouse (deficient in Dp427). The investigators will assess correlations between the specific DMD/BMD genotype and susceptibility to conditioning, as well as the relationship between conditioning and behavioural/emotional characteristics of the syndrome.",Cohort,
 NCT02653833,Drug,Tadalafil 20 MG,"Blood flow to the forearm is visualized via an ultrasound technique at rest and with graded exercise. The experiment is then repeated shortly after the subject takes the study agent, beetroot juice extract.","Becker Muscular Dystrophy (BMD), Healthy Controls (HC)",
 NCT02653833,Other,beetroot juice extract,"Blood flow to the forearm is visualized via an ultrasound technique at rest and with graded exercise. The experiment is then repeated shortly after the subject takes the study agent, beetroot juice extract.","Becker Muscular Dystrophy (BMD), Healthy Controls (HC)",
 NCT05066633,Drug,Metoprolol Succinate,Metoprolol Succinate will be in the form of tablets and will be administered orally once daily. The dose will depend on the patient's weight category. Subject should take their treatment at a consistent time each day to promote compliance. IMP will be up titrated. Every two weeks the patients will be given the higher dose of metoprolol succinate or placebo accordingly to scheme.,Treatment Group,
