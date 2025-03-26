@@ -173,7 +173,7 @@ def data_preparation(json_file, csv_file):
     sponsors_collaborators_data = []  # New list for sponsors and collaborators
 
     with open(csv_file, 'w', newline='', encoding='utf-8-sig') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
+        writer = csv.DictWriter(csvfile, fieldnames=csv_columns, extrasaction='ignore')
         writer.writeheader()
 
         timestamp = datetime.datetime.now().isoformat()
