@@ -170,6 +170,7 @@ def data_preparation(json_file, csv_file):
     conditions_data = []
     locations_data = []
     interventions_data = []
+    sponsors_collaborators_data = []  # New list for sponsors and collaborators
 
     with open(csv_file, 'w', newline='', encoding='utf-8-sig') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
@@ -265,6 +266,31 @@ def data_preparation(json_file, csv_file):
                     'other_names': clean_unicode_text(', '.join(intervention.get('otherNames', [])))
                 })
 
+            # Process sponsors and collaborators for the separate sponsors file
+            lead_sponsor = sponsor.get('leadSponsor', {})
+            collaborators = sponsor.get('collaborators', [])
+            
+            if lead_sponsor:
+                if collaborators:
+                    # If there are collaborators, create a row for each collaborator
+                    for collaborator in collaborators:
+                        sponsors_collaborators_data.append({
+                            'NCTId': nct_id,
+                            'Sponsor': clean_unicode_text(lead_sponsor.get('name', '')),
+                            'SponsorClass': format_title_case(lead_sponsor.get('class', '')),
+                            'Collaborator': clean_unicode_text(collaborator.get('name', '')),
+                            'CollaboratorClass': format_title_case(collaborator.get('class', ''))
+                        })
+                else:
+                    # If there are no collaborators, create a single row with empty collaborator fields
+                    sponsors_collaborators_data.append({
+                        'NCTId': nct_id,
+                        'Sponsor': clean_unicode_text(lead_sponsor.get('name', '')),
+                        'SponsorClass': format_title_case(lead_sponsor.get('class', '')),
+                        'Collaborator': '',
+                        'CollaboratorClass': ''
+                    })
+
     print(f"Step 2: Main data has been successfully written to {csv_file}.")
 
     # Write conditions to a separate CSV file
@@ -281,10 +307,16 @@ def data_preparation(json_file, csv_file):
 
     # Write interventions to a separate CSV file
     if interventions_data:  # Only create and save if we have intervention data
-        interventions_file = os.path.join(os.path.dirname(csv_file), 'interventions.csv')
         interventions_df = pd.DataFrame(interventions_data)
+        interventions_file = os.path.join(os.path.dirname(csv_file), 'interventions.csv')
         interventions_df.to_csv(interventions_file, index=False, encoding='utf-8-sig')
         print(f"Step 5: Interventions data has been successfully written to {interventions_file}.")
+
+    # Write sponsors and collaborators to a separate CSV file
+    sponsors_file = os.path.join(os.path.dirname(csv_file), 'sponsors_collaborators.csv')
+    sponsors_df = pd.DataFrame(sponsors_collaborators_data)
+    sponsors_df.to_csv(sponsors_file, index=False, encoding='utf-8-sig')
+    print(f"Step 6: Sponsors and collaborators data has been successfully written to {sponsors_file}.")
 
 def append_to_history(current_csv, history_csv):
     """
