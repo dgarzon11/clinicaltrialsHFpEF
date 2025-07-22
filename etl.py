@@ -554,5 +554,5 @@ if __name__ == "__main__":
     # Execute ETL pipeline
     download_studies(100000)  # Download latest data
     data_preparation(json_file, csv_file)  # Transform data
-    #append_to_history(csv_file, history_csv)  # Update historical record
-    #generate_changes_last_n(history_csv, os.path.join('data', 'changes.csv'), 10)  # Generate change report
+    append_to_history(csv_file, history_csv)  # Update historical record
+    generate_changes_last_n(history_csv, os.path.join('data', 'changes.csv'), 10)  # Generate change report
