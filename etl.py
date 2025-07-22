@@ -75,8 +75,8 @@ def download_studies(page_size):
     Returns:
         None. Saves downloaded data to a JSON file in the data directory.
     """
-    # Using OR operator to search for either duchenne or DMD in conditions
-    base_url = "https://clinicaltrials.gov/api/v2/studies?query.cond=duchenne%20dmd"
+    # Using OR operator to search for either HFpEF or 'HFpEF - Heart Failure With Preserved Ejection Fraction' in conditions
+    base_url = "https://clinicaltrials.gov/api/v2/studies?query.cond=HFpEF%20-%20Heart%20Failure%20With%20Preserved%20Ejection%20Fraction"
     params = {
         "format": "json",
         "pageSize": page_size,
@@ -553,6 +553,6 @@ if __name__ == "__main__":
     
     # Execute ETL pipeline
     download_studies(100000)  # Download latest data
-    #data_preparation(json_file, csv_file)  # Transform data
+    data_preparation(json_file, csv_file)  # Transform data
     #append_to_history(csv_file, history_csv)  # Update historical record
     #generate_changes_last_n(history_csv, os.path.join('data', 'changes.csv'), 10)  # Generate change report
