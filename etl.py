@@ -75,29 +75,63 @@ def download_studies(page_size):
     Returns:
         None. Saves downloaded data to a JSON file in the data directory.
     """
-    # Using OR operator to search for either HFpEF or 'HFpEF - Heart Failure With Preserved Ejection Fraction' in conditions
-    base_url = "https://clinicaltrials.gov/api/v2/studies?query.cond=HFpEF%20-%20Heart%20Failure%20With%20Preserved%20Ejection%20Fraction"
-    params = {
+    # Download studies from clinicaltrials.gov for both 'HFpEF' and 'Heart Failure With Preserved Ejection Fraction'
+    # and merge them by NCTId, removing duplicates.
+    # The parameter page_size is applied to each query independently.
+    # The '-' operator is not used in the queries.
+    base_url = "https://clinicaltrials.gov/api/v2/studies"
+    params_1 = {
         "format": "json",
         "pageSize": page_size,
+        "query.cond": "HFpEF",
+    }
+    params_2 = {
+        "format": "json",
+        "pageSize": page_size,
+        "query.cond": "Heart Failure With Preserved Ejection Fraction",
     }
 
     try:
-        response = requests.get(base_url, params=params)
-        response.raise_for_status()
-        data = response.json()
+        response_1 = requests.get(base_url, params=params_1)
+        response_1.raise_for_status()
+        data_1 = response_1.json()
+        studies_1 = data_1.get('studies', [])
+        print(f"Step 1a: Downloaded {len(studies_1)} studies for query 'HFpEF'.")
 
-        studies = data.get('studies', [])
+        response_2 = requests.get(base_url, params=params_2)
+        response_2.raise_for_status()
+        data_2 = response_2.json()
+        studies_2 = data_2.get('studies', [])
+        print(f"Step 1b: Downloaded {len(studies_2)} studies for query 'Heart Failure With Preserved Ejection Fraction'.")
 
-        if not studies:
+        # Merge studies by NCTId, removing duplicates
+        studies_dict = {}
+        duplicate_count = 0
+        for study in studies_1:
+            nctid = study.get('protocolSection', {}).get('identificationModule', {}).get('nctId', None)
+            if nctid:
+                studies_dict[nctid] = study
+        for study in studies_2:
+            nctid = study.get('protocolSection', {}).get('identificationModule', {}).get('nctId', None)
+            if nctid:
+                if nctid in studies_dict:
+                    duplicate_count += 1
+                else:
+                    studies_dict[nctid] = study
+
+        merged_studies = list(studies_dict.values())
+        unique_count = len(merged_studies)
+
+        if not merged_studies:
             print("No studies found. Please try again with a different number of studies.")
             return
 
         os.makedirs('data', exist_ok=True)
         file_name = os.path.join('data', "studies.json")
         with open(file_name, mode="w") as f:
-            json.dump(studies, f, indent=2)
-        print(f"Step 1: Successfully downloaded and saved {len(studies)} studies to {file_name}.")
+            json.dump(merged_studies, f, indent=2)
+        print(f"Step 1: Successfully downloaded and saved {unique_count} unique studies to {file_name}.")
+        print(f"Step 1: Found {duplicate_count} duplicate studies (by NCTId) between the two queries.")
 
     except requests.RequestException as e:
         print(f"Error in Step 1: {e}")
